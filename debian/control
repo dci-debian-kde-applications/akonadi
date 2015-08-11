@@ -10,21 +10,19 @@ Build-Depends: automoc,
                cmake (>= 2.8.8),
                debhelper (>= 9),
                dh-apparmor,
-               libboost-program-options-dev,
-               libdbus-1-dev,
+               extra-cmake-modules (>= 5.12.0),
                libmysqlclient-dev,
-               libqt4-dev (>= 4:4.8.0),
-               libsoprano-dev (>= 2.7.56),
                libsqlite3-dev (>= 3.6.23),
-               libxslt-dev,
+               libxml2-utils,
                pkg-kde-tools (>= 0.12),
+               qtbase5-dev (>= 5.2.0),
                shared-mime-info (>= 0.20),
                xsltproc
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: http://pim.kde.org/akonadi
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-req/akonadi.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-req/akonadi.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/applications/akonadi.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/akonadi.git
 
 Package: akonadi-server
 Section: net
@@ -42,12 +40,10 @@ Description: Akonadi PIM storage service
  .
  This package contains the Akonadi PIM storage server and associated programs.
 
-Package: libakonadiprotocolinternals1
+Package: libkf5akonadiprivate5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Suggests: akonadi-server (= ${binary:Version})
-Replaces: libakonadiprivate1 (<< 1.4.90)
-Breaks: kdepim-runtime (<< 4:4.13), libakonadiprivate1 (<< 1.4.90)
 Description: libraries for the Akonadi PIM storage service
  Akonadi is an extensible cross-desktop Personal Information Management (PIM)
  storage service. It provides a common framework for applications to store and
@@ -55,14 +51,10 @@ Description: libraries for the Akonadi PIM storage service
  .
  This package contains libraries used by the Akonadi PIM storage service.
 
-Package: libakonadi-dev
+Package: libkf5akonadiserver-dev
 Section: libdevel
 Architecture: any
-Depends: libakonadiprotocolinternals1 (= ${binary:Version}),
-         libboost-dev,
-         libqt4-dev (>= 4:4.8.0),
-         ${misc:Depends}
-Suggests: pkg-config
+Depends: libkf5akonadiprivate5 (= ${binary:Version}), ${misc:Depends}
 Description: development files for the Akonadi PIM storage service
  Akonadi is an extensible cross-desktop Personal Information Management (PIM)
  storage service. It provides a common framework for applications to store and

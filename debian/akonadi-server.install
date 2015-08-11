@@ -1,3 +1,4 @@
+etc/xdg/akonadi.categories
 usr/bin/akonadi_agent_launcher
 usr/bin/akonadi_agent_server
 usr/bin/akonadi_control
