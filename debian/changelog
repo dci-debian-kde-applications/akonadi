@@ -1,3 +1,9 @@
+akonadi (15.07.90-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (15.07.90).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 05 Sep 2015 12:39:57 +0200
+
 akonadi (1.13.0-8) unstable; urgency=medium
 
   * Team upload.
