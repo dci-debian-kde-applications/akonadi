@@ -1,4 +1,4 @@
-akonadi (15.08.0-1~) UNRELEASED; urgency=medium
+akonadi (15.08.0-1) experimental; urgency=medium
 
   * New upstream release (15.07.90).
   * New upstream release (15.08.0).
@@ -6,7 +6,7 @@ akonadi (15.08.0-1~) UNRELEASED; urgency=medium
   * Refresh patches.
   * Update copyright file.
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 05 Sep 2015 12:40:38 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 05 Sep 2015 21:41:58 +0200
 
 akonadi (4:15.08.0-0ubuntu1) wily; urgency=medium
 
