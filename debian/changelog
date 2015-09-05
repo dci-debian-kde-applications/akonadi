@@ -2,6 +2,8 @@ akonadi (15.08.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (15.07.90).
   * New upstream release (15.08.0).
+  * Remove upstream patches.
+  * Refresh patches.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 05 Sep 2015 12:40:38 +0200
 
