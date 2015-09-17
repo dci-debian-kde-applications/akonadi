@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 16 amd64
+# SymbolsHelper-Confirmed: 4:15.08.1+git20150917.0836+15.10 amd64 i386
 libKF5AkonadiPrivate.so.5 libkf5akonadiprivate5 #MINVER#
  _ZN7Akonadi10ImapParser10parseBlockERK10QByteArray@Base 15.07.90
  _ZN7Akonadi10ImapParser11parseNumberERK10QByteArrayRxPbi@Base 15.07.90
@@ -48,6 +48,37 @@ libKF5AkonadiPrivate.so.5 libkf5akonadiprivate5 #MINVER#
  _ZN7Akonadi12ImapIntervalD1Ev@Base 15.07.90
  _ZN7Akonadi12ImapIntervalD2Ev@Base 15.07.90
  _ZN7Akonadi12ImapIntervalaSERKS0_@Base 15.07.90
+ _ZN7Akonadi12StandardDirs10configFileERK7QString6QFlagsINS_11XdgBaseDirs14FileAccessFlagEE@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi12StandardDirs15agentConfigFileE6QFlagsINS_11XdgBaseDirs14FileAccessFlagEE@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi12StandardDirs16serverConfigFileE6QFlagsINS_11XdgBaseDirs14FileAccessFlagEE@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi12StandardDirs20connectionConfigFileE6QFlagsINS_11XdgBaseDirs14FileAccessFlagEE@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi12StandardDirs7saveDirEPKcRK7QString@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi19ExternalPartStorage13nameForPartIdEx@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi19ExternalPartStorage14createPartFileERK10QByteArrayxRS1_@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi19ExternalPartStorage14removePartFileERK7QString@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi19ExternalPartStorage14updatePartFileERK10QByteArrayS3_RS1_@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi19ExternalPartStorage16addToTransactionERK7QVectorINS0_9OperationEE@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi19ExternalPartStorage16beginTransactionEv@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi19ExternalPartStorage17commitTransactionEv@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi19ExternalPartStorage17replayTransactionERK7QVectorINS0_9OperationEEb@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi19ExternalPartStorage18akonadiStoragePathEv@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi19ExternalPartStorage19resolveAbsolutePathERK10QByteArrayPbb@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi19ExternalPartStorage19resolveAbsolutePathERK7QStringPbb@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi19ExternalPartStorage19rollbackTransactionEv@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi19ExternalPartStorage22updateFileNameRevisionERK10QByteArray@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi19ExternalPartStorage4selfEv@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi19ExternalPartStorage9sInstanceE@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi19ExternalPartStorageC1Ev@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi19ExternalPartStorageC2Ev@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi30ExternalPartStorageTransaction6commitEv@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi30ExternalPartStorageTransaction8rollbackEv@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi30ExternalPartStorageTransactionC1Ev@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi30ExternalPartStorageTransactionC2Ev@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi30ExternalPartStorageTransactionD1Ev@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi30ExternalPartStorageTransactionD2Ev@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi4DBus11serviceNameENS0_11ServiceTypeE@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi4DBus16agentServiceNameERK7QStringNS0_9AgentTypeE@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi4DBus21parseAgentServiceNameERK7QStringRNS0_9AgentTypeE@Base 4:15.08.1+git20150917.0836+15.10
  _ZN7Akonadi5Scope12setHRidChainERK7QVectorINS0_4HRIDEE@Base 15.07.90
  _ZN7Akonadi5Scope4HRIDC1EOS1_@Base 15.07.90
  _ZN7Akonadi5Scope4HRIDC1ERKS1_@Base 15.07.90
@@ -85,7 +116,7 @@ libKF5AkonadiPrivate.so.5 libkf5akonadiprivate5 #MINVER#
  _ZN7Akonadi5ScopeaSEOS0_@Base 15.07.90
  _ZN7Akonadi5ScopeaSERKS0_@Base 15.07.90
  _ZN7Akonadi7ImapSet3addERK4QSetIxE@Base 15.07.90
- _ZN7Akonadi7ImapSet3addERK5QListIxE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZN7Akonadi7ImapSet3addERK5QListIxE@Base 16
  _ZN7Akonadi7ImapSet3addERK7QVectorIxE@Base 15.07.90
  _ZN7Akonadi7ImapSet3addERKNS_12ImapIntervalE@Base 15.07.90
  _ZN7Akonadi7ImapSet3allEv@Base 15.07.90
@@ -102,6 +133,11 @@ libKF5AkonadiPrivate.so.5 libkf5akonadiprivate5 #MINVER#
  _ZN7Akonadi7ImapSetD1Ev@Base 15.07.90
  _ZN7Akonadi7ImapSetD2Ev@Base 15.07.90
  _ZN7Akonadi7ImapSetaSERKS0_@Base 15.07.90
+ _ZN7Akonadi8Instance10identifierEv@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi8Instance11sIdentifierE@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi8Instance13hasIdentifierEv@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi8Instance13setIdentifierERK7QString@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi8Instance14loadIdentifierEv@Base 4:15.08.1+git20150917.0836+15.10
  _ZN7Akonadi8Protocol10FetchScope15setChangedSinceERK9QDateTime@Base 15.07.90
  _ZN7Akonadi8Protocol10FetchScope16setAncestorDepthENS0_8Ancestor5DepthE@Base 15.07.90
  _ZN7Akonadi8Protocol10FetchScope16setTagFetchScopeERK4QSetI10QByteArrayE@Base 15.07.90
@@ -133,6 +169,8 @@ libKF5AkonadiPrivate.so.5 libkf5akonadiprivate5 #MINVER#
  _ZN7Akonadi8Protocol11CachePolicyaSEOS1_@Base 15.07.90
  _ZN7Akonadi8Protocol11CachePolicyaSERKS1_@Base 15.07.90
  _ZN7Akonadi8Protocol11deserializeEP9QIODevice@Base 15.07.90
+ _ZN7Akonadi8Protocol12LoginCommand12setSessionIdERK10QByteArray@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi8Protocol12LoginCommand14setSessionModeENS1_11SessionModeE@Base 4:15.08.1+git20150917.0836+15.10
  _ZN7Akonadi8Protocol12LoginCommandC1ERK10QByteArrayNS1_11SessionModeE@Base 15.07.90
  _ZN7Akonadi8Protocol12LoginCommandC1ERKNS0_7CommandE@Base 15.07.90
  _ZN7Akonadi8Protocol12LoginCommandC1Ev@Base 15.07.90
@@ -172,6 +210,9 @@ libKF5AkonadiPrivate.so.5 libkf5akonadiprivate5 #MINVER#
  _ZN7Akonadi8Protocol12ScopeContextD2Ev@Base 15.07.90
  _ZN7Akonadi8Protocol12ScopeContextaSEOS1_@Base 15.07.90
  _ZN7Akonadi8Protocol12ScopeContextaSERKS1_@Base 15.07.90
+ _ZN7Akonadi8Protocol13HelloResponse10setMessageERK7QString@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi8Protocol13HelloResponse13setServerNameERK7QString@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi8Protocol13HelloResponse18setProtocolVersionEi@Base 4:15.08.1+git20150917.0836+15.10
  _ZN7Akonadi8Protocol13HelloResponseC1ERK7QStringS4_i@Base 15.07.90
  _ZN7Akonadi8Protocol13HelloResponseC1ERKNS0_7CommandE@Base 15.07.90
  _ZN7Akonadi8Protocol13HelloResponseC1Ev@Base 15.07.90
@@ -204,6 +245,8 @@ libKF5AkonadiPrivate.so.5 libkf5akonadiprivate5 #MINVER#
  _ZN7Akonadi8Protocol14SearchResponseC1Ev@Base 15.07.90
  _ZN7Akonadi8Protocol14SearchResponseC2ERKNS0_7CommandE@Base 15.07.90
  _ZN7Akonadi8Protocol14SearchResponseC2Ev@Base 15.07.90
+ _ZN7Akonadi8Protocol16CopyItemsCommand14setDestinationERKNS_5ScopeE@Base 4:15.08.1+git20150917.0836+15.10
+ _ZN7Akonadi8Protocol16CopyItemsCommand8setItemsERKNS_5ScopeE@Base 4:15.08.1+git20150917.0836+15.10
  _ZN7Akonadi8Protocol16CopyItemsCommandC1ERKNS0_7CommandE@Base 15.07.90
  _ZN7Akonadi8Protocol16CopyItemsCommandC1ERKNS_5ScopeES4_@Base 15.07.90
  _ZN7Akonadi8Protocol16CopyItemsCommandC1Ev@Base 15.07.90
@@ -413,6 +456,7 @@ libKF5AkonadiPrivate.so.5 libkf5akonadiprivate5 #MINVER#
  _ZN7Akonadi8Protocol18StoreSearchCommandC1Ev@Base 15.07.90
  _ZN7Akonadi8Protocol18StoreSearchCommandC2ERKNS0_7CommandE@Base 15.07.90
  _ZN7Akonadi8Protocol18StoreSearchCommandC2Ev@Base 15.07.90
+ _ZN7Akonadi8Protocol18TransactionCommand7setModeENS1_4ModeE@Base 4:15.08.1+git20150917.0836+15.10
  _ZN7Akonadi8Protocol18TransactionCommandC1ENS1_4ModeE@Base 15.07.90
  _ZN7Akonadi8Protocol18TransactionCommandC1ERKNS0_7CommandE@Base 15.07.90
  _ZN7Akonadi8Protocol18TransactionCommandC1Ev@Base 15.07.90
@@ -609,12 +653,12 @@ libKF5AkonadiPrivate.so.5 libkf5akonadiprivate5 #MINVER#
  _ZN7Akonadi8Protocol23RemoveRelationsResponseC1Ev@Base 15.07.90
  _ZN7Akonadi8Protocol23RemoveRelationsResponseC2ERKNS0_7CommandE@Base 15.07.90
  _ZN7Akonadi8Protocol23RemoveRelationsResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol23SelectCollectionCommandC1ERKNS0_7CommandE@Base 16
- _ZN7Akonadi8Protocol23SelectCollectionCommandC1ERKNS_5ScopeE@Base 16
- _ZN7Akonadi8Protocol23SelectCollectionCommandC1Ev@Base 16
- _ZN7Akonadi8Protocol23SelectCollectionCommandC2ERKNS0_7CommandE@Base 16
- _ZN7Akonadi8Protocol23SelectCollectionCommandC2ERKNS_5ScopeE@Base 16
- _ZN7Akonadi8Protocol23SelectCollectionCommandC2Ev@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZN7Akonadi8Protocol23SelectCollectionCommandC1ERKNS0_7CommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZN7Akonadi8Protocol23SelectCollectionCommandC1ERKNS_5ScopeE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZN7Akonadi8Protocol23SelectCollectionCommandC1Ev@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZN7Akonadi8Protocol23SelectCollectionCommandC2ERKNS0_7CommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZN7Akonadi8Protocol23SelectCollectionCommandC2ERKNS_5ScopeE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZN7Akonadi8Protocol23SelectCollectionCommandC2Ev@Base 16
  _ZN7Akonadi8Protocol24CreateCollectionResponseC1ERKNS0_7CommandE@Base 15.07.90
  _ZN7Akonadi8Protocol24CreateCollectionResponseC1Ev@Base 15.07.90
  _ZN7Akonadi8Protocol24CreateCollectionResponseC2ERKNS0_7CommandE@Base 15.07.90
@@ -652,10 +696,10 @@ libKF5AkonadiPrivate.so.5 libkf5akonadiprivate5 #MINVER#
  _ZN7Akonadi8Protocol24ModifyCollectionResponseC1Ev@Base 15.07.90
  _ZN7Akonadi8Protocol24ModifyCollectionResponseC2ERKNS0_7CommandE@Base 15.07.90
  _ZN7Akonadi8Protocol24ModifyCollectionResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol24SelectCollectionResponseC1ERKNS0_7CommandE@Base 16
- _ZN7Akonadi8Protocol24SelectCollectionResponseC1Ev@Base 16
- _ZN7Akonadi8Protocol24SelectCollectionResponseC2ERKNS0_7CommandE@Base 16
- _ZN7Akonadi8Protocol24SelectCollectionResponseC2Ev@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZN7Akonadi8Protocol24SelectCollectionResponseC1ERKNS0_7CommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZN7Akonadi8Protocol24SelectCollectionResponseC1Ev@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZN7Akonadi8Protocol24SelectCollectionResponseC2ERKNS0_7CommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZN7Akonadi8Protocol24SelectCollectionResponseC2Ev@Base 16
  _ZN7Akonadi8Protocol27FetchCollectionStatsCommandC1ERKNS0_7CommandE@Base 15.07.90
  _ZN7Akonadi8Protocol27FetchCollectionStatsCommandC1ERKNS_5ScopeE@Base 15.07.90
  _ZN7Akonadi8Protocol27FetchCollectionStatsCommandC1Ev@Base 15.07.90
@@ -676,13 +720,14 @@ libKF5AkonadiPrivate.so.5 libkf5akonadiprivate5 #MINVER#
  _ZN7Akonadi8Protocol7CommandC2EPNS0_14CommandPrivateE@Base 15.07.90
  _ZN7Akonadi8Protocol7CommandC2ERKS1_@Base 15.07.90
  _ZN7Akonadi8Protocol7CommandC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol7CommandD0Ev@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZN7Akonadi8Protocol7CommandD0Ev@Base 16
  _ZN7Akonadi8Protocol7CommandD1Ev@Base 15.07.90
  _ZN7Akonadi8Protocol7CommandD2Ev@Base 15.07.90
  _ZN7Akonadi8Protocol7CommandaSEOS1_@Base 15.07.90
  _ZN7Akonadi8Protocol7CommandaSERKS1_@Base 15.07.90
  _ZN7Akonadi8Protocol7Factory7commandENS0_7Command4TypeE@Base 15.07.90
  _ZN7Akonadi8Protocol7Factory8responseENS0_7Command4TypeE@Base 15.07.90
+ _ZN7Akonadi8Protocol7versionEv@Base 4:15.08.1+git20150917.0836+15.10
  _ZN7Akonadi8Protocol8Ancestor11setRemoteIdERK7QString@Base 15.07.90
  _ZN7Akonadi8Protocol8Ancestor13setAttributesERK4QMapI10QByteArrayS3_E@Base 15.07.90
  _ZN7Akonadi8Protocol8Ancestor5setIdEx@Base 15.07.90
@@ -720,6 +765,7 @@ libKF5AkonadiPrivate.so.5 libkf5akonadiprivate5 #MINVER#
  _ZNK7Akonadi12ImapInterval4sizeEv@Base 15.07.90
  _ZNK7Akonadi12ImapInterval5beginEv@Base 15.07.90
  _ZNK7Akonadi12ImapIntervaleqERKS0_@Base 15.07.90
+ _ZNK7Akonadi19ExternalPartStorage13inTransactionEv@Base 4:15.08.1+git20150917.0836+15.10
  _ZNK7Akonadi5Scope3gidEv@Base 15.07.90
  _ZNK7Akonadi5Scope3ridEv@Base 15.07.90
  _ZNK7Akonadi5Scope3uidEv@Base 15.07.90
@@ -982,7 +1028,7 @@ libKF5AkonadiPrivate.so.5 libkf5akonadiprivate5 #MINVER#
  _ZNK7Akonadi8Protocol23ModifyCollectionCommand8syncPrefEv@Base 15.07.90
  _ZNK7Akonadi8Protocol23ModifyCollectionCommand9indexPrefEv@Base 15.07.90
  _ZNK7Akonadi8Protocol23ModifyCollectionCommand9mimeTypesEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23SelectCollectionCommand10collectionEv@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZNK7Akonadi8Protocol23SelectCollectionCommand10collectionEv@Base 16
  _ZNK7Akonadi8Protocol24FetchCollectionsResponse10attributesEv@Base 15.07.90
  _ZNK7Akonadi8Protocol24FetchCollectionsResponse10referencedEv@Base 15.07.90
  _ZNK7Akonadi8Protocol24FetchCollectionsResponse10statisticsEv@Base 15.07.90
@@ -1025,201 +1071,201 @@ libKF5AkonadiPrivate.so.5 libkf5akonadiprivate5 #MINVER#
  _ZNK7Akonadi8Protocol8Response9errorCodeEv@Base 15.07.90
  _ZTI11QSharedData@Base 15.07.90
  _ZTIN7Akonadi17ProtocolExceptionE@Base 15.07.90
- _ZTIN7Akonadi8Protocol12LoginCommandE@Base 16
- _ZTIN7Akonadi8Protocol13HelloResponseE@Base 16
- _ZTIN7Akonadi8Protocol13LoginResponseE@Base 16
- _ZTIN7Akonadi8Protocol13LogoutCommandE@Base 16
- _ZTIN7Akonadi8Protocol13SearchCommandE@Base 16
- _ZTIN7Akonadi8Protocol14LogoutResponseE@Base 16
- _ZTIN7Akonadi8Protocol14SearchResponseE@Base 16
- _ZTIN7Akonadi8Protocol16CopyItemsCommandE@Base 16
- _ZTIN7Akonadi8Protocol16CreateTagCommandE@Base 16
- _ZTIN7Akonadi8Protocol16DeleteTagCommandE@Base 16
- _ZTIN7Akonadi8Protocol16FetchTagsCommandE@Base 16
- _ZTIN7Akonadi8Protocol16LinkItemsCommandE@Base 16
- _ZTIN7Akonadi8Protocol16ModifyTagCommandE@Base 16
- _ZTIN7Akonadi8Protocol16MoveItemsCommandE@Base 16
- _ZTIN7Akonadi8Protocol17CopyItemsResponseE@Base 16
- _ZTIN7Akonadi8Protocol17CreateItemCommandE@Base 16
- _ZTIN7Akonadi8Protocol17CreateTagResponseE@Base 16
- _ZTIN7Akonadi8Protocol17DeleteTagResponseE@Base 16
- _ZTIN7Akonadi8Protocol17FetchItemsCommandE@Base 16
- _ZTIN7Akonadi8Protocol17FetchTagsResponseE@Base 16
- _ZTIN7Akonadi8Protocol17LinkItemsResponseE@Base 16
- _ZTIN7Akonadi8Protocol17ModifyTagResponseE@Base 16
- _ZTIN7Akonadi8Protocol17MoveItemsResponseE@Base 16
- _ZTIN7Akonadi8Protocol18ChangeNotificationE@Base 16
- _ZTIN7Akonadi8Protocol18CreateItemResponseE@Base 16
- _ZTIN7Akonadi8Protocol18DeleteItemsCommandE@Base 16
- _ZTIN7Akonadi8Protocol18FetchItemsResponseE@Base 16
- _ZTIN7Akonadi8Protocol18ModifyItemsCommandE@Base 16
- _ZTIN7Akonadi8Protocol18StoreSearchCommandE@Base 16
- _ZTIN7Akonadi8Protocol18TransactionCommandE@Base 16
- _ZTIN7Akonadi8Protocol19DeleteItemsResponseE@Base 16
- _ZTIN7Akonadi8Protocol19ModifyItemsResponseE@Base 16
- _ZTIN7Akonadi8Protocol19SearchResultCommandE@Base 16
- _ZTIN7Akonadi8Protocol19StoreSearchResponseE@Base 16
- _ZTIN7Akonadi8Protocol19TransactionResponseE@Base 16
- _ZTIN7Akonadi8Protocol20SearchResultResponseE@Base 16
- _ZTIN7Akonadi8Protocol20StreamPayloadCommandE@Base 16
- _ZTIN7Akonadi8Protocol21CopyCollectionCommandE@Base 16
- _ZTIN7Akonadi8Protocol21FetchRelationsCommandE@Base 16
- _ZTIN7Akonadi8Protocol21ModifyRelationCommandE@Base 16
- _ZTIN7Akonadi8Protocol21MoveCollectionCommandE@Base 16
- _ZTIN7Akonadi8Protocol21SelectResourceCommandE@Base 16
- _ZTIN7Akonadi8Protocol21StreamPayloadResponseE@Base 16
- _ZTIN7Akonadi8Protocol22CopyCollectionResponseE@Base 16
- _ZTIN7Akonadi8Protocol22FetchRelationsResponseE@Base 16
- _ZTIN7Akonadi8Protocol22ModifyRelationResponseE@Base 16
- _ZTIN7Akonadi8Protocol22MoveCollectionResponseE@Base 16
- _ZTIN7Akonadi8Protocol22RemoveRelationsCommandE@Base 16
- _ZTIN7Akonadi8Protocol22SelectResourceResponseE@Base 16
- _ZTIN7Akonadi8Protocol23CreateCollectionCommandE@Base 16
- _ZTIN7Akonadi8Protocol23DeleteCollectionCommandE@Base 16
- _ZTIN7Akonadi8Protocol23FetchCollectionsCommandE@Base 16
- _ZTIN7Akonadi8Protocol23ModifyCollectionCommandE@Base 16
- _ZTIN7Akonadi8Protocol23RemoveRelationsResponseE@Base 16
- _ZTIN7Akonadi8Protocol23SelectCollectionCommandE@Base 16
- _ZTIN7Akonadi8Protocol24CreateCollectionResponseE@Base 16
- _ZTIN7Akonadi8Protocol24DeleteCollectionResponseE@Base 16
- _ZTIN7Akonadi8Protocol24FetchCollectionsResponseE@Base 16
- _ZTIN7Akonadi8Protocol24ModifyCollectionResponseE@Base 16
- _ZTIN7Akonadi8Protocol24SelectCollectionResponseE@Base 16
- _ZTIN7Akonadi8Protocol27FetchCollectionStatsCommandE@Base 16
- _ZTIN7Akonadi8Protocol28FetchCollectionStatsResponseE@Base 16
- _ZTIN7Akonadi8Protocol7CommandE@Base 16
- _ZTIN7Akonadi8Protocol8ResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol12LoginCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol13HelloResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol13LoginResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol13LogoutCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol13SearchCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol14LogoutResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol14SearchResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol16CopyItemsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol16CreateTagCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol16DeleteTagCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol16FetchTagsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol16LinkItemsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol16ModifyTagCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol16MoveItemsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol17CopyItemsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol17CreateItemCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol17CreateTagResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol17DeleteTagResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol17FetchItemsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol17FetchTagsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol17LinkItemsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol17ModifyTagResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol17MoveItemsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol18ChangeNotificationE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol18CreateItemResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol18DeleteItemsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol18FetchItemsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol18ModifyItemsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol18StoreSearchCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol18TransactionCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol19DeleteItemsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol19ModifyItemsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol19SearchResultCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol19StoreSearchResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol19TransactionResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol20SearchResultResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol20StreamPayloadCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol21CopyCollectionCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol21FetchRelationsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol21ModifyRelationCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol21MoveCollectionCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol21SelectResourceCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol21StreamPayloadResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol22CopyCollectionResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol22FetchRelationsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol22ModifyRelationResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol22MoveCollectionResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol22RemoveRelationsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol22SelectResourceResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol23CreateCollectionCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol23DeleteCollectionCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol23FetchCollectionsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol23ModifyCollectionCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol23RemoveRelationsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol23SelectCollectionCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol24CreateCollectionResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol24DeleteCollectionResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol24FetchCollectionsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol24ModifyCollectionResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol24SelectCollectionResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol27FetchCollectionStatsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol28FetchCollectionStatsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol7CommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTIN7Akonadi8Protocol8ResponseE@Base 16
  _ZTS11QSharedData@Base 15.07.90
  _ZTSN7Akonadi17ProtocolExceptionE@Base 15.07.90
- _ZTSN7Akonadi8Protocol12LoginCommandE@Base 16
- _ZTSN7Akonadi8Protocol13HelloResponseE@Base 16
- _ZTSN7Akonadi8Protocol13LoginResponseE@Base 16
- _ZTSN7Akonadi8Protocol13LogoutCommandE@Base 16
- _ZTSN7Akonadi8Protocol13SearchCommandE@Base 16
- _ZTSN7Akonadi8Protocol14LogoutResponseE@Base 16
- _ZTSN7Akonadi8Protocol14SearchResponseE@Base 16
- _ZTSN7Akonadi8Protocol16CopyItemsCommandE@Base 16
- _ZTSN7Akonadi8Protocol16CreateTagCommandE@Base 16
- _ZTSN7Akonadi8Protocol16DeleteTagCommandE@Base 16
- _ZTSN7Akonadi8Protocol16FetchTagsCommandE@Base 16
- _ZTSN7Akonadi8Protocol16LinkItemsCommandE@Base 16
- _ZTSN7Akonadi8Protocol16ModifyTagCommandE@Base 16
- _ZTSN7Akonadi8Protocol16MoveItemsCommandE@Base 16
- _ZTSN7Akonadi8Protocol17CopyItemsResponseE@Base 16
- _ZTSN7Akonadi8Protocol17CreateItemCommandE@Base 16
- _ZTSN7Akonadi8Protocol17CreateTagResponseE@Base 16
- _ZTSN7Akonadi8Protocol17DeleteTagResponseE@Base 16
- _ZTSN7Akonadi8Protocol17FetchItemsCommandE@Base 16
- _ZTSN7Akonadi8Protocol17FetchTagsResponseE@Base 16
- _ZTSN7Akonadi8Protocol17LinkItemsResponseE@Base 16
- _ZTSN7Akonadi8Protocol17ModifyTagResponseE@Base 16
- _ZTSN7Akonadi8Protocol17MoveItemsResponseE@Base 16
- _ZTSN7Akonadi8Protocol18ChangeNotificationE@Base 16
- _ZTSN7Akonadi8Protocol18CreateItemResponseE@Base 16
- _ZTSN7Akonadi8Protocol18DeleteItemsCommandE@Base 16
- _ZTSN7Akonadi8Protocol18FetchItemsResponseE@Base 16
- _ZTSN7Akonadi8Protocol18ModifyItemsCommandE@Base 16
- _ZTSN7Akonadi8Protocol18StoreSearchCommandE@Base 16
- _ZTSN7Akonadi8Protocol18TransactionCommandE@Base 16
- _ZTSN7Akonadi8Protocol19DeleteItemsResponseE@Base 16
- _ZTSN7Akonadi8Protocol19ModifyItemsResponseE@Base 16
- _ZTSN7Akonadi8Protocol19SearchResultCommandE@Base 16
- _ZTSN7Akonadi8Protocol19StoreSearchResponseE@Base 16
- _ZTSN7Akonadi8Protocol19TransactionResponseE@Base 16
- _ZTSN7Akonadi8Protocol20SearchResultResponseE@Base 16
- _ZTSN7Akonadi8Protocol20StreamPayloadCommandE@Base 16
- _ZTSN7Akonadi8Protocol21CopyCollectionCommandE@Base 16
- _ZTSN7Akonadi8Protocol21FetchRelationsCommandE@Base 16
- _ZTSN7Akonadi8Protocol21ModifyRelationCommandE@Base 16
- _ZTSN7Akonadi8Protocol21MoveCollectionCommandE@Base 16
- _ZTSN7Akonadi8Protocol21SelectResourceCommandE@Base 16
- _ZTSN7Akonadi8Protocol21StreamPayloadResponseE@Base 16
- _ZTSN7Akonadi8Protocol22CopyCollectionResponseE@Base 16
- _ZTSN7Akonadi8Protocol22FetchRelationsResponseE@Base 16
- _ZTSN7Akonadi8Protocol22ModifyRelationResponseE@Base 16
- _ZTSN7Akonadi8Protocol22MoveCollectionResponseE@Base 16
- _ZTSN7Akonadi8Protocol22RemoveRelationsCommandE@Base 16
- _ZTSN7Akonadi8Protocol22SelectResourceResponseE@Base 16
- _ZTSN7Akonadi8Protocol23CreateCollectionCommandE@Base 16
- _ZTSN7Akonadi8Protocol23DeleteCollectionCommandE@Base 16
- _ZTSN7Akonadi8Protocol23FetchCollectionsCommandE@Base 16
- _ZTSN7Akonadi8Protocol23ModifyCollectionCommandE@Base 16
- _ZTSN7Akonadi8Protocol23RemoveRelationsResponseE@Base 16
- _ZTSN7Akonadi8Protocol23SelectCollectionCommandE@Base 16
- _ZTSN7Akonadi8Protocol24CreateCollectionResponseE@Base 16
- _ZTSN7Akonadi8Protocol24DeleteCollectionResponseE@Base 16
- _ZTSN7Akonadi8Protocol24FetchCollectionsResponseE@Base 16
- _ZTSN7Akonadi8Protocol24ModifyCollectionResponseE@Base 16
- _ZTSN7Akonadi8Protocol24SelectCollectionResponseE@Base 16
- _ZTSN7Akonadi8Protocol27FetchCollectionStatsCommandE@Base 16
- _ZTSN7Akonadi8Protocol28FetchCollectionStatsResponseE@Base 16
- _ZTSN7Akonadi8Protocol7CommandE@Base 16
- _ZTSN7Akonadi8Protocol8ResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol12LoginCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol13HelloResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol13LoginResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol13LogoutCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol13SearchCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol14LogoutResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol14SearchResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol16CopyItemsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol16CreateTagCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol16DeleteTagCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol16FetchTagsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol16LinkItemsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol16ModifyTagCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol16MoveItemsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol17CopyItemsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol17CreateItemCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol17CreateTagResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol17DeleteTagResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol17FetchItemsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol17FetchTagsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol17LinkItemsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol17ModifyTagResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol17MoveItemsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol18ChangeNotificationE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol18CreateItemResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol18DeleteItemsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol18FetchItemsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol18ModifyItemsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol18StoreSearchCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol18TransactionCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol19DeleteItemsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol19ModifyItemsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol19SearchResultCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol19StoreSearchResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol19TransactionResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol20SearchResultResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol20StreamPayloadCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol21CopyCollectionCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol21FetchRelationsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol21ModifyRelationCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol21MoveCollectionCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol21SelectResourceCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol21StreamPayloadResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol22CopyCollectionResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol22FetchRelationsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol22ModifyRelationResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol22MoveCollectionResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol22RemoveRelationsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol22SelectResourceResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol23CreateCollectionCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol23DeleteCollectionCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol23FetchCollectionsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol23ModifyCollectionCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol23RemoveRelationsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol23SelectCollectionCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol24CreateCollectionResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol24DeleteCollectionResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol24FetchCollectionsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol24ModifyCollectionResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol24SelectCollectionResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol27FetchCollectionStatsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol28FetchCollectionStatsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol7CommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTSN7Akonadi8Protocol8ResponseE@Base 16
  _ZTVN7Akonadi17ProtocolExceptionE@Base 15.07.90
- _ZTVN7Akonadi8Protocol12LoginCommandE@Base 16
- _ZTVN7Akonadi8Protocol13HelloResponseE@Base 16
- _ZTVN7Akonadi8Protocol13LoginResponseE@Base 16
- _ZTVN7Akonadi8Protocol13LogoutCommandE@Base 16
- _ZTVN7Akonadi8Protocol13SearchCommandE@Base 16
- _ZTVN7Akonadi8Protocol14LogoutResponseE@Base 16
- _ZTVN7Akonadi8Protocol14SearchResponseE@Base 16
- _ZTVN7Akonadi8Protocol16CopyItemsCommandE@Base 16
- _ZTVN7Akonadi8Protocol16CreateTagCommandE@Base 16
- _ZTVN7Akonadi8Protocol16DeleteTagCommandE@Base 16
- _ZTVN7Akonadi8Protocol16FetchTagsCommandE@Base 16
- _ZTVN7Akonadi8Protocol16LinkItemsCommandE@Base 16
- _ZTVN7Akonadi8Protocol16ModifyTagCommandE@Base 16
- _ZTVN7Akonadi8Protocol16MoveItemsCommandE@Base 16
- _ZTVN7Akonadi8Protocol17CopyItemsResponseE@Base 16
- _ZTVN7Akonadi8Protocol17CreateItemCommandE@Base 16
- _ZTVN7Akonadi8Protocol17CreateTagResponseE@Base 16
- _ZTVN7Akonadi8Protocol17DeleteTagResponseE@Base 16
- _ZTVN7Akonadi8Protocol17FetchItemsCommandE@Base 16
- _ZTVN7Akonadi8Protocol17FetchTagsResponseE@Base 16
- _ZTVN7Akonadi8Protocol17LinkItemsResponseE@Base 16
- _ZTVN7Akonadi8Protocol17ModifyTagResponseE@Base 16
- _ZTVN7Akonadi8Protocol17MoveItemsResponseE@Base 16
- _ZTVN7Akonadi8Protocol18ChangeNotificationE@Base 16
- _ZTVN7Akonadi8Protocol18CreateItemResponseE@Base 16
- _ZTVN7Akonadi8Protocol18DeleteItemsCommandE@Base 16
- _ZTVN7Akonadi8Protocol18FetchItemsResponseE@Base 16
- _ZTVN7Akonadi8Protocol18ModifyItemsCommandE@Base 16
- _ZTVN7Akonadi8Protocol18StoreSearchCommandE@Base 16
- _ZTVN7Akonadi8Protocol18TransactionCommandE@Base 16
- _ZTVN7Akonadi8Protocol19DeleteItemsResponseE@Base 16
- _ZTVN7Akonadi8Protocol19ModifyItemsResponseE@Base 16
- _ZTVN7Akonadi8Protocol19SearchResultCommandE@Base 16
- _ZTVN7Akonadi8Protocol19StoreSearchResponseE@Base 16
- _ZTVN7Akonadi8Protocol19TransactionResponseE@Base 16
- _ZTVN7Akonadi8Protocol20SearchResultResponseE@Base 16
- _ZTVN7Akonadi8Protocol20StreamPayloadCommandE@Base 16
- _ZTVN7Akonadi8Protocol21CopyCollectionCommandE@Base 16
- _ZTVN7Akonadi8Protocol21FetchRelationsCommandE@Base 16
- _ZTVN7Akonadi8Protocol21ModifyRelationCommandE@Base 16
- _ZTVN7Akonadi8Protocol21MoveCollectionCommandE@Base 16
- _ZTVN7Akonadi8Protocol21SelectResourceCommandE@Base 16
- _ZTVN7Akonadi8Protocol21StreamPayloadResponseE@Base 16
- _ZTVN7Akonadi8Protocol22CopyCollectionResponseE@Base 16
- _ZTVN7Akonadi8Protocol22FetchRelationsResponseE@Base 16
- _ZTVN7Akonadi8Protocol22ModifyRelationResponseE@Base 16
- _ZTVN7Akonadi8Protocol22MoveCollectionResponseE@Base 16
- _ZTVN7Akonadi8Protocol22RemoveRelationsCommandE@Base 16
- _ZTVN7Akonadi8Protocol22SelectResourceResponseE@Base 16
- _ZTVN7Akonadi8Protocol23CreateCollectionCommandE@Base 16
- _ZTVN7Akonadi8Protocol23DeleteCollectionCommandE@Base 16
- _ZTVN7Akonadi8Protocol23FetchCollectionsCommandE@Base 16
- _ZTVN7Akonadi8Protocol23ModifyCollectionCommandE@Base 16
- _ZTVN7Akonadi8Protocol23RemoveRelationsResponseE@Base 16
- _ZTVN7Akonadi8Protocol23SelectCollectionCommandE@Base 16
- _ZTVN7Akonadi8Protocol24CreateCollectionResponseE@Base 16
- _ZTVN7Akonadi8Protocol24DeleteCollectionResponseE@Base 16
- _ZTVN7Akonadi8Protocol24FetchCollectionsResponseE@Base 16
- _ZTVN7Akonadi8Protocol24ModifyCollectionResponseE@Base 16
- _ZTVN7Akonadi8Protocol24SelectCollectionResponseE@Base 16
- _ZTVN7Akonadi8Protocol27FetchCollectionStatsCommandE@Base 16
- _ZTVN7Akonadi8Protocol28FetchCollectionStatsResponseE@Base 16
- _ZTVN7Akonadi8Protocol7CommandE@Base 16
- _ZTVN7Akonadi8Protocol8ResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol12LoginCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol13HelloResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol13LoginResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol13LogoutCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol13SearchCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol14LogoutResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol14SearchResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol16CopyItemsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol16CreateTagCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol16DeleteTagCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol16FetchTagsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol16LinkItemsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol16ModifyTagCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol16MoveItemsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol17CopyItemsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol17CreateItemCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol17CreateTagResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol17DeleteTagResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol17FetchItemsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol17FetchTagsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol17LinkItemsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol17ModifyTagResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol17MoveItemsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol18ChangeNotificationE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol18CreateItemResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol18DeleteItemsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol18FetchItemsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol18ModifyItemsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol18StoreSearchCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol18TransactionCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol19DeleteItemsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol19ModifyItemsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol19SearchResultCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol19StoreSearchResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol19TransactionResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol20SearchResultResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol20StreamPayloadCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol21CopyCollectionCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol21FetchRelationsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol21ModifyRelationCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol21MoveCollectionCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol21SelectResourceCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol21StreamPayloadResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol22CopyCollectionResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol22FetchRelationsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol22ModifyRelationResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol22MoveCollectionResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol22RemoveRelationsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol22SelectResourceResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol23CreateCollectionCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol23DeleteCollectionCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol23FetchCollectionsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol23ModifyCollectionCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol23RemoveRelationsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol23SelectCollectionCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol24CreateCollectionResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol24DeleteCollectionResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol24FetchCollectionsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol24ModifyCollectionResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol24SelectCollectionResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol27FetchCollectionStatsCommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol28FetchCollectionStatsResponseE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol7CommandE@Base 16
+#MISSING: 4:15.08.1+git20150917.0836+15.10# _ZTVN7Akonadi8Protocol8ResponseE@Base 16
  _Zls6QDebugN7Akonadi8Protocol7Command4TypeE@Base 15.07.90
  _Zls6QDebugN7Akonadi8TristateE@Base 15.07.90
  _Zls6QDebugRKN7Akonadi12ImapIntervalE@Base 15.07.90
