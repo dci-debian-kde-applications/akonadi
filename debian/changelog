@@ -1,3 +1,15 @@
+akonadi (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:29:44 +0000
+
+akonadi (4:15.08.2-0ubuntu3) xenial; urgency=medium
+
+  * Rebuild against Qt 5.5.1.
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Wed, 02 Dec 2015 12:20:00 +0200
+
 akonadi (4:15.08.2-0ubuntu2) xenial; urgency=medium
 
   * Fix autopackagetests by adding allow-stderr to the requirements.
