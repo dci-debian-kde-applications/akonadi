@@ -11,13 +11,13 @@ Index: akonadi/src/server/storage/dbconfigpostgresql.cpp
 --- akonadi.orig/src/server/storage/dbconfigpostgresql.cpp	2015-09-05 12:43:05.975761742 +0200
 +++ akonadi/src/server/storage/dbconfigpostgresql.cpp	2015-09-05 12:45:06.906930014 +0200
 @@ -84,7 +84,9 @@
-                            << QLatin1String("/usr/lib/postgresql/9.0/bin")
-                            << QLatin1String("/usr/lib/postgresql/9.1/bin")
-                            << QLatin1String("/usr/lib/postgresql/9.2/bin")
--                           << QLatin1String("/usr/lib/postgresql/9.3/bin");
-+                           << QLatin1String("/usr/lib/postgresql/9.3/bin")
-+                           << QLatin1String("/usr/lib/postgresql/9.4/bin")
-+                           << QLatin1String("/usr/lib/postgresql/9.5/bin");
+                            << QStringLiteral("/usr/lib/postgresql/9.0/bin")
+                            << QStringLiteral("/usr/lib/postgresql/9.1/bin")
+                            << QStringLiteral("/usr/lib/postgresql/9.2/bin")
+-                           << QStringLiteral("/usr/lib/postgresql/9.3/bin");
++                           << QStringLiteral("/usr/lib/postgresql/9.3/bin")
++                           << QStringLiteral("/usr/lib/postgresql/9.4/bin")
++                           << QStringLiteral("/usr/lib/postgresql/9.5/bin");
  
-         defaultServerPath = XdgBaseDirs::findExecutableFile(QLatin1String("pg_ctl"), postgresSearchPath);
-         defaultInitDbPath = XdgBaseDirs::findExecutableFile(QLatin1String("initdb"), postgresSearchPath);
+         defaultServerPath = XdgBaseDirs::findExecutableFile(QStringLiteral("pg_ctl"), postgresSearchPath);
+         defaultInitDbPath = XdgBaseDirs::findExecutableFile(QStringLiteral("initdb"), postgresSearchPath);
