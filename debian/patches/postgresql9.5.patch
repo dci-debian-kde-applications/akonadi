@@ -1,8 +1,8 @@
-Last-Update: 2015-07-14
+Last-Update: 2016-01-11
 Forwarded: no
 Bug-Debian: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=791805
 Author: Dmitry Smirnov <onlyjob@member.fsf.org>
-Description: add PostgreSQL 9.4 path
+Description: add PostgreSQL 9.5 path
  Perhaps there shall be a better way to find PostgreSQL executable than
  to search through the list of hard-coded paths...
 
@@ -10,13 +10,14 @@ Index: akonadi/src/server/storage/dbconfigpostgresql.cpp
 ===================================================================
 --- akonadi.orig/src/server/storage/dbconfigpostgresql.cpp	2015-09-05 12:43:05.975761742 +0200
 +++ akonadi/src/server/storage/dbconfigpostgresql.cpp	2015-09-05 12:45:06.906930014 +0200
-@@ -84,7 +84,8 @@
+@@ -84,7 +84,9 @@
                             << QLatin1String("/usr/lib/postgresql/9.0/bin")
                             << QLatin1String("/usr/lib/postgresql/9.1/bin")
                             << QLatin1String("/usr/lib/postgresql/9.2/bin")
 -                           << QLatin1String("/usr/lib/postgresql/9.3/bin");
 +                           << QLatin1String("/usr/lib/postgresql/9.3/bin")
-+                           << QLatin1String("/usr/lib/postgresql/9.4/bin");
++                           << QLatin1String("/usr/lib/postgresql/9.4/bin")
++                           << QLatin1String("/usr/lib/postgresql/9.5/bin");
  
          defaultServerPath = XdgBaseDirs::findExecutableFile(QLatin1String("pg_ctl"), postgresSearchPath);
          defaultInitDbPath = XdgBaseDirs::findExecutableFile(QLatin1String("initdb"), postgresSearchPath);
