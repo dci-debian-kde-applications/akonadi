@@ -1,0 +1,18 @@
+Last-Update: 2015-07-14
+Forwarded: no
+Bug-Debian: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=791807
+Author: Dmitry Smirnov <onlyjob@member.fsf.org>
+Description: initialise PSQL database with "--data-checksums".
+
+Index: akonadi/src/server/storage/dbconfigpostgresql.cpp
+===================================================================
+--- akonadi.orig/src/server/storage/dbconfigpostgresql.cpp	2015-09-05 12:40:50.673166408 +0200
++++ akonadi/src/server/storage/dbconfigpostgresql.cpp	2015-09-05 12:43:05.975761742 +0200
+@@ -223,6 +223,7 @@
+         QStringList arguments;
+         arguments << QString::fromLatin1("--pgdata=%2").arg(mPgData)
+                   // TODO check locale
++                  << QString::fromLatin1( "--data-checksums")
+                   << QString::fromLatin1("--locale=en_US.UTF-8");
+         QProcess::execute(command, arguments);
+     }
