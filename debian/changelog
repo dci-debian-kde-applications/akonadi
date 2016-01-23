@@ -1,3 +1,20 @@
+akonadi (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+
+  [ Clive Johnston ]
+  * New upstream release
+
+  [ Scarlett Clark ]
+  * No changes, trigger rebuild.
+
+  [ Philip Muškovac ]
+  * Merge with debian git master
+  * Add postgresql 9.5 support to postgresql9.4.patch and rename it to
+    postgresql9.5.patch 
+  * Adapt postgresql-data-checksums.patch and postgresql9.5.patch to code
+    changes
+
+ -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:29:44 +0000
+
 akonadi (15.08.3-1) experimental; urgency=medium
 
   * New upstream release (15.08.3).
@@ -10,11 +27,36 @@ akonadi (15.08.2-1) experimental; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 16 Oct 2015 08:06:30 +0200
 
+akonadi (4:15.08.2-0ubuntu3) xenial; urgency=medium
+
+  * Rebuild against Qt 5.5.1.
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Wed, 02 Dec 2015 12:20:00 +0200
+
+akonadi (4:15.08.2-0ubuntu2) xenial; urgency=medium
+
+  * Fix autopackagetests by adding allow-stderr to the requirements.
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 03 Nov 2015 15:34:26 +0100
+
+akonadi (4:15.08.2-0ubuntu1) wily; urgency=medium
+
+  * Vivid backport
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 14 Oct 2015 11:44:36 +0100
+
 akonadi (15.08.1-1) experimental; urgency=medium
 
   * New upstream release (15.08.1).
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 03:16:13 +0200
+
+akonadi (4:15.08.1-0ubuntu1) wily; urgency=medium
+
+  * New upstream release (15.08.1)
+
+ -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 16:01:55 +0100
 
 akonadi (15.08.0-1) experimental; urgency=medium
 
