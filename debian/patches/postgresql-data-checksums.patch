@@ -6,13 +6,13 @@ Description: initialise PSQL database with "--data-checksums".
 
 Index: akonadi/src/server/storage/dbconfigpostgresql.cpp
 ===================================================================
---- akonadi.orig/src/server/storage/dbconfigpostgresql.cpp	2015-09-05 12:40:50.673166408 +0200
-+++ akonadi/src/server/storage/dbconfigpostgresql.cpp	2015-09-05 12:43:05.975761742 +0200
-@@ -223,6 +223,7 @@
+--- akonadi.orig/src/server/storage/dbconfigpostgresql.cpp	2016-01-27 13:48:55.206936407 +0100
++++ akonadi/src/server/storage/dbconfigpostgresql.cpp	2016-01-27 13:51:15.281343111 +0100
+@@ -224,6 +224,7 @@
          QStringList arguments;
-         arguments << QString::fromLatin1("--pgdata=%2").arg(mPgData)
+         arguments << QStringLiteral("--pgdata=%2").arg(mPgData)
                    // TODO check locale
-+                  << QString::fromLatin1( "--data-checksums")
-                   << QString::fromLatin1("--locale=en_US.UTF-8");
++                  << QStringLiteral("--data-checksums")
+                   << QStringLiteral("--locale=en_US.UTF-8");
          QProcess::execute(command, arguments);
      }
