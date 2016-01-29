@@ -1,4 +1,4 @@
-akonadi (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+akonadi (15.12.1-0) UNRELEASED; urgency=medium
 
   [ Clive Johnston ]
   * New upstream release
@@ -13,7 +13,10 @@ akonadi (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   * Adapt postgresql-data-checksums.patch and postgresql9.5.patch to code
     changes
 
- -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:29:44 +0000
+  [ Sandro Knauß ]
+  * Update version number to a debian one.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 29 Jan 2016 20:41:47 +0100
 
 akonadi (15.08.3-1) experimental; urgency=medium
 
