@@ -13,6 +13,9 @@ akonadi (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   * Adapt postgresql-data-checksums.patch and postgresql9.5.patch to code
     changes
 
+  [ Clive Johnston ]
+  * Adding new build deps 
+
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:29:44 +0000
 
 akonadi (4:15.08.2-0ubuntu3) xenial; urgency=medium
