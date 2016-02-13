@@ -1,8 +1,9 @@
-akonadi (15.12.1-2~) UNRELEASED; urgency=medium
+akonadi (15.12.2-1~) UNRELEASED; urgency=medium
 
   * Add missing dependency on mysql server core.
+  * New upstream release (15.12.2).
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 03 Feb 2016 09:49:51 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 10:03:25 +0100
 
 akonadi (15.12.1-1) experimental; urgency=medium
 
