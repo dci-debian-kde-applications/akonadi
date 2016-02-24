@@ -15,6 +15,7 @@ akonadi (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * No changes, trigger rebuild with new kolab. 
+  * Fix unstable merge. 
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:29:44 +0000
 
