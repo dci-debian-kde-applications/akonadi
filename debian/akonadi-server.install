@@ -1,14 +1,5 @@
 etc/xdg/akonadi.categories
-usr/bin/akonadditest
-usr/bin/akonadi2xml
-usr/bin/akonadi_agent_launcher
-usr/bin/akonadi_agent_server
-usr/bin/akonadi_control
-usr/bin/akonadi_rds
-usr/bin/akonadictl
-usr/bin/akonadiselftest
-usr/bin/akonadiserver
-usr/bin/asapcat
+usr/bin/
 usr/share/akonadi/agents/knutresource.desktop
 usr/share/config.kcfg/resourcebase.kcfg
 usr/share/dbus-1/services/org.freedesktop.Akonadi.Control.service

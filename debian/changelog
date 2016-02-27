@@ -18,7 +18,8 @@ akonadi (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   * Fix unstable merge. 
   
   [ Clive Johnston ]
-  * Adding new build deps 
+  * Adding new build deps
+  * Fixing install files 
 
   [ Scarlett Clark ]
   * Add missing build dependencies (required and optional) 
