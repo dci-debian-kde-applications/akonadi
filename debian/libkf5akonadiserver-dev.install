@@ -1,4 +1,6 @@
-usr/include/KF5/akonadi/
+usr/include/KF5/
 usr/lib/*/cmake/KF5Akonadi/
 usr/lib/*/libKF5AkonadiPrivate.so
+usr/lib/*/qt5/mkspecs/modules/
+usr/lib/*/qt5/plugins/akonadi/akonadi_test_searchplugin.so
 usr/share/dbus-1/interfaces/

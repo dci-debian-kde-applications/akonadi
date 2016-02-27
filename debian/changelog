@@ -23,6 +23,8 @@ akonadi (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Add missing build dependencies (required and optional) 
   * Fix install location for -dev. 
+  * Add the new libraries agentbase, core, widgets, xml and
+    the relevant install files.  
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:29:44 +0000
 
