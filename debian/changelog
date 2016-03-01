@@ -38,6 +38,7 @@ akonadi (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Clive Johnston ]
   * Refreshing symbols
+  * Adding qttools5-dev as a build dep
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:29:44 +0000
 

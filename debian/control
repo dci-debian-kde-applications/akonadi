@@ -25,6 +25,7 @@ Build-Depends: automoc,
                pkg-config,
                pkg-kde-tools (>= 0.12),
                qtbase5-dev (>= 5.2.0),
+               qttools5-dev,
                shared-mime-info (>= 0.20),
                xsltproc
 Standards-Version: 3.9.6
@@ -108,7 +109,9 @@ Description: libraries for the Akonadi PIM xml service
 Package: libkf5akonadiserver-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5akonadiprivate5 (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Depends: libkf5akonadiprivate5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Breaks: libakonadi-dev
 Replaces: libakonadi-dev
 Description: development files for the Akonadi PIM storage service
