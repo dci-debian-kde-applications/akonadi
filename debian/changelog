@@ -29,7 +29,8 @@ akonadi (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Clive Johnston ]
   * Adding install and symbol files which seem to be missing
-    from previous commit 
+    from previous commit
+  * Fixing control file for libkf5akonadiserver-dev
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:29:44 +0000
 
