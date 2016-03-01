@@ -38,6 +38,8 @@ Architecture: any
 Depends: akonadi-backend-mysql (= ${source:Version}) | akonadi-backend-sqlite (= ${binary:Version}) | akonadi-backend-postgresql (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Breaks: kdepimlibs-bin (<< 15.12.1~)
+Replaces: kdepimlibs-bin (<< 15.12.1~)
 Suggests: akonadi-backend-mysql (= ${source:Version}),
           akonadi-backend-postgresql (= ${source:Version}),
           akonadi-backend-sqlite (= ${binary:Version})
