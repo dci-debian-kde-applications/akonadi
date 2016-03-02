@@ -109,7 +109,11 @@ Description: libraries for the Akonadi PIM xml service
 Package: libkf5akonadiserver-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5akonadiprivate5 (= ${binary:Version}),
+Depends: libkf5akonadiagentbase5 (= ${binary:Version}),
+         libkf5akonadicore5 (= ${binary:Version}),
+         libkf5akonadiprivate5 (= ${binary:Version}),
+         libkf5akonadiwidgets5 (= ${binary:Version}),
+         libkf5akonadixml5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Breaks: libakonadi-dev
