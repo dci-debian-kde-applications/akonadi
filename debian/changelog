@@ -41,6 +41,9 @@ akonadi (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   * Adding qttools5-dev as a build dep
   * Adding akonadi5widgets.so to install file
 
+  [ Scarlett Clark ]
+  * Lower the breaks/replace to the version of failure for kdepimlibs-bin 
+
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:29:44 +0000
 
 akonadi (4:15.08.2-0ubuntu3) xenial; urgency=medium
