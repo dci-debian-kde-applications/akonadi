@@ -16,6 +16,10 @@ akonadi (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * No changes, trigger rebuild with new kolab. 
 
+  [ Scarlett Clark ]
+  * Lower the breaks/replace to the version of failure for kdepimlibs-bin 
+  * Add breaks/replace in archive release. 
+
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:29:44 +0000
 
 akonadi (4:15.08.2-0ubuntu3) xenial; urgency=medium
