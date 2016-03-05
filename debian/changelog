@@ -19,6 +19,7 @@ akonadi (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Lower the breaks/replace to the version of failure for kdepimlibs-bin 
   * Add breaks/replace in archive release. 
+  * Use strictly earlier than current release on break/replace for kdepimlibs-bin. 
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:29:44 +0000
 
