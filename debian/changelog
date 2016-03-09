@@ -1,4 +1,4 @@
-akonadi (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+akonadi (4:15.12.1-0ubuntu1) xenial; urgency=medium
 
   [ Clive Johnston ]
   * New upstream release
@@ -21,7 +21,7 @@ akonadi (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   * Add breaks/replace in archive release. 
   * Use strictly earlier than current release on break/replace for kdepimlibs-bin. 
 
- -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:29:44 +0000
+ -- Clive Johnston <clivejo@aol.com>  Wed, 09 Mar 2016 10:19:51 +0100
 
 akonadi (4:15.08.2-0ubuntu3) xenial; urgency=medium
 
