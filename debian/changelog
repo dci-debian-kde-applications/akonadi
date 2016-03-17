@@ -1,8 +1,9 @@
-akonadi (4:15.12.2-0ubuntu1) UNRELEASED; urgency=medium
+akonadi (4:15.12.3-0ubuntu1) UNRELEASED; urgency=medium
   
   * New upstream bugfix release
-    
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 20:37:31 -0800
+      * New upstream bugfix release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 16 Mar 2016 18:43:51 -0700
 
 akonadi (4:15.12.1-0ubuntu2) xenial; urgency=medium
 
