@@ -1,3 +1,10 @@
+akonadi (4:15.12.3-0ubuntu3) xenial; urgency=medium
+
+  [ Scarlett Clark (Lappy2.0 Debian Packaging) ]
+  * Debsign broken... adding nickname. 
+
+ -- Scarlett Clark (Lappy2.0 Debian Packaging) <sgclark@kubuntu.org>  Sat, 16 Apr 2016 12:57:04 -0700
+
 akonadi (4:15.12.3-0ubuntu2) xenial; urgency=medium
 
   * Bring in Robie Basak commits made in launchpad...
