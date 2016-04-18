@@ -1,3 +1,11 @@
+akonadi (4:15.12.3-0ubuntu5) xenial; urgency=medium
+
+  * kubuntu_disable_secure_file_priv_check.diff: 
+    - Set secure_file_priv to empty as that directory is not set in a default
+      kubuntu install
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Mon, 18 Apr 2016 15:24:43 +0200
+
 akonadi (4:15.12.3-0ubuntu4) xenial; urgency=medium
 
   * Bring in Robie Basak commits made in launchpad...
