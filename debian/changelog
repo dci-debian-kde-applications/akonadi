@@ -1,8 +1,11 @@
-akonadi (4:15.12.3-0ubuntu6) UNRELEASED; urgency=medium
+akonadi (4:15.12.3-0ubuntu6) xenial; urgency=medium
 
-  * Add DEP-3 information to kubuntu_disable_secure_file_priv_check.diff 
+  * kubuntu_fix_mysql_db_creation_57.diff:
+    Fix MySQL DB first run setup (LP: #1572100)
+    (Thanks to Lars Tangvald for the patches)
+  * Add DEP3 headers for kubuntu_disable_secure_file_priv_check.diff
 
- -- Philip Muškovac <yofel@kubuntu.org>  Mon, 18 Apr 2016 15:38:23 +0200
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 20 Apr 2016 10:25:18 +0200
 
 akonadi (4:15.12.3-0ubuntu5) xenial; urgency=medium
 
