@@ -1,11 +1,13 @@
-akonadi (15.12.3-1~1.gbp16cb0b) UNRELEASED; urgency=medium
+akonadi (16.04.0-1~1.gbp71b2d1) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @16cb0b9e45834a1d51203560d0663a6c50d4fff5 **
+  ** SNAPSHOT build @71b2d1af177f5f7345209576a3a590c99135c5ec **
 
   * Bump Standards-Version to 3.9.8
   * Refresh patches
+  * Add a .gitattributes file to use dpkg-mergechangelogs
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:36:46 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 02:35:34 +0200
 
 akonadi (15.12.1-1) experimental; urgency=medium
 
