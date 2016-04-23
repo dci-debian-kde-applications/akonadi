@@ -10,16 +10,27 @@ Build-Depends: automoc,
                cmake (>= 2.8.12~),
                debhelper (>= 9),
                dh-apparmor,
-               extra-cmake-modules (>= 5.14.0~),
+               extra-cmake-modules (>= 5.16.0~),
+               kdesignerplugin (>= 5.16.0~),
+               kio-dev (>= 5.16.0~),
+               libkf5completion-dev (>= 5.16.0~),
+               libkf5config-dev (>= 5.16.0~),
+               libkf5dbusaddons-dev (>= 5.16.0~),
+               libkf5guiaddons-dev (>= 5.16.0~),
+               libkf5i18n-dev (>= 5.16.0~),
+               libkf5iconthemes-dev (>= 5.16.0~),
+               libkf5itemmodels-dev (>= 5.16.0~),
+               libkf5itemviews-dev (>= 5.16.0~),
+               libkf5windowsystem-dev (>= 5.16.0~),
                libmysqlclient-dev,
                libsqlite3-dev (>= 3.6.23),
                libxml2-utils,
                pkg-config,
                pkg-kde-tools (>= 0.12),
-               qtbase5-dev (>= 5.2.0),
+               qtbase5-dev (>= 5.4.0~),
                shared-mime-info (>= 0.20),
                xsltproc
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: http://pim.kde.org/akonadi
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/akonadi.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/akonadi.git

@@ -1,16 +1,16 @@
-Last-Update: 2015-07-14
-Forwarded: no
-Bug-Debian: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=791805
-Author: Dmitry Smirnov <onlyjob@member.fsf.org>
-Description: add PostgreSQL 9.4 path
- Perhaps there shall be a better way to find PostgreSQL executable than
- to search through the list of hard-coded paths...
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Wed, 13 Apr 2016 11:36:15 +0200
+Subject: postgresql9.4_9.5
 
-Index: akonadi/src/server/storage/dbconfigpostgresql.cpp
-===================================================================
---- akonadi.orig/src/server/storage/dbconfigpostgresql.cpp	2016-01-27 13:51:28.796803319 +0100
-+++ akonadi/src/server/storage/dbconfigpostgresql.cpp	2016-01-27 13:53:00.233150969 +0100
-@@ -84,7 +84,9 @@
+---
+ src/server/storage/dbconfigpostgresql.cpp | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/src/server/storage/dbconfigpostgresql.cpp b/src/server/storage/dbconfigpostgresql.cpp
+index 4fe46cf..ee46b9b 100644
+--- a/src/server/storage/dbconfigpostgresql.cpp
++++ b/src/server/storage/dbconfigpostgresql.cpp
+@@ -85,7 +85,9 @@ bool DbConfigPostgresql::init(QSettings &settings)
                             << QStringLiteral("/usr/lib/postgresql/9.0/bin")
                             << QStringLiteral("/usr/lib/postgresql/9.1/bin")
                             << QStringLiteral("/usr/lib/postgresql/9.2/bin")
