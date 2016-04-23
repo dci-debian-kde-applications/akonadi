@@ -1,5 +1,8 @@
-akonadi (16.04.0-1~1.gbp71b2d1) UNRELEASED; urgency=medium
+akonadi (16.04.0-1~2.gbp37a307) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @37a3072507847cc0f38fd6f724acf36e2f2d8ef4 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @71b2d1af177f5f7345209576a3a590c99135c5ec **
 
   * Bump Standards-Version to 3.9.8
@@ -7,7 +10,16 @@ akonadi (16.04.0-1~1.gbp71b2d1) UNRELEASED; urgency=medium
   * Add a .gitattributes file to use dpkg-mergechangelogs
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 02:35:34 +0200
+  [ Maximiliano Curia ]
+  * Pre-release 15.12.1-2~
+  * Add missing dependency on mysql server core.
+  * New upstream release (15.12.2).
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Add kgendesignerplugin as a build dep
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sat, 23 Apr 2016 10:08:20 +0200
 
 akonadi (15.12.1-1) experimental; urgency=medium
 
