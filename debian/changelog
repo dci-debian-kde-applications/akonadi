@@ -1,6 +1,6 @@
-akonadi (16.04.0-1~2.gbp37a307) UNRELEASED; urgency=medium
+akonadi (16.04.0-1~3.gbpc88bd8) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @37a3072507847cc0f38fd6f724acf36e2f2d8ef4 **
+  ** SNAPSHOT build @c88bd892c3c2e35cfb1b886c9a3ad72150e23b0f **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @71b2d1af177f5f7345209576a3a590c99135c5ec **
@@ -18,8 +18,9 @@ akonadi (16.04.0-1~2.gbp37a307) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Add kgendesignerplugin as a build dep
+  * Update build dependencies
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sat, 23 Apr 2016 10:08:20 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 25 Apr 2016 18:35:18 +0200
 
 akonadi (15.12.1-1) experimental; urgency=medium
 
