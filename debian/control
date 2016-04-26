@@ -63,7 +63,7 @@ Multi-Arch: foreign
 Depends: libboost-dev (>= 1.34.0~),
          libkf5akonadiagentbase5 (= ${binary:Version}),
          libkf5akonadicore5 (= ${binary:Version}),
-         libkf5akonadiserver-dev (>= 5.1.51~),
+         libkf5akonadiserver-dev (>= ${binary:Version}),
          libkf5akonadiwidgets5 (= ${binary:Version}),
          libkf5akonadixml5 (= ${binary:Version}),
          libkf5completion-dev (>= 5.16.0~),
@@ -87,7 +87,7 @@ Description: development files for the KDE Development Platform PIM libraries
 Package: libkf5akonadiagentbase5
 Architecture: any
 Multi-Arch: same
-Depends: kdepimlibs-data (= ${source:Version}),
+Depends: kdepimlibs-data (>= 4:15.12~),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Akonadi agent base library
@@ -99,9 +99,7 @@ Description: Akonadi agent base library
 Package: libkf5akonadicore5
 Architecture: any
 Multi-Arch: same
-Depends: libkf5akonadicore-bin (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: libkf5akonadiwidgets5 (= ${binary:Version})
 Description: Akonadi core library
  This library contains Akonadi PIM data server core classes.
@@ -130,7 +128,7 @@ Description: Akonadi widgets library
 Package: libkf5akonadixml5
 Architecture: any
 Multi-Arch: same
-Depends: kdepimlibs-data (= ${source:Version}),
+Depends: kdepimlibs-data (= 4:15.12~),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Akonadi XML helper library

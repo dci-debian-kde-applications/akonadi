@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:16.04.0 amd64
-libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
+libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#, libkf5akonadicore-bin
  _Z5qHashRKN7Akonadi8RelationE@Base 15.07.90
  (optional=templinst)_ZN12KConfigGroup10writeEntryIxEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 15.07.90
  _ZN7Akonadi10Collection10setEnabledEb@Base 15.07.90
