@@ -86,6 +86,17 @@ Description: development files for the KDE Development Platform PIM libraries
  .
  This package is part of the KDE Development Platform PIM libraries module.
 
+Package: libkf5akonadi-dev-bin
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Additional development binaries for the Akonadi KDE PIM libraries
+ This package contains development files for building software that uses
+ the KDE Development Platform Personal Information Management libraries.
+ .
+ This package is part of the KDE Development Platform PIM libraries module.
+
 Package: libkf5akonadiagentbase5
 Architecture: any
 Multi-Arch: same
