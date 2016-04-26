@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.12.0 amd64
+# SymbolsHelper-Confirmed: 4:16.04.0 amd64
 libKF5AkonadiPrivate.so.5 libkf5akonadiprivate5 #MINVER#
  _ZN7Akonadi10ImapParser10parseBlockERK10QByteArray@Base 15.07.90
  _ZN7Akonadi10ImapParser11parseNumberERK10QByteArrayRxPbi@Base 15.07.90
@@ -562,10 +562,10 @@ libKF5AkonadiPrivate.so.5 libkf5akonadiprivate5 #MINVER#
  _ZN7Akonadi8Protocol22FetchRelationsResponse11setRemoteIdERK10QByteArray@Base 15.07.90
  _ZN7Akonadi8Protocol22FetchRelationsResponseC1ERKNS0_7CommandE@Base 15.07.90
  _ZN7Akonadi8Protocol22FetchRelationsResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol22FetchRelationsResponseC1ExxRK10QByteArrayS4_@Base 15.07.90
+ _ZN7Akonadi8Protocol22FetchRelationsResponseC1ExRK10QByteArrayxS4_S4_S4_@Base 4:16.04.0
  _ZN7Akonadi8Protocol22FetchRelationsResponseC2ERKNS0_7CommandE@Base 15.07.90
  _ZN7Akonadi8Protocol22FetchRelationsResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol22FetchRelationsResponseC2ExxRK10QByteArrayS4_@Base 15.07.90
+ _ZN7Akonadi8Protocol22FetchRelationsResponseC2ExRK10QByteArrayxS4_S4_S4_@Base 4:16.04.0
  _ZN7Akonadi8Protocol22ModifyRelationResponseC1ERKNS0_7CommandE@Base 15.07.90
  _ZN7Akonadi8Protocol22ModifyRelationResponseC1Ev@Base 15.07.90
  _ZN7Akonadi8Protocol22ModifyRelationResponseC2ERKNS0_7CommandE@Base 15.07.90
@@ -966,6 +966,8 @@ libKF5AkonadiPrivate.so.5 libkf5akonadiprivate5 #MINVER#
  _ZNK7Akonadi8Protocol21StreamPayloadResponse11payloadNameEv@Base 15.07.90
  _ZNK7Akonadi8Protocol21StreamPayloadResponse4dataEv@Base 15.07.90
  _ZNK7Akonadi8Protocol21StreamPayloadResponse8metaDataEv@Base 15.07.90
+ _ZNK7Akonadi8Protocol22FetchRelationsResponse12leftMimeTypeEv@Base 4:16.04.0
+ _ZNK7Akonadi8Protocol22FetchRelationsResponse13rightMimeTypeEv@Base 4:16.04.0
  _ZNK7Akonadi8Protocol22FetchRelationsResponse4leftEv@Base 15.07.90
  _ZNK7Akonadi8Protocol22FetchRelationsResponse4typeEv@Base 15.07.90
  _ZNK7Akonadi8Protocol22FetchRelationsResponse5rightEv@Base 15.07.90
