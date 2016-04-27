@@ -91,6 +91,8 @@ Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: kdepimlibs5-dev
+Replaces: kdepimlibs5-dev
 Description: Additional development binaries for the Akonadi KDE PIM libraries
  This package contains development files for building software that uses
  the KDE Development Platform Personal Information Management libraries.
