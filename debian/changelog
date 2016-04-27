@@ -1,12 +1,13 @@
-akonadi (4:16.04.0-1~2.gbp37a307) UNRELEASED; urgency=medium
+akonadi (4:16.04.0-1~3.gbp50165d) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @37a3072507847cc0f38fd6f724acf36e2f2d8ef4 **
+  ** SNAPSHOT build @50165d4c4dc542094f20caab2510a83c8a09eb6d **
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
   * Refresh patches
   * Add a .gitattributes file to use dpkg-mergechangelogs
   * Update build-deps and deps with the info from cmake
+  * Update symbols files.
 
   [ Maximiliano Curia ]
   * Pre-release 15.12.1-2~
@@ -16,8 +17,10 @@ akonadi (4:16.04.0-1~2.gbp37a307) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Add kgendesignerplugin as a build dep
+  * Add missing breaks/replaces, knutresource was in in kdepimlibs5-dev
+  * Set the dev-bin as m-a: foreign
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sat, 23 Apr 2016 10:08:20 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 27 Apr 2016 08:58:24 +0200
 
 akonadi (15.12.1-1) experimental; urgency=medium
 
