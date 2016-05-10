@@ -1,6 +1,6 @@
-akonadi (4:16.04.0-1~3.gbp50165d) UNRELEASED; urgency=medium
+akonadi (4:16.04.1-1~1.gbp828e59) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @50165d4c4dc542094f20caab2510a83c8a09eb6d **
+  ** SNAPSHOT build @828e598b9b098cb3b02e5aef91e03e9fd1051749 **
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
@@ -19,8 +19,9 @@ akonadi (4:16.04.0-1~3.gbp50165d) UNRELEASED; urgency=medium
   * Add kgendesignerplugin as a build dep
   * Add missing breaks/replaces, knutresource was in in kdepimlibs5-dev
   * Set the dev-bin as m-a: foreign
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 27 Apr 2016 08:58:24 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 10 May 2016 20:35:20 +0200
 
 akonadi (15.12.1-1) experimental; urgency=medium
 
