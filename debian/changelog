@@ -1,6 +1,4 @@
-akonadi (4:16.04.1-1~2.gbpfe4287) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @fe4287fd36b39e1de32487e01685dc0b89b9eed8 **
+akonadi (4:16.04.1-1) experimental; urgency=medium
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
@@ -10,7 +8,6 @@ akonadi (4:16.04.1-1~2.gbpfe4287) UNRELEASED; urgency=medium
   * Update symbols files.
 
   [ Maximiliano Curia ]
-  * Pre-release 15.12.1-2~
   * Add missing dependency on mysql server core.
   * New upstream release (15.12.2).
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -19,10 +16,9 @@ akonadi (4:16.04.1-1~2.gbpfe4287) UNRELEASED; urgency=medium
   * Add kgendesignerplugin as a build dep
   * Add missing breaks/replaces, knutresource was in in kdepimlibs5-dev
   * Set the dev-bin as m-a: foreign
-  * UNRELEASED
   * Add new patch: set_dependency_order.diff
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 27 May 2016 14:29:24 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 27 May 2016 18:08:49 +0200
 
 akonadi (15.12.1-1) experimental; urgency=medium
 
