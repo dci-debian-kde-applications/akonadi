@@ -1,6 +1,6 @@
-akonadi (4:16.04.1-1~1.gbp828e59) UNRELEASED; urgency=medium
+akonadi (4:16.04.1-1~2.gbpfe4287) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @828e598b9b098cb3b02e5aef91e03e9fd1051749 **
+  ** SNAPSHOT build @fe4287fd36b39e1de32487e01685dc0b89b9eed8 **
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
@@ -20,8 +20,9 @@ akonadi (4:16.04.1-1~1.gbp828e59) UNRELEASED; urgency=medium
   * Add missing breaks/replaces, knutresource was in in kdepimlibs5-dev
   * Set the dev-bin as m-a: foreign
   * UNRELEASED
+  * Add new patch: set_dependency_order.diff
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 10 May 2016 20:35:20 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 27 May 2016 14:29:24 +0200
 
 akonadi (15.12.1-1) experimental; urgency=medium
 
