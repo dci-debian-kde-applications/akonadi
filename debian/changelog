@@ -1,3 +1,15 @@
+akonadi (4:16.04.1-2~1.gbpc77e3e) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @c77e3e752d849c0804eda3143c617e25054132fb **
+
+  [ Maximiliano Curia ]
+  * Update copyright information
+
+  [ Automatic packaging ]
+  * Update symbols files from buildds logs (4:16.04.1-1).
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 29 May 2016 13:35:39 +0200
+
 akonadi (4:16.04.1-1) experimental; urgency=medium
 
   [ Automatic packaging ]
