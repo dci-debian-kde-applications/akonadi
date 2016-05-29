@@ -6,58 +6,114 @@ Comment:
  on Fri, 24 april 2008 09:49:34 +0200.
 
 Files: *
-Copyright:
-    2009      Andras Mantia <amantia@kde.org>
-    2006      Andreas Gungl <a.gungl@gmx.de>
-    2009-2010 Bertjan Broeksema <broeksema@kde.org>
-    2014      Christian Mollekopf <mollekopf@kolabsys.com>
-    2007      Christian Schaarschmidt <schaarsc@gmx.de>
-    2013-2014 Daniel Vrátil <dvratil@redhat.com>
-    2006-2007 David Faure <faure@kde.org>
+Copyright: 2009, Andras Mantia <amantia@kde.org>
+           2006, Andreas Gungl <a.gungl@gmx.de>
+           2009-2010, Bertjan Broeksema <broeksema@kde.org>
+           2007, Bruno Virlet <bruno.virlet@gmail.com>
+           2011, Christian Mollekopf <chrigi_1@fastmail.fm>
+           2013-2014, Christian Mollekopf <mollekopf@kolabsys.com>
+           2007, Christian Schaarschmidt <schaarsc@gmx.de>
+           2009, Constantin Berzan <exit3219@gmail.com>
+           2014, Daniel Vrátil <dvraitl@redhat.com>
+           2015, Daniel Vrátil <dvratil@kde.org>
+           2013-2015, Daniel Vrátil <dvratil@redhat.com>
+           2013, David Faure <faure@kde.org>
+           2009, Igor Trindade Oliveira <igor_trindade@yahoo.com.br>
+           2006-2008, Ingo Klöcker <kloecker@kde.org>
+           2010, KDAB
+           2007-2009, Kevin Krammer <kevin.krammer@gmx.at>
+           2009, Kevin Ottens <ervin@kde.org>
+           2010, Klarälvdalens Datakonsult AB
+           2010-2016, Laurent Montel <montel@kde.org>
+           2010, Marc Mutz <mutz@kde.org>
+           1997, Matthias Kalle Dalheimer <kalle@kde.org>
+           2010, Michael Jansen <kde@michael-jansen>
+           2010, Milian Wolff <mail@milianw.de>
+           2008, Omat Holding B.V <info@omat.nl>
+           2007, Robert Zwerus <arzie@dds.nl>
+           2010, Sebastian Trueg <trueg@kde.org>
+           2008-2011, Stephen Kelly <steveire@gmail.com>
+           2009, Szymon Stefanek <s.stefanek@gmail.com>
+           2009, Thomas McGuire <mcguire@kde.org>
+           2008, Thomas McGuire <thomas.mcguire@gmx.net>
+           2006-2010, Till Adam <adam@kde.org>
+           2010, Till Adam <till@kdab.com>
+           2000, Timo Hummel <timo.hummel@sap.com>
+           2006-2011, Tobias Koenig <tokoe@kde.org>
+           2006-2013, Volker Krause <vkrause@kde.org>
+           2010, Will Stephenson <wstephenson@kde.org>
     2002      Holger Freyther <freyther@kde.org>
-    2006      Ingo Kloecker <kloecker@kde.org>
-    2007-2008 Kevin Krammer <kevin.krammer@gmx.at>
-    2015      Laurent Montel <montel@kde.org>
-    2010      Marc Mutz <mutz@kde.org>
-    1997      Matthias Kalle Dalheimer <kalle@kde.org>
-    2010      Michael Jansen <kde@michael-jansen>
-    2010      Milian Wolff <mail@milianw.de>
-    2007      Robert Zwerus <arzie@dds.nl>
-    2008-2010 Sebastian Trueg <sebastian@trueg.de> <trueg@kde.org>
-    2009      Szymon Stefanek <s.stefanek@gmail.com>
-    2006      Till Adam <adam@kde.org>
-    2000      Timo Hummel <timo.hummel@sap.com>
-    2006-2010 Tobias Koenig <tokoe@kde.org>
     2000      Tom Braun <braunt@fh-konstanz.de>
-    2006-2013 Volker Krause <vkrause@kde.org>
+           2014, Daniel Vrátil <dvratil@redhat.com>
+           2010, Stephen Kelly <steveire@gmail.com>
+           2009, Volker Krause <vkrause@kde.org>
 License: LGPL-2+
 Comment:
  See full list of contributors in "AUTHORS" file.
 
-Files: autotests/server/dbpopulator.h
+Files: COPYING.LIB
+       autotests/akonadicontrol/agenttypetest.cpp
+       autotests/libs/testrunner/config.cpp
+       autotests/libs/testrunner/config.h
+       autotests/libs/testrunner/setup.cpp
+       autotests/libs/testrunner/setup.h
+       autotests/libs/testrunner/shellscript.cpp
+       autotests/libs/testrunner/shellscript.h
+       autotests/libs/testrunner/testrunner.cpp
+       autotests/libs/testrunner/testrunner.h
+       autotests/private/externalpartstoragetest.cpp
+       autotests/private/protocoltest.cpp
+       autotests/private/protocoltest.h
+       autotests/server/dbpopulator.h
+       autotests/server/fakeakonadiserver.cpp
+       autotests/server/fakeakonadiserver.h
        autotests/server/fakeclient.cpp
        autotests/server/fakeclient.h
        autotests/server/fakesearchmanager.cpp
        autotests/server/fakesearchmanager.h
        autotests/server/partstreamertest.cpp
        autotests/server/searchtest.cpp
-       src/server/connectionthread.cpp
-       src/server/connectionthread.h
+       src/core/jobs/collectionattributessynchronizationjob.cpp
+       src/core/jobs/collectionattributessynchronizationjob.h
+       src/core/jobs/resourcesynchronizationjob.cpp
+       src/core/jobs/resourcesynchronizationjob.h
+       src/private/datastream_p.cpp
+       src/private/datastream_p_p.h
+       src/private/externalpartstorage.cpp
+       src/private/externalpartstorage_p.h
+       src/private/instance.cpp
+       src/private/instance_p.h
+       src/server/commandcontext.cpp
+       src/server/commandcontext.h
+       src/server/handler/searchresult.cpp
+       src/server/handler/searchresult.h
        src/server/storage/collectionstatistics.cpp
        src/server/storage/collectionstatistics.h
        src/server/storage/partstreamer.cpp
        src/server/storage/partstreamer.h
-Copyright: 2014, Daniel Vrátil <dvratil@redhat.com>
-License: LGPL-2.1+
-
-Files: autotests/server/fakeakonadiserver.cpp
-       autotests/server/fakeakonadiserver.h
-       src/server/commandcontext.cpp
-       src/server/commandcontext.h
        src/server/storage/storagedebugger.cpp
        src/server/storage/storagedebugger.h
-Copyright: 2013-2014, Daniel Vrátil <dvratil@redhat.com>
-License: GPL-2+
+       src/widgets/agenttypedialog.cpp
+       src/widgets/agenttypedialog.h
+       autotests/libs/testrunner/main.cpp
+Copyright: 2013-2015, Daniel Vrátil <dvratil@redhat.com>
+           2016, Elvis Angelaccio <elvis.angelaccio@kdemail.net>
+           1991-1999, Free Software Foundation, Inc
+           2008, Igor Trindade Oliveira <igor_trindade@yahoo.com.br>
+           2008, Omat Holding B.V <info@omat.nl>
+           2006, Tobias Koenig <tokoe@kde.org>
+           2009-2013, Volker Krause <vkrause@kde.org>
+           2008, Igor Trindade Oliveira <igor_trindade@yahoo.com.br>
+License: LGPL-2.1+
+
+Files: autotests/libs/newmailnotifierattributetest.cpp
+       autotests/libs/newmailnotifierattributetest.h
+       autotests/libs/pop3resourceattributetest.cpp
+       autotests/libs/pop3resourceattributetest.h
+       autotests/libs/tagselectwidgettest.cpp
+       autotests/libs/tagselectwidgettest.h
+Copyright: 2014-2015, Montel Laurent <montel@kde.org>
+License: GPL-2
 
 Files: src/qsqlite/src/QtSql/private/qobject_p.h
        src/qsqlite/src/QtSql/private/qsqlcachedresult_p.h
@@ -103,12 +159,20 @@ License: GPL-3_or_LGPL-2.1-QTexception-1.1
  complete text of the GNU Lesser General Public License version 2.1 can be
  found in `/usr/share/common-licenses/LGPL-2.1'.
 
-Files: src/private/datastream_p.cpp
-       src/private/datastream_p_p.h
-       src/server/handler/searchresult.cpp
-       src/server/handler/searchresult.h
-Copyright: 2013-2015, Daniel Vrátil <dvratil@redhat.com>
+Files: autotests/libs/collectionmodifytest.cpp
+       autotests/libs/tagmodeltest.cpp
+       src/core/itemchangelog.cpp
+       src/core/itemchangelog_p.h
+Copyright: 2015, Daniel Vrátil <dvratil@kde.org>
+           2015, Daniel Vrátil <dvratil@redhat.com>
 License: GPL-2+3+KDEeV
+
+Files: autotests/libs/fakeakonadiservercommand.cpp
+       autotests/libs/fakeakonadiservercommand.h
+       autotests/libs/fakeserverdata.cpp
+       autotests/libs/fakeserverdata.h
+Copyright: 2009, Stephen Kelly <steveire@gmail.com>
+License: GPL-2+
 
 Files: cmake/modules/COPYING-CMAKE-SCRIPTS
        cmake/modules/FindSqlite.cmake
@@ -118,6 +182,20 @@ Copyright: 2010, Christophe Giboudeaux <cgiboudeaux@gmail.com>
            2008, Gilles Caulier <caulier.gilles@gmail.com>
            2000-2009, Kitware, Inc., Insight Software Consortium
 License: BSD-3-clause
+
+Files: cmake/modules/AkonadiMacros.cmake
+       cmake/modules/FindStdlibInclude.cmake
+       cmake/modules/FindXsltproc.cmake
+License: BSD-3-clause
+Comment: No explicit license found, using license(s) from:
+ cmake/modules/COPYING-CMAKE-SCRIPTS
+
+Files: src/core/qtest_akonadi.h
+       src/xml/autotests/collectiontest.h
+Copyright: 2006, David Faure <faure@kde.org>
+           2008, Igor Trindade Oliveira <igor_trindade@yahoo.com.br>
+           2009, Volker Krause <vkrause@kde.org>
+License: LGPL-2
 
 Files: src/qsqlite/src/qsql_sqlite.h
        src/qsqlite/src/smain.cpp
@@ -161,13 +239,18 @@ License: GPL-3_or_LGPL-2.1-QTexception-1.0
  found in `/usr/share/common-licenses/LGPL-2.1'.
  above.
 
-Files: cmake/modules/FindASan.cmake
-Copyright: 2013, Matthew Arsenault
-License: Expat
+Files: src/core/kdsignalblocker.cpp
+       src/core/kdsignalblocker.h
+Copyright: 2001-2012, Klaralvdalens Datakonsult AB
+License: LGPL-2+3
 
 Files: cmake/modules/FindBacktrace.cmake
 Copyright: 2013, Vadim Zhukov <persgray@gmail.com>
 License: ISC
+
+Files: cmake/modules/FindASan.cmake
+Copyright: 2013, Matthew Arsenault
+License: Expat
 
 Files: debian/*
 Copyright: 2008-2015 Debian Qt/KDE Maintainers
@@ -219,6 +302,19 @@ License: Expat
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  THE SOFTWARE.
 
+License: GPL-2
+ This program is free software; you can redistribute it and/or modify it
+ under the terms of the GNU General Public License, version 2, as
+ published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2 can be found in
+ `/usr/share/common-licenses/GPL-2'.
+
 License: GPL-2+
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -265,6 +361,19 @@ License: ISC
  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
+License: LGPL-2
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License version 2 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ The complete text of the GNU Library General Public License version 2
+ can be found in `/usr/share/common-licenses/LGPL-2'.
+
 License: LGPL-2+
  This library is free software; you can redistribute it and/or modify it
  under the terms of the GNU Library General Public License as published by
@@ -292,3 +401,16 @@ License: LGPL-2.1+
  .
  The complete text of the GNU Lesser General Public License version 2.1
  can be found in `/usr/share/common-licenses/LGPL-2.1'.
+
+License: LGPL-2+3
+ This file may be distributed and/or modified under the terms of the GNU
+ Lesser General Public License version 2 and version 3 as published by the
+ Free Software Foundation and appearing in the file LICENSE.LGPL included.
+ .
+ This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE
+ WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+ .
+ The complete text of the GNU Library General Public License version 2 can be
+ found in `/usr/share/common-licenses/LGPL-2', likewise, the complete text of
+ the GNU Lesser General Public License version 3 can be found in
+ `/usr/share/common-licenses/LGPL-3'.
