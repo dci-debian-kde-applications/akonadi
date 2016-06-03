@@ -1,14 +1,17 @@
-akonadi (4:16.04.1-2~1.gbpc77e3e) UNRELEASED; urgency=medium
+akonadi (4:16.04.1-2~2.gbp382d72) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @c77e3e752d849c0804eda3143c617e25054132fb **
+  ** SNAPSHOT build @382d72457a182c4c4d4dee5d97db442041461453 **
 
   [ Maximiliano Curia ]
   * Update copyright information
+  * Drop automoc build dependency
+  * testsuite: Set the akonaditest path
 
   [ Automatic packaging ]
   * Update symbols files from buildds logs (4:16.04.1-1).
+  * Update symbols files.
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 29 May 2016 13:35:39 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 03 Jun 2016 12:35:24 +0200
 
 akonadi (4:16.04.1-1) experimental; urgency=medium
 
