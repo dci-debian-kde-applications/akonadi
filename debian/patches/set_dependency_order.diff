@@ -1,6 +1,16 @@
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Wed, 15 Jun 2016 08:35:08 +0200
+Subject: set_dependency_order
+
+---
+ autotests/akonadicontrol/CMakeLists.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/autotests/akonadicontrol/CMakeLists.txt b/autotests/akonadicontrol/CMakeLists.txt
+index dc18aae..4948d49 100644
 --- a/autotests/akonadicontrol/CMakeLists.txt
 +++ b/autotests/akonadicontrol/CMakeLists.txt
-@@ -10,6 +10,7 @@
+@@ -10,6 +10,7 @@ macro(add_unit_test _source)
      get_filename_component(_name ${_source} NAME_WE)
      add_executable(${_name} ${_test})
      add_test(AkonadiControl-${_name} ${_name})
