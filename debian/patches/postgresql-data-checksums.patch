@@ -7,14 +7,14 @@ Subject: postgresql-data-checksums
  1 file changed, 1 insertion(+)
 
 diff --git a/src/server/storage/dbconfigpostgresql.cpp b/src/server/storage/dbconfigpostgresql.cpp
-index 59a337b..4fe46cf 100644
+index a3ef03e..776b05c 100644
 --- a/src/server/storage/dbconfigpostgresql.cpp
 +++ b/src/server/storage/dbconfigpostgresql.cpp
-@@ -232,6 +232,7 @@ bool DbConfigPostgresql::startInternalServer()
-         QStringList arguments;
-         arguments << QStringLiteral("--pgdata=%2").arg(mPgData)
-                   // TODO check locale
-+                  << QStringLiteral("--data-checksums")
-                   << QStringLiteral("--locale=en_US.UTF-8");
-         QProcess::execute(command, arguments);
+@@ -242,6 +242,7 @@ bool DbConfigPostgresql::startInternalServer()
+ 
+         // call 'initdb --pgdata=/home/user/.local/share/akonadi/data_db'
+         execute(mInitDbPath, { QStringLiteral("--pgdata=%1").arg(mPgData),
++                               QStringLiteral("--data-checksums"),
+                                QStringLiteral("--locale=en_US.UTF-8") // TODO: check locale
+                              });
      }
