@@ -1,6 +1,6 @@
-akonadi (4:16.04.1-2~2.gbp382d72) UNRELEASED; urgency=medium
+akonadi (4:16.04.2-1~1.gbp88d723) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @382d72457a182c4c4d4dee5d97db442041461453 **
+  ** SNAPSHOT build @88d723574a4e498b6277ea759578bae331bb5203 **
 
   [ Maximiliano Curia ]
   * Update copyright information
@@ -10,8 +10,9 @@ akonadi (4:16.04.1-2~2.gbp382d72) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update symbols files from buildds logs (4:16.04.1-1).
   * Update symbols files.
+  * Refresh patches
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 03 Jun 2016 12:35:24 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 08:35:11 +0200
 
 akonadi (4:16.04.1-1) experimental; urgency=medium
 
