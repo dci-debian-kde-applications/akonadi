@@ -1,1 +1,12 @@
 usr/bin/asapcat
+etc/akonadi/mysql-global.conf
+etc/akonadi/mysql-global-mobile.conf
+usr/bin/akonadi_agent_launcher
+usr/bin/akonadi_agent_server
+usr/bin/akonadi_control
+usr/bin/akonadictl
+usr/bin/akonadi_rds
+usr/bin/akonadiserver
+usr/lib/*/qt4/plugins/sqldrivers/libqsqlite3.so
+usr/share/dbus-1/services/org.freedesktop.Akonadi.Control.service
+usr/share/mime/packages/akonadi-mime.xml
