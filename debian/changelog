@@ -1,3 +1,9 @@
+akonadi4 (1.13.0-9~) UNRELEASED; urgency=medium
+
+  * Drop akonadi-server and backends in favor of the kf5 versions.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 21 Jun 2016 08:41:32 +0200
+
 akonadi (1.13.0-8) unstable; urgency=medium
 
   * Team upload.
