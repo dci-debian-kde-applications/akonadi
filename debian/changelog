@@ -1,19 +1,17 @@
-akonadi (4:16.04.2-1~2.gbp7b98ec) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @7b98ecdc8d6331e05a5afa33887033f58954aa7c **
+akonadi (4:16.04.2-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
   * Update copyright information
   * Drop automoc build dependency
   * testsuite: Set the akonaditest path
+  * Inject kdepimlibs-data dependency through the symbols files
 
   [ Automatic packaging ]
   * Update symbols files from buildds logs (4:16.04.1-1).
   * Update symbols files.
   * Refresh patches
-  * Refresh patches
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 23:36:32 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Jun 2016 23:02:40 +0200
 
 akonadi (4:16.04.1-1) experimental; urgency=medium
 
