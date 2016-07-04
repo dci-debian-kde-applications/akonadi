@@ -1,14 +1,13 @@
-akonadi (4:16.04.2-2~1.gbp0c79ae) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @0c79ae09010aec4725ab3ef57a7abc6e20502b68 **
+akonadi (4:16.04.2-2) unstable; urgency=low
 
   [ Maximiliano Curia ]
   * Drop libakonadi-kde4 breaks/replaces to allow installing knode and ktimetracker
+  * Release to unstable.
 
   [ Automatic packaging ]
   * Update symbols files from buildds logs (4:16.04.2-1).
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 28 Jun 2016 17:35:46 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 04 Jul 2016 15:09:18 +0200
 
 akonadi (4:16.04.2-1) experimental; urgency=medium
 
