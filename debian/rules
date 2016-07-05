@@ -26,6 +26,9 @@ override_dh_installdocs:
 override_dh_makeshlibs:
 	$(overridden_command) -V -- -c0
 
+override_dh_shlibdeps:
+	$(overridden_command) -- -xkdepimlibs-data
+
 override_dh_strip:
 	$(overridden_command) --dbgsym-migration='akonadi-dbg (<= 15.12.1-1~~)'
 
