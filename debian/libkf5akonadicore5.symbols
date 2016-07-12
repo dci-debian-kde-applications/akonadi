@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:16.04.2 amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390x x32
+# SymbolsHelper-Confirmed: 4:16.04.2 amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390x x32
 libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#, libkf5akonadicore-bin
  _Z5qHashRKN7Akonadi8RelationE@Base 15.07.90
  (optional=templinst)_ZN12KConfigGroup10writeEntryIxEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 15.07.90
@@ -2241,7 +2241,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#, libkf5akonadicore-bin
  _ZNK7Akonadi9UnlinkJob10metaObjectEv@Base 15.07.90
  (optional=templinst|arch=armel)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE10_M_destroyEv@Base 4:15.08.2
  (optional=templinst|arch=armel)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE10_M_releaseEv@Base 4:15.08.2
- (optional=templinst|arch=!armel !hppa !x32)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 15.07.90
+ (optional=templinst|arch=!armel)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 15.07.90
  (optional=templinst|arch=!armel)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv@Base 15.07.90
  _ZTIN5boost16exception_detail10clone_baseE@Base 15.07.90
  _ZTIN5boost9exceptionE@Base 15.07.90
