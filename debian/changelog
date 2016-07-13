@@ -1,3 +1,11 @@
+akonadi4 (1.13.0-10~1.gbpe32f04) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @e32f042739532a675455a5e3fdb07420650ac4a5 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 13 Jul 2016 17:42:24 +0200
+
 akonadi4 (1.13.0-9) experimental; urgency=medium
 
   * Drop akonadi-server and backends in favor of the kf5 versions.
