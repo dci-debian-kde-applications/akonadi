@@ -1,10 +1,8 @@
-akonadi4 (1.13.0-10~1.gbpe32f04) UNRELEASED; urgency=medium
+akonadi4 (1.13.0-10) unstable; urgency=medium
 
-  ** SNAPSHOT build @e32f042739532a675455a5e3fdb07420650ac4a5 **
+  * Release to unstable.
 
-  * UNRELEASED
-
- -- Maximiliano Curia <maxy@debian.org>  Wed, 13 Jul 2016 17:42:24 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 13 Jul 2016 17:43:20 +0200
 
 akonadi4 (1.13.0-9) experimental; urgency=medium
 
