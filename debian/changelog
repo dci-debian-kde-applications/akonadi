@@ -1,10 +1,16 @@
-akonadi (4:16.04.3-1~1.gbp84bb4a) UNRELEASED; urgency=medium
+akonadi (4:16.04.3-1~2.gbpb97de6) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @b97de6d741661e0cff983bf21bfd40e120eb0830 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @84bb4a3dd250036e004bb92f7862ecd7873fa8c4 **
 
   * Update symbols files from buildds logs (4:16.04.2-3).
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 20:35:43 +0200
+  [ Maximiliano Curia ]
+  * Add Breaks from kmail, korganizer and akonadiconsole, to avoid invalid installations
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 13 Jul 2016 15:35:18 +0200
 
 akonadi (4:16.04.2-3) unstable; urgency=medium
 
