@@ -1,6 +1,6 @@
-akonadi (4:16.04.3-1~2.gbpb97de6) UNRELEASED; urgency=medium
+akonadi (4:16.04.3-1~3.gbp91b37d) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @b97de6d741661e0cff983bf21bfd40e120eb0830 **
+  ** SNAPSHOT build @91b37de58385cfec28368564442114ade83201c4 **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @84bb4a3dd250036e004bb92f7862ecd7873fa8c4 **
@@ -9,8 +9,10 @@ akonadi (4:16.04.3-1~2.gbpb97de6) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * Add Breaks from kmail, korganizer and akonadiconsole, to avoid invalid installations
+  * Add conflicts for akonadi2xml against kdepimlibs5-dev.
+    Thanks to Andreas Beckmann for the report (Closes: 831226)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 13 Jul 2016 15:35:18 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 17 Jul 2016 17:35:18 +0200
 
 akonadi (4:16.04.2-3) unstable; urgency=medium
 
