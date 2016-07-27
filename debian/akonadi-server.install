@@ -6,7 +6,7 @@ usr/bin/akonadi_rds
 usr/bin/akonadictl
 usr/bin/akonadiserver
 usr/bin/asapcat
-usr/share/dbus-1/services/org.freedesktop.Akonadi.Control.service
-usr/share/mime/packages/akonadi-mime.xml
 usr/share/config.kcfg/resourcebase.kcfg
+usr/share/dbus-1/services/org.freedesktop.Akonadi.Control.service
 usr/share/kf5/akonadi/akonadi-xml.xsd
+usr/share/mime/packages/akonadi-mime.xml

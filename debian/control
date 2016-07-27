@@ -13,6 +13,7 @@ Build-Depends: cmake (>= 2.8.12~),
                kdesignerplugin (>= 5.16.0~),
                kgendesignerplugin,
                kio-dev (>= 5.16.0~),
+               libboost-dev (>= 1.34.0~),
                libkf5completion-dev (>= 5.16.0~),
                libkf5config-dev (>= 5.16.0~),
                libkf5dbusaddons-dev (>= 5.16.0~),
@@ -22,12 +23,11 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5itemmodels-dev (>= 5.16.0~),
                libkf5itemviews-dev (>= 5.16.0~),
                libkf5windowsystem-dev (>= 5.16.0~),
-               libboost-dev (>= 1.34.0~),
-               libxslt1-dev,
-               libxml2-dev,
                libmysqlclient-dev,
                libsqlite3-dev (>= 3.6.23),
+               libxml2-dev,
                libxml2-utils,
+               libxslt1-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12),
                qtbase5-dev (>= 5.4.0~),
@@ -48,7 +48,10 @@ Depends: akonadi-backend-mysql (= ${source:Version}) | akonadi-backend-sqlite (=
 Suggests: akonadi-backend-mysql (= ${source:Version}),
           akonadi-backend-postgresql (= ${source:Version}),
           akonadi-backend-sqlite (= ${binary:Version})
-Breaks: kdepimlibs-data (<<  4:16.04), kmail (<< 4:16.04), korganizer (<< 4:16.04), akonadiconsole (<< 4:16.04)
+Breaks: akonadiconsole (<< 4:16.04),
+        kdepimlibs-data (<<  4:16.04),
+        kmail (<< 4:16.04),
+        korganizer (<< 4:16.04)
 Replaces: kdepimlibs-data (<<  4:16.04)
 Description: Akonadi PIM storage service
  Akonadi is an extensible cross-desktop Personal Information Management (PIM)
@@ -102,8 +105,7 @@ Description: Additional development binaries for the Akonadi KDE PIM libraries
 Package: libkf5akonadiagentbase5
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends},
-         ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Akonadi agent base library
  This library contains classes to implement agents for the Akonadi PIM
  data server.
@@ -142,8 +144,7 @@ Description: Akonadi widgets library
 Package: libkf5akonadixml5
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends},
-         ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Akonadi XML helper library
  This library provides XML helpers using the Akonadi PIM data server.
  .
