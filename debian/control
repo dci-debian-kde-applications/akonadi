@@ -153,6 +153,7 @@ Description: Akonadi XML helper library
 
 Package: libkf5akonadiprivate5
 Architecture: any
+Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Suggests: akonadi-server (= ${binary:Version})
 Description: libraries for the Akonadi PIM storage service

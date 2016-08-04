@@ -177,18 +177,14 @@ License: GPL-2+
 Files: cmake/modules/COPYING-CMAKE-SCRIPTS
        cmake/modules/FindSqlite.cmake
        cmake/modules/cmake-copyright.txt
+       cmake/modules/AkonadiMacros.cmake
+       cmake/modules/FindStdlibInclude.cmake
+       cmake/modules/FindXsltproc.cmake
 Copyright: 2010, Christophe Giboudeaux <cgiboudeaux@gmail.com>
            2014, Daniel Vrátil <dvratil@redhat.com>
            2008, Gilles Caulier <caulier.gilles@gmail.com>
            2000-2009, Kitware, Inc., Insight Software Consortium
 License: BSD-3-clause
-
-Files: cmake/modules/AkonadiMacros.cmake
-       cmake/modules/FindStdlibInclude.cmake
-       cmake/modules/FindXsltproc.cmake
-License: BSD-3-clause
-Comment: No explicit license found, using license(s) from:
- cmake/modules/COPYING-CMAKE-SCRIPTS
 
 Files: src/core/qtest_akonadi.h
        src/xml/autotests/collectiontest.h
