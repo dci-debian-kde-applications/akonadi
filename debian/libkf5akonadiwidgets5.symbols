@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:16.04.0 amd64
-libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
+libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#, libkf5akonadicore-bin
  _ZN7Akonadi10ControlGui11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi10ControlGui11qt_metacastEPKc@Base 15.07.90
  _ZN7Akonadi10ControlGui16staticMetaObjectE@Base 15.07.90
