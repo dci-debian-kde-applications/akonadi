@@ -1,17 +1,13 @@
-akonadi (4:16.04.3-2~2.gbpf772be) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @f772bedec5c5417b0d835f1e15e177a6a32273dd **
+akonadi (4:16.04.3-2) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @1d7fc7e2ee771251862f5d2c0e00bfa42eac2332 **
-
   * Update symbols files from buildds logs (4:16.04.3-1).
 
   [ Maximiliano Curia ]
   * Inject libkf5akonadicore-bin dependency through the akonadiwidgets symbols file.
     Thanks to Bill Allombert for the report (Closes: 834099)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 12 Aug 2016 11:35:21 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 14 Aug 2016 12:07:49 +0200
 
 akonadi (4:16.04.3-1) unstable; urgency=medium
 
