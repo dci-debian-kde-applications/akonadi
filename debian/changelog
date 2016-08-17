@@ -1,3 +1,15 @@
+akonadi (4:16.04.3-3~1.gbpa490a5) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @a490a5acc8cf3f970811f6d30b75fa6f61561aec **
+
+  [ Maximiliano Curia ]
+  * Use mysql default metapackages
+
+  [ Automatic packaging ]
+  * Update symbols files with the buildds results
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 20:57:21 +0200
+
 akonadi (4:16.04.3-2) unstable; urgency=medium
 
   [ Automatic packaging ]
