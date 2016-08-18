@@ -13,24 +13,28 @@ Build-Depends: cmake (>= 2.8.12~),
                kdesignerplugin (>= 5.16.0~),
                kgendesignerplugin,
                kio-dev (>= 5.16.0~),
+               libboost-dev (>= 1.34.0~),
                libkf5completion-dev (>= 5.16.0~),
                libkf5config-dev (>= 5.16.0~),
+               libkf5configwidgets-dev (>= 5.16.0~),
+               libkf5coreaddons-dev (>= 5.16.0~),
                libkf5dbusaddons-dev (>= 5.16.0~),
                libkf5guiaddons-dev (>= 5.16.0~),
                libkf5i18n-dev (>= 5.16.0~),
                libkf5iconthemes-dev (>= 5.16.0~),
                libkf5itemmodels-dev (>= 5.16.0~),
                libkf5itemviews-dev (>= 5.16.0~),
+               libkf5widgetsaddons-dev (>= 5.16.0~),
                libkf5windowsystem-dev (>= 5.16.0~),
-               libboost-dev (>= 1.34.0~),
-               libxslt1-dev,
-               libxml2-dev,
+               libkf5xmlgui-dev (>= 5.16.0~),
                libmysqlclient-dev,
                libsqlite3-dev (>= 3.6.23),
+               libxml2-dev,
                libxml2-utils,
+               libxslt1-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12),
-               qtbase5-dev (>= 5.4.0~),
+               qtbase5-dev (>= 5.5.0~),
                qttools5-dev,
                shared-mime-info (>= 0.20),
                xsltproc
@@ -48,7 +52,10 @@ Depends: akonadi-backend-mysql (= ${source:Version}) | akonadi-backend-sqlite (=
 Suggests: akonadi-backend-mysql (= ${source:Version}),
           akonadi-backend-postgresql (= ${source:Version}),
           akonadi-backend-sqlite (= ${binary:Version})
-Breaks: kdepimlibs-data (<<  4:16.04), kmail (<< 4:16.04), korganizer (<< 4:16.04), akonadiconsole (<< 4:16.04)
+Breaks: akonadiconsole (<< 4:16.04),
+        kdepimlibs-data (<<  4:16.04),
+        kmail (<< 4:16.04),
+        korganizer (<< 4:16.04)
 Replaces: kdepimlibs-data (<<  4:16.04)
 Description: Akonadi PIM storage service
  Akonadi is an extensible cross-desktop Personal Information Management (PIM)
@@ -74,7 +81,7 @@ Depends: libboost-dev (>= 1.34.0~),
          libkf5service-dev,
          libkf5solid-dev (>= 5.12.0~),
          libkf5xmlgui-dev (>= 5.16.0~),
-         qtbase5-dev (>= 5.4.0~),
+         qtbase5-dev (>= 5.5.0~),
          ${misc:Depends},
          ${shlibs:Depends}
 Replaces: kdepim-runtime (<< 4:4.13)
@@ -102,8 +109,7 @@ Description: Additional development binaries for the Akonadi KDE PIM libraries
 Package: libkf5akonadiagentbase5
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends},
-         ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Akonadi agent base library
  This library contains classes to implement agents for the Akonadi PIM
  data server.
@@ -142,8 +148,7 @@ Description: Akonadi widgets library
 Package: libkf5akonadixml5
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends},
-         ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Akonadi XML helper library
  This library provides XML helpers using the Akonadi PIM data server.
  .
@@ -177,9 +182,9 @@ Description: development files for the Akonadi PIM storage service
 Package: akonadi-backend-mysql
 Section: misc
 Architecture: all
-Depends: libqt5sql5-mysql,
-         default-mysql-client-core | virtual-mysql-client-core,
+Depends: default-mysql-client-core | virtual-mysql-client-core,
          default-mysql-server-core | virtual-mysql-server-core,
+         libqt5sql5-mysql,
          ${misc:Depends}
 Recommends: akonadi-server
 Replaces: akonadi-server (<< 1.3.60~)
