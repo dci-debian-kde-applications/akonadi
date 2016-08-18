@@ -7,10 +7,10 @@ Subject: postgresql-data-checksums
  1 file changed, 1 insertion(+)
 
 diff --git a/src/server/storage/dbconfigpostgresql.cpp b/src/server/storage/dbconfigpostgresql.cpp
-index a3ef03e..776b05c 100644
+index 052261c..79c86cc 100644
 --- a/src/server/storage/dbconfigpostgresql.cpp
 +++ b/src/server/storage/dbconfigpostgresql.cpp
-@@ -242,6 +242,7 @@ bool DbConfigPostgresql::startInternalServer()
+@@ -241,6 +241,7 @@ bool DbConfigPostgresql::startInternalServer()
  
          // call 'initdb --pgdata=/home/user/.local/share/akonadi/data_db'
          execute(mInitDbPath, { QStringLiteral("--pgdata=%1").arg(mPgData),
