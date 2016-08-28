@@ -1,16 +1,17 @@
-akonadi (4:16.08.0-1~1.gbp44d20f) UNRELEASED; urgency=medium
+akonadi (4:16.08.0-1~2.gbpa7287b) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @44d20f7d0a51fd0422b4e161a3af7beed315fa16 **
+  ** SNAPSHOT build @a7287bdcaed448370ff44f3afbe5d8dbba9690d2 **
 
   [ Maximiliano Curia ]
   * Use mysql default metapackages
+  * Add qtbase5-private-dev build dependency.
 
   [ Automatic packaging ]
   * Update symbols files with the buildds results
   * Update build-deps and deps with the info from cmake
   * Refresh patches
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 20:35:24 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 28 Aug 2016 13:19:07 +0200
 
 akonadi (4:16.04.3-2) unstable; urgency=medium
 
