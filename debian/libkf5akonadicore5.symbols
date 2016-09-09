@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:16.04.3 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64el s390x sparc64 x32
+# SymbolsHelper-Confirmed: 4:16.08.0 amd64 armhf i386
 libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#, libkf5akonadicore-bin
  _Z5qHashRKN7Akonadi8RelationE@Base 15.07.90
  (optional=templinst)_ZN12KConfigGroup10writeEntryIxEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 15.07.90
@@ -508,6 +508,16 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#, libkf5akonadicore-bin
  _ZN7Akonadi14SessionPrivateD0Ev@Base 15.07.90
  _ZN7Akonadi14SessionPrivateD1Ev@Base 15.07.90
  _ZN7Akonadi14SessionPrivateD2Ev@Base 15.07.90
+ _ZN7Akonadi14TransactionJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.08.0
+ _ZN7Akonadi14TransactionJob11qt_metacastEPKc@Base 4:16.08.0
+ _ZN7Akonadi14TransactionJob16doHandleResponseExRKNS_8Protocol7CommandE@Base 4:16.08.0
+ _ZN7Akonadi14TransactionJob16staticMetaObjectE@Base 4:16.08.0
+ _ZN7Akonadi14TransactionJob7doStartEv@Base 4:16.08.0
+ _ZN7Akonadi14TransactionJobC1EP7QObject@Base 4:16.08.0
+ _ZN7Akonadi14TransactionJobC2EP7QObject@Base 4:16.08.0
+ _ZN7Akonadi14TransactionJobD0Ev@Base 4:16.08.0
+ _ZN7Akonadi14TransactionJobD1Ev@Base 4:16.08.0
+ _ZN7Akonadi14TransactionJobD2Ev@Base 4:16.08.0
  _ZN7Akonadi15CollectionModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi15CollectionModel11qt_metacastEPKc@Base 15.07.90
  _ZN7Akonadi15CollectionModel12dropMimeDataEPK9QMimeDataN2Qt10DropActionEiiRK11QModelIndex@Base 15.07.90
@@ -933,7 +943,6 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#, libkf5akonadicore-bin
  _ZN7Akonadi20QuotaColorProxyModelD2Ev@Base 4:15.12.0
  _ZN7Akonadi20StatisticsProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi20StatisticsProxyModel11qt_metacastEPKc@Base 15.07.90
- _ZN7Akonadi20StatisticsProxyModel13connectNotifyERK11QMetaMethod@Base 15.07.90
  _ZN7Akonadi20StatisticsProxyModel14setSourceModelEP18QAbstractItemModel@Base 15.07.90
  _ZN7Akonadi20StatisticsProxyModel16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi20StatisticsProxyModel17setToolTipEnabledEb@Base 15.07.90
@@ -1165,6 +1174,15 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#, libkf5akonadicore-bin
  _ZN7Akonadi23EntityRightsFilterModelD0Ev@Base 15.07.90
  _ZN7Akonadi23EntityRightsFilterModelD1Ev@Base 15.07.90
  _ZN7Akonadi23EntityRightsFilterModelD2Ev@Base 15.07.90
+ _ZN7Akonadi24CollectionColorAttribute11deserializeERK10QByteArray@Base 4:16.08.0
+ _ZN7Akonadi24CollectionColorAttribute8setColorERK6QColor@Base 4:16.08.0
+ _ZN7Akonadi24CollectionColorAttributeC1ERK6QColor@Base 4:16.08.0
+ _ZN7Akonadi24CollectionColorAttributeC1Ev@Base 4:16.08.0
+ _ZN7Akonadi24CollectionColorAttributeC2ERK6QColor@Base 4:16.08.0
+ _ZN7Akonadi24CollectionColorAttributeC2Ev@Base 4:16.08.0
+ _ZN7Akonadi24CollectionColorAttributeD0Ev@Base 4:16.08.0
+ _ZN7Akonadi24CollectionColorAttributeD1Ev@Base 4:16.08.0
+ _ZN7Akonadi24CollectionColorAttributeD2Ev@Base 4:16.08.0
  _ZN7Akonadi24CollectionQuotaAttribute11deserializeERK10QByteArray@Base 15.07.90
  _ZN7Akonadi24CollectionQuotaAttribute15setCurrentValueEx@Base 15.07.90
  _ZN7Akonadi24CollectionQuotaAttribute15setMaximumValueEx@Base 15.07.90
@@ -1832,6 +1850,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#, libkf5akonadicore-bin
  _ZNK7Akonadi14MonitorPrivate16fetchCollectionsEv@Base 15.07.90
  _ZNK7Akonadi14MonitorPrivate17checkBatchSupportERKNS_8Protocol18ChangeNotificationERbS5_@Base 15.07.90
  _ZNK7Akonadi14MonitorPrivate18acceptNotificationERKNS_8Protocol18ChangeNotificationE@Base 15.07.90
+ _ZNK7Akonadi14TransactionJob10metaObjectEv@Base 4:16.08.0
  _ZNK7Akonadi15CollectionModel10headerDataEiN2Qt11OrientationEi@Base 15.07.90
  _ZNK7Akonadi15CollectionModel10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi15CollectionModel11columnCountERK11QModelIndex@Base 15.07.90
@@ -1962,20 +1981,13 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#, libkf5akonadicore-bin
  _ZNK7Akonadi20QuotaColorProxyModel16warningThresholdEv@Base 4:15.12.0
  _ZNK7Akonadi20QuotaColorProxyModel4dataERK11QModelIndexi@Base 4:15.12.0
  _ZNK7Akonadi20QuotaColorProxyModel9roleNamesEv@Base 4:15.12.0
- _ZNK7Akonadi20StatisticsProxyModel10headerDataEiN2Qt11OrientationEi@Base 15.07.90
  _ZNK7Akonadi20StatisticsProxyModel10metaObjectEv@Base 15.07.90
- _ZNK7Akonadi20StatisticsProxyModel11columnCountERK11QModelIndex@Base 15.07.90
- _ZNK7Akonadi20StatisticsProxyModel11mapToSourceERK11QModelIndex@Base 15.07.90
- _ZNK7Akonadi20StatisticsProxyModel13mapFromSourceERK11QModelIndex@Base 15.07.90
+ _ZNK7Akonadi20StatisticsProxyModel15extraColumnDataERK11QModelIndexiii@Base 4:16.08.0
  _ZNK7Akonadi20StatisticsProxyModel16isToolTipEnabledEv@Base 15.07.90
- _ZNK7Akonadi20StatisticsProxyModel20mapSelectionToSourceERK14QItemSelection@Base 15.07.90
  _ZNK7Akonadi20StatisticsProxyModel21isExtraColumnsEnabledEv@Base 15.07.90
  _ZNK7Akonadi20StatisticsProxyModel4dataERK11QModelIndexi@Base 15.07.90
- _ZNK7Akonadi20StatisticsProxyModel5buddyERK11QModelIndex@Base 15.07.90
  _ZNK7Akonadi20StatisticsProxyModel5flagsERK11QModelIndex@Base 15.07.90
- _ZNK7Akonadi20StatisticsProxyModel5indexEiiRK11QModelIndex@Base 15.07.90
  _ZNK7Akonadi20StatisticsProxyModel5matchERK11QModelIndexiRK8QVarianti6QFlagsIN2Qt9MatchFlagEE@Base 15.07.90
- _ZNK7Akonadi20StatisticsProxyModel6parentERK11QModelIndex@Base 15.07.90
  _ZNK7Akonadi20TransactionCommitJob10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi21AgentFilterProxyModel10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi21AgentFilterProxyModel16filterAcceptsRowEiRK11QModelIndex@Base 15.07.90
@@ -2044,6 +2056,10 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#, libkf5akonadicore-bin
  _ZNK7Akonadi23EntityRightsFilterModel5flagsERK11QModelIndex@Base 15.07.90
  _ZNK7Akonadi23EntityRightsFilterModel5matchERK11QModelIndexiRK8QVarianti6QFlagsIN2Qt9MatchFlagEE@Base 15.07.90
  _ZNK7Akonadi23EntityRightsFilterModel9acceptRowEiRK11QModelIndex@Base 15.07.90
+ _ZNK7Akonadi24CollectionColorAttribute10serializedEv@Base 4:16.08.0
+ _ZNK7Akonadi24CollectionColorAttribute4typeEv@Base 4:16.08.0
+ _ZNK7Akonadi24CollectionColorAttribute5cloneEv@Base 4:16.08.0
+ _ZNK7Akonadi24CollectionColorAttribute5colorEv@Base 4:16.08.0
  _ZNK7Akonadi24CollectionQuotaAttribute10serializedEv@Base 15.07.90
  _ZNK7Akonadi24CollectionQuotaAttribute12currentValueEv@Base 15.07.90
  _ZNK7Akonadi24CollectionQuotaAttribute12maximumValueEv@Base 15.07.90
@@ -2266,6 +2282,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#, libkf5akonadicore-bin
  _ZTIN7Akonadi14CollectionSyncE@Base 15.07.90
  _ZTIN7Akonadi14MonitorPrivateE@Base 15.07.90
  _ZTIN7Akonadi14SessionPrivateE@Base 15.07.90
+ _ZTIN7Akonadi14TransactionJobE@Base 4:16.08.0
  _ZTIN7Akonadi15CollectionModelE@Base 15.07.90
  _ZTIN7Akonadi15EntityCacheBaseE@Base 15.07.90
  _ZTIN7Akonadi15EntityTreeModelE@Base 15.07.90
@@ -2318,6 +2335,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#, libkf5akonadicore-bin
  _ZTIN7Akonadi22TransactionRollbackJobE@Base 15.07.90
  _ZTIN7Akonadi23CollectionStatisticsJobE@Base 15.07.90
  _ZTIN7Akonadi23EntityRightsFilterModelE@Base 15.07.90
+ _ZTIN7Akonadi24CollectionColorAttributeE@Base 4:16.08.0
  _ZTIN7Akonadi24CollectionQuotaAttributeE@Base 15.07.90
  _ZTIN7Akonadi24FavoriteCollectionsModelE@Base 15.07.90
  _ZTIN7Akonadi24NewMailNotifierAttributeE@Base 15.07.90
@@ -2378,6 +2396,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#, libkf5akonadicore-bin
  _ZTSN7Akonadi14CollectionSyncE@Base 15.07.90
  _ZTSN7Akonadi14MonitorPrivateE@Base 15.07.90
  _ZTSN7Akonadi14SessionPrivateE@Base 15.07.90
+ _ZTSN7Akonadi14TransactionJobE@Base 4:16.08.0
  _ZTSN7Akonadi15CollectionModelE@Base 15.07.90
  _ZTSN7Akonadi15EntityCacheBaseE@Base 15.07.90
  _ZTSN7Akonadi15EntityTreeModelE@Base 15.07.90
@@ -2430,6 +2449,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#, libkf5akonadicore-bin
  _ZTSN7Akonadi22TransactionRollbackJobE@Base 15.07.90
  _ZTSN7Akonadi23CollectionStatisticsJobE@Base 15.07.90
  _ZTSN7Akonadi23EntityRightsFilterModelE@Base 15.07.90
+ _ZTSN7Akonadi24CollectionColorAttributeE@Base 4:16.08.0
  _ZTSN7Akonadi24CollectionQuotaAttributeE@Base 15.07.90
  _ZTSN7Akonadi24FavoriteCollectionsModelE@Base 15.07.90
  _ZTSN7Akonadi24NewMailNotifierAttributeE@Base 15.07.90
@@ -2490,6 +2510,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#, libkf5akonadicore-bin
  _ZTVN7Akonadi14CollectionSyncE@Base 15.07.90
  _ZTVN7Akonadi14MonitorPrivateE@Base 15.07.90
  _ZTVN7Akonadi14SessionPrivateE@Base 15.07.90
+ _ZTVN7Akonadi14TransactionJobE@Base 4:16.08.0
  _ZTVN7Akonadi15CollectionModelE@Base 15.07.90
  _ZTVN7Akonadi15EntityCacheBaseE@Base 15.07.90
  _ZTVN7Akonadi15EntityTreeModelE@Base 15.07.90
@@ -2541,6 +2562,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#, libkf5akonadicore-bin
  _ZTVN7Akonadi22TransactionRollbackJobE@Base 15.07.90
  _ZTVN7Akonadi23CollectionStatisticsJobE@Base 15.07.90
  _ZTVN7Akonadi23EntityRightsFilterModelE@Base 15.07.90
+ _ZTVN7Akonadi24CollectionColorAttributeE@Base 4:16.08.0
  _ZTVN7Akonadi24CollectionQuotaAttributeE@Base 15.07.90
  _ZTVN7Akonadi24FavoriteCollectionsModelE@Base 15.07.90
  _ZTVN7Akonadi24NewMailNotifierAttributeE@Base 15.07.90

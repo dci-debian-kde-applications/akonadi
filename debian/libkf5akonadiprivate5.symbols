@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:16.04.0 amd64
+# SymbolsHelper-Confirmed: 4:16.08.0 amd64 armhf i386
 libKF5AkonadiPrivate.so.5 libkf5akonadiprivate5 #MINVER#
  _ZN7Akonadi10ImapParser10parseBlockERK10QByteArray@Base 15.07.90
  _ZN7Akonadi10ImapParser11parseNumberERK10QByteArrayRxPbi@Base 15.07.90
@@ -133,10 +133,8 @@ libKF5AkonadiPrivate.so.5 libkf5akonadiprivate5 #MINVER#
  _ZN7Akonadi7ImapSetD2Ev@Base 15.07.90
  _ZN7Akonadi7ImapSetaSERKS0_@Base 15.07.90
  _ZN7Akonadi8Instance10identifierEv@Base 15.12.0
- _ZN7Akonadi8Instance11sIdentifierE@Base 15.12.0
  _ZN7Akonadi8Instance13hasIdentifierEv@Base 15.12.0
  _ZN7Akonadi8Instance13setIdentifierERK7QString@Base 15.12.0
- _ZN7Akonadi8Instance14loadIdentifierEv@Base 15.12.0
  _ZN7Akonadi8Protocol10FetchScope15setChangedSinceERK9QDateTime@Base 15.07.90
  _ZN7Akonadi8Protocol10FetchScope16setAncestorDepthENS0_8Ancestor5DepthE@Base 15.07.90
  _ZN7Akonadi8Protocol10FetchScope16setTagFetchScopeERK4QSetI10QByteArrayE@Base 15.07.90
