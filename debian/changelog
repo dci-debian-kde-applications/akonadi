@@ -1,6 +1,6 @@
-akonadi (4:16.08.0-1~2.gbpa7287b) UNRELEASED; urgency=medium
+akonadi (4:16.08.1-1~1.gbp4b9510) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @a7287bdcaed448370ff44f3afbe5d8dbba9690d2 **
+  ** SNAPSHOT build @4b951050c023ad9076dab0c21938cb4e129f062f **
 
   [ Maximiliano Curia ]
   * Use mysql default metapackages
@@ -10,8 +10,9 @@ akonadi (4:16.08.0-1~2.gbpa7287b) UNRELEASED; urgency=medium
   * Update symbols files with the buildds results
   * Update build-deps and deps with the info from cmake
   * Refresh patches
+  * Update symbols files
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 28 Aug 2016 13:19:07 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 15:15:13 +0200
 
 akonadi (4:16.04.3-2) unstable; urgency=medium
 
