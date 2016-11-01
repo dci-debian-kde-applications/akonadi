@@ -8,6 +8,8 @@ akonadi (4:16.04.3-3) UNRELEASED; urgency=medium
     QSqlite3-fix-build-with-Qt-5.7.patch
     The original patch written by Daniel Vratil:
       068c0bd5f93232eea97e492354eff2b9b62c6643
+    - Added qtbase5-private-dev to build deps
+  * Update symbols files from buildds logs (4:16.04.3-2+b1).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 02 Nov 2016 00:10:50 +0100
 
