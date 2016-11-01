@@ -1,3 +1,9 @@
+akonadi (4:16.04.3-2.1) UNRELEASED; urgency=medium
+
+  * Team upload.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 02 Nov 2016 00:10:50 +0100
+
 akonadi (4:16.04.3-2) unstable; urgency=medium
 
   [ Automatic packaging ]
