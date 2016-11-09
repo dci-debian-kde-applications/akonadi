@@ -1,9 +1,9 @@
-akonadi4 (1.13.0-11~) UNRELEASED; urgency=medium
+akonadi4 (1.13.0-11) unstable; urgency=medium
 
   * Drop mysql build dependency, it's only used at runtime, and we are not
     shipping the backends anymore.
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Nov 2016 18:17:35 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Nov 2016 18:28:58 +0100
 
 akonadi4 (1.13.0-10) unstable; urgency=medium
 
