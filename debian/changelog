@@ -1,6 +1,9 @@
 akonadi (1.13.0-2+deb8u2~) UNRELEASED; urgency=medium
 
-  * 
+  * Add patch from kubuntu: kubuntu_disable_secure_file_priv_check.diff
+    - fix compatibility with stricter defaults in mysql security update.
+      (Closes: 843534) Thanks to fld for the report and Marc Deslauriers
+      for the patch.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 10 Nov 2016 14:08:47 +0100
 
