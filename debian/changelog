@@ -1,4 +1,4 @@
-akonadi (1.13.0-2+deb8u2) stable-proposed-updates; urgency=medium
+akonadi (1.13.0-2+deb8u2) jessie-security; urgency=medium
 
   * Add patch from kubuntu: kubuntu_disable_secure_file_priv_check.diff
     - fix compatibility with stricter defaults in mysql security update.
