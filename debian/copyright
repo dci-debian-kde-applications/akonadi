@@ -280,7 +280,7 @@ License: BSD-3-clause
  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 Comment:
- Some cmake modules references a nonexistant file. That file is in kdelibs
+ Some cmake modules references a nonexistent file. That file is in kdelibs
  source package and in cmake source package with the content shown listed
 
 License: Expat
