@@ -1,4 +1,4 @@
-akonadi (4:16.04.3-4~) UNRELEASED; urgency=medium
+akonadi (4:16.04.3-4) unstable; urgency=medium
 
   * Team upload.
 
@@ -7,21 +7,19 @@ akonadi (4:16.04.3-4~) UNRELEASED; urgency=medium
     - fix compatibility with stricter defaults in mysql security update.
       (Closes: 843534) Thanks to fld for the report and Marc Deslauriers
       for the patch.
-  * Fixing known typos.
+  * Fix known typos.
   * Update Build-Deps to use default-libmysqlclient-dev instead of
-    libmysqlclient-dev
+    libmysqlclient-dev.
   * Add Multi-Arch Hinters from tracker.
+  * Remove unused source.lintian-overrides file.
+  * Merge libkf5akonadicore-bin into akonadi-server package.
 
   [ Maximiliano Curia ]
   * Use mysql default metapackages
   * Replace dbus-launch with dbus-run-session in tests.
     Thanks to Simon McVittie for reporting (Closes: 835827)
 
-  [ Sandro Knauß ]
-  * Remove unused source.lintian-overrides file.
-  * Merge libkf5akonadicore-bin into akonadi-server package.
-
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 22 Nov 2016 17:36:51 +0100
+ -- Sandro Knauß <hefee@debian.org>  Tue, 22 Nov 2016 21:42:07 +0100
 
 akonadi (4:16.04.3-3) unstable; urgency=medium
 
