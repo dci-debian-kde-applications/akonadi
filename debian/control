@@ -142,7 +142,6 @@ Description: Akonadi widgets library
 
 Package: libkf5akonadixml5
 Architecture: any
-Multi-Arch: same
 Depends: ${misc:Depends},
          ${shlibs:Depends}
 Description: Akonadi XML helper library
@@ -152,6 +151,7 @@ Description: Akonadi XML helper library
 
 Package: libkf5akonadiprivate5
 Architecture: any
+Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Suggests: akonadi-server (= ${binary:Version})
 Description: libraries for the Akonadi PIM storage service
@@ -163,6 +163,7 @@ Description: libraries for the Akonadi PIM storage service
 
 Package: libkf5akonadiserver-dev
 Section: libdevel
+Multi-Arch: same
 Architecture: any
 Depends: libkf5akonadiprivate5 (= ${binary:Version}), ${misc:Depends}
 Breaks: libakonadi-dev
@@ -214,6 +215,7 @@ Description: PostgreSQL storage backend for Akonadi
 
 Package: akonadi-backend-sqlite
 Section: misc
+Multi-Arch: same
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
 Depends: libqt5sql5-sqlite, ${misc:Depends}, ${shlibs:Depends}
