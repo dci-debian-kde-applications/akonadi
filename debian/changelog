@@ -12,6 +12,11 @@ akonadi (4:16.04.3-4~) UNRELEASED; urgency=medium
     libmysqlclient-dev
   * Add Multi-Arch Hinters from tracker.
 
+  [ Maximiliano Curia ]
+  * Use mysql default metapackages
+  * Replace dbus-launch with dbus-run-session in tests.
+    Thanks to Simon McVittie for reporting (Closes: 835827)
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 22 Nov 2016 17:36:51 +0100
 
 akonadi (4:16.04.3-3) unstable; urgency=medium
