@@ -19,6 +19,7 @@ akonadi (4:16.04.3-4~) UNRELEASED; urgency=medium
 
   [ Sandro Knauß ]
   * Remove unused source.lintian-overrides file.
+  * Merge libkf5akonadicore-bin into akonadi-server package.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 22 Nov 2016 17:36:51 +0100
 
