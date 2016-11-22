@@ -8,6 +8,8 @@ akonadi (4:16.04.3-4~) UNRELEASED; urgency=medium
       (Closes: 843534) Thanks to fld for the report and Marc Deslauriers
       for the patch.
   * Fixing known typos.
+  * Update Build-Deps to use default-libmysqlclient-dev instead of
+    libmysqlclient-dev
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 22 Nov 2016 17:36:51 +0100
 
