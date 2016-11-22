@@ -2,6 +2,12 @@ akonadi (4:16.04.3-4~) UNRELEASED; urgency=medium
 
   * Team upload.
 
+  [ Sandro Knauß ]
+  * Add patch from kubuntu: kubuntu_disable_secure_file_priv_check.diff
+    - fix compatibility with stricter defaults in mysql security update.
+      (Closes: 843534) Thanks to fld for the report and Marc Deslauriers
+      for the patch.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 22 Nov 2016 17:36:51 +0100
 
 akonadi (4:16.04.3-3) unstable; urgency=medium
