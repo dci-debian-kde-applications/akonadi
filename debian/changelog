@@ -17,6 +17,9 @@ akonadi (4:16.04.3-4~) UNRELEASED; urgency=medium
   * Replace dbus-launch with dbus-run-session in tests.
     Thanks to Simon McVittie for reporting (Closes: 835827)
 
+  [ Sandro Knauß ]
+  * Remove unused source.lintian-overrides file.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 22 Nov 2016 17:36:51 +0100
 
 akonadi (4:16.04.3-3) unstable; urgency=medium
