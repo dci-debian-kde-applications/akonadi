@@ -1,7 +1,6 @@
-From c2a649216da9670b5c037f21a3b1ededfbc5f371 Mon Sep 17 00:00:00 2001
-From: =?UTF-8?q?Daniel=20Vr=C3=A1til?= <dvratil@kde.org>
+From: =?utf-8?q?Daniel_Vr=C3=A1til?= <dvratil@kde.org>
 Date: Sun, 5 Jun 2016 15:49:29 +0200
-Subject: [PATCH] QSqlite3: fix build with Qt 5.7
+Subject: QSqlite3: fix build with Qt 5.7
 
 Use ${QtSql_PRIVATE_INCLUDE_DIRS} to include the private headers
 directly from current Qt install instead of carrying a local copy.
@@ -908,6 +907,3 @@ index 06301cf..e4971a3 100644
          }
  
          if (sqlite3_close(d->access) != SQLITE_OK)
--- 
-2.10.2
-

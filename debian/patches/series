@@ -2,3 +2,4 @@ postgresql-data-checksums.patch
 set_dependency_order.diff
 QSqlite3-fix-build-with-Qt-5.7.patch
 kubuntu_disable_secure_file_priv_check.diff
+Delete-the-properties-window-if-closed.patch
