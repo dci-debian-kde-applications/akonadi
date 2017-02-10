@@ -1,6 +1,7 @@
 Tests: testsuite
 Depends: @, @builddeps@, build-essential,
-         xvfb, xauth, dbus-x11, libxml2-utils, libgl1-mesa-dri
+         xvfb, xauth, dbus-x11, libxml2-utils, libgl1-mesa-dri,
+         psmisc # neon killall use
 Restrictions: build-needed
 
 Tests: acc
