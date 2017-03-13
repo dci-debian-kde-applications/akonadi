@@ -12,5 +12,5 @@ mkdir -p "$HOME"/.config || true
 # the daemon but not own it, effectively making the daemon unmanaged. When
 # this happens it will linger forevermore or until we kill the test which takes
 # hours.
-trap "killall -9 mysqld"
+trap "killall -9 mysqld" EXIT
 xvfb-run -a dbus-launch --exit-with-session dh_auto_test
