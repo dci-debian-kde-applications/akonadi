@@ -51,10 +51,10 @@ Depends: akonadi-backend-mysql (= ${source:Version}) | akonadi-backend-sqlite (=
 Suggests: akonadi-backend-mysql (= ${source:Version}),
           akonadi-backend-sqlite (= ${binary:Version})
 Breaks: akonadiconsole (<< 4:16.04),
-        kdepimlibs-data (<<  4:16.04),
+        kdepimlibs-data (<< 4:16.04),
         kmail (<< 4:16.04),
         korganizer (<< 4:16.04)
-Replaces: kdepimlibs-data (<<  4:16.04)
+Replaces: kdepimlibs-data (<< 4:16.04)
 Description: Akonadi PIM storage service
  Akonadi is an extensible cross-desktop Personal Information Management (PIM)
  storage service. It provides a common framework for applications to store and
@@ -96,8 +96,8 @@ Section: libdevel
 Architecture: any
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kdepimlibs5-dev
-Replaces: kdepimlibs5-dev
+Breaks: kdepimlibs5-dev, ${kde-l10n:all}
+Replaces: kdepimlibs5-dev, ${kde-l10n:all}
 Description: Additional development binaries for the Akonadi KDE PIM libraries
  This package contains development files for building software that uses
  the KDE Development Platform Personal Information Management libraries.
@@ -119,6 +119,8 @@ Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: libkf5akonadiwidgets5 (= ${binary:Version})
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: Akonadi core library
  This library contains Akonadi PIM data server core classes.
  .
