@@ -1,3 +1,16 @@
+akonadi (4:16.04.3-5) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Maximiliano Curia ]
+  * Add new patch: Delete-the-properties-window-if-closed.patch.
+    Thanks to Nancy Anthracite for reporting (Closes: 845553)
+
+  [ Dmitry Shachnev ]
+  * Add a patch from upstream to fix build with Qt 5.9.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 07 Jul 2017 16:33:59 +0300
+
 akonadi (4:16.04.3-4) unstable; urgency=medium
 
   * Team upload.
