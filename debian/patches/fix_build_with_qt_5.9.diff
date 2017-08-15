@@ -1,0 +1,24 @@
+Description: fix compilation with qtbase 5.9
+Origin: upstream, https://cgit.kde.org/akonadi.git/commit/?id=eb5cf0fa46aecd77
+Last-Update: 2017-06-26
+
+--- a/src/core/item_p.h
++++ b/src/core/item_p.h
+@@ -268,11 +268,17 @@
+ typedef std::vector<_detail::TypedPayload> PayloadContainer;
+ }
+ 
++#if QT_VERSION >= QT_VERSION_CHECK(5, 9, 0) // see qtbase e5e2629
++namespace QtPrivate {
++#endif
+ // disable Q_FOREACH on PayloadContainer (b/c it likes to take copies and clone_ptr doesn't like that)
+ template <>
+ class QForeachContainer<Akonadi::PayloadContainer>
+ {
+ };
++#if QT_VERSION >= QT_VERSION_CHECK(5, 9, 0)
++}
++#endif
+ 
+ namespace Akonadi
+ {

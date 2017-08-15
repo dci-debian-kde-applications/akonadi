@@ -15,6 +15,57 @@ akonadi (4:16.08.2-1~1.gbp15616e) UNRELEASED; urgency=medium
 
  -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 20:35:33 +0200
 
+akonadi (4:16.04.3-5) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Maximiliano Curia ]
+  * Add new patch: Delete-the-properties-window-if-closed.patch.
+    Thanks to Nancy Anthracite for reporting (Closes: 845553)
+
+  [ Dmitry Shachnev ]
+  * Add a patch from upstream to fix build with Qt 5.9.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 07 Jul 2017 16:33:59 +0300
+
+akonadi (4:16.04.3-4) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Add patch from kubuntu: kubuntu_disable_secure_file_priv_check.diff
+    - fix compatibility with stricter defaults in mysql security update.
+      (Closes: 843534) Thanks to fld for the report and Marc Deslauriers
+      for the patch.
+  * Fix known typos.
+  * Update Build-Deps to use default-libmysqlclient-dev instead of
+    libmysqlclient-dev.
+  * Add Multi-Arch Hinters from tracker.
+  * Remove unused source.lintian-overrides file.
+  * Merge libkf5akonadicore-bin into akonadi-server package.
+
+  [ Maximiliano Curia ]
+  * Use mysql default metapackages
+  * Replace dbus-launch with dbus-run-session in tests.
+    Thanks to Simon McVittie for reporting (Closes: 835827)
+
+ -- Sandro Knauß <hefee@debian.org>  Tue, 22 Nov 2016 21:42:07 +0100
+
+akonadi (4:16.04.3-3) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Backport patch from upstream to build QSqlite3 backend with Qt5.7.1
+    - QSqlite3-fix-build-with-Qt-5.7.patch
+    - Closes: 842502
+    - The original patch written by Daniel Vratil:
+      068c0bd5f93232eea97e492354eff2b9b62c6643
+    - Added qtbase5-private-dev to build deps
+  * Update symbols files from buildds logs (4:16.04.3-2+b1).
+
+ -- Sandro Knauß <hefee@debian.org>  Wed, 02 Nov 2016 01:15:34 +0100
+
 akonadi (4:16.04.3-2) unstable; urgency=medium
 
   [ Automatic packaging ]

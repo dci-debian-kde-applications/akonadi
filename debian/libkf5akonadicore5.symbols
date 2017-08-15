@@ -1,5 +1,5 @@
-# SymbolsHelper-Confirmed: 4:16.08.0 amd64 armhf i386
-libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#, libkf5akonadicore-bin
+# SymbolsHelper-Confirmed: 4:16.04.3 alpha mips mips64el mipsel
+libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _Z5qHashRKN7Akonadi8RelationE@Base 15.07.90
  (optional=templinst)_ZN12KConfigGroup10writeEntryIxEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 15.07.90
  _ZN7Akonadi10Collection10setEnabledEb@Base 15.07.90
@@ -2256,7 +2256,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#, libkf5akonadicore-bin
  _ZNK7Akonadi9ItemModel9mimeTypesEv@Base 15.07.90
  _ZNK7Akonadi9UnlinkJob10metaObjectEv@Base 15.07.90
  (optional=templinst|arch=armel)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE10_M_releaseEv@Base 4:15.08.2
- (optional=templinst|arch=!armel)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv@Base 15.07.90
+ (optional=templinst|arch=!armel !mips !mips64el !mipsel)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 15.07.90
  _ZTIN5boost16exception_detail10clone_baseE@Base 15.07.90
  _ZTIN5boost9exceptionE@Base 15.07.90
  _ZTIN7Akonadi10GetLockJobE@Base 15.07.90

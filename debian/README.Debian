@@ -9,7 +9,7 @@ system locations specified by XDG Base Directory Specification [1a].
   cannot be found there, Akonadi will look in $XDG_CONFIG_DIRS/akonadi/
   (defaults to /etc/xdg/akonadi/).
 
-* Similary, data files are stored in $XDG_DATA_HOME/akonadi/
+* Similarly, data files are stored in $XDG_DATA_HOME/akonadi/
   (~/.local/share/akonadi/ by default). If the needed resource cannot be found
   there, Akonadi will look in $XDG_DATA_DIRS/akonadi/ (that is
   /usr/local/share/akonadi/ and /usr/share/akonadi/ by default) as well.
