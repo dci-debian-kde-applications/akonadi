@@ -1,9 +1,15 @@
-akonadi (4:16.08.2-1~2) UNRELEASED; urgency=medium
+akonadi (4:17.08.0-1~) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * Drop Multi-Arch: foreign from the dev pkg.
     Thanks to Helmut Grohne <helmut@subdivi.de> for the report (Closes: 872207)
+  * Uscan no longer supports two main components urls
+  * New upstream release (17.08.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Aug 2017 14:04:24 +0200
+  [ Jonathan Riddell ]
+  * Sync debian/watch with neon
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 20 Aug 2017 09:26:37 +0200
 
 akonadi (4:16.04.3-5) unstable; urgency=medium
 
