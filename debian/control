@@ -158,8 +158,8 @@ Section: libdevel
 Architecture: any
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kdepimlibs5-dev
-Replaces: kdepimlibs5-dev
+Breaks: kdepimlibs5-dev, ${kde-l10n:all}
+Replaces: kdepimlibs5-dev, ${kde-l10n:all}
 Description: Additional development binaries for the Akonadi KDE PIM libraries
  This package contains development files for building software that uses
  the KDE Development Platform Personal Information Management libraries.
@@ -188,6 +188,8 @@ Package: libkf5akonadicore5
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Recommends: libkf5akonadiwidgets5 (= ${binary:Version})
 Description: Akonadi core library
  This library contains Akonadi PIM data server core classes.
