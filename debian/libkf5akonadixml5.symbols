@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.12.0 amd64
+# SymbolsHelper-Confirmed: 4:17.08.0 amd64
 libKF5AkonadiXml.so.5 libkf5akonadixml5 #MINVER#, kdepimlibs-data (>= 4:15.12~)
  _ZN7Akonadi11XmlDocument8loadFileERK7QString@Base 4:15.12.0
  _ZN7Akonadi11XmlDocumentC1ERK7QString@Base 4:15.12.0
@@ -41,6 +41,7 @@ libKF5AkonadiXml.so.5 libkf5akonadixml5 #MINVER#, kdepimlibs-data (>= 4:15.12~)
  _ZNK7Akonadi11XmlDocument17collectionElementERKNS_10CollectionE@Base 4:15.12.0
  _ZNK7Akonadi11XmlDocument20collectionByRemoteIdERK7QString@Base 4:15.12.0
  _ZNK7Akonadi11XmlDocument21itemElementByRemoteIdERK7QString@Base 4:15.12.0
+ _ZNK7Akonadi11XmlDocument27collectionElementByRemoteIdERK7QString@Base 4:17.08.0
  _ZNK7Akonadi11XmlDocument4tagsEv@Base 4:15.12.0
  _ZNK7Akonadi11XmlDocument5itemsERKNS_10CollectionEb@Base 4:15.12.0
  _ZNK7Akonadi11XmlDocument7isValidEv@Base 4:15.12.0

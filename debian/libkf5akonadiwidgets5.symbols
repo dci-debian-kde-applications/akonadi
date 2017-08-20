@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:16.04.0 amd64
+# SymbolsHelper-Confirmed: 4:17.08.0 amd64
 libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZN7Akonadi10ControlGui11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi10ControlGui11qt_metacastEPKc@Base 15.07.90
@@ -290,7 +290,6 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZN7Akonadi19TagManagementDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi19TagManagementDialog11qt_metacastEPKc@Base 15.07.90
  _ZN7Akonadi19TagManagementDialog16staticMetaObjectE@Base 15.07.90
- _ZN7Akonadi19TagManagementDialog7buttonsEv@Base 15.07.90
  _ZN7Akonadi19TagManagementDialogC1EP7QWidget@Base 15.07.90
  _ZN7Akonadi19TagManagementDialogC2EP7QWidget@Base 15.07.90
  _ZN7Akonadi19TagManagementDialogD0Ev@Base 15.07.90
@@ -328,6 +327,17 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZN7Akonadi24CollectionPropertiesPageD0Ev@Base 15.07.90
  _ZN7Akonadi24CollectionPropertiesPageD1Ev@Base 15.07.90
  _ZN7Akonadi24CollectionPropertiesPageD2Ev@Base 15.07.90
+ _ZN7Akonadi25CollectionMaintenancePage11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN7Akonadi25CollectionMaintenancePage11qt_metacastEPKc@Base 4:17.08.0
+ _ZN7Akonadi25CollectionMaintenancePage16staticMetaObjectE@Base 4:17.08.0
+ _ZN7Akonadi25CollectionMaintenancePage4initERKNS_10CollectionE@Base 4:17.08.0
+ _ZN7Akonadi25CollectionMaintenancePage4loadERKNS_10CollectionE@Base 4:17.08.0
+ _ZN7Akonadi25CollectionMaintenancePage4saveERNS_10CollectionE@Base 4:17.08.0
+ _ZN7Akonadi25CollectionMaintenancePageC1EP7QWidget@Base 4:17.08.0
+ _ZN7Akonadi25CollectionMaintenancePageC2EP7QWidget@Base 4:17.08.0
+ _ZN7Akonadi25CollectionMaintenancePageD0Ev@Base 4:17.08.0
+ _ZN7Akonadi25CollectionMaintenancePageD1Ev@Base 4:17.08.0
+ _ZN7Akonadi25CollectionMaintenancePageD2Ev@Base 4:17.08.0
  _ZN7Akonadi26CollectionPropertiesDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi26CollectionPropertiesDialog11qt_metacastEPKc@Base 15.07.90
  _ZN7Akonadi26CollectionPropertiesDialog12registerPageEPNS_31CollectionPropertiesPageFactoryE@Base 15.07.90
@@ -389,7 +399,6 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZN7Akonadi9TagWidgetD1Ev@Base 15.07.90
  _ZN7Akonadi9TagWidgetD2Ev@Base 15.07.90
  (optional=templinst)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 15.07.90
- (optional=templinst|arch=!arm64)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 15.07.90
  _ZNK7Akonadi10ControlGui10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi13TagEditWidget10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi13TagEditWidget9selectionEv@Base 15.07.90
@@ -453,6 +462,7 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZNK7Akonadi19ManageAccountWidget19excludeCapabilitiesEv@Base 4:15.12.0
  _ZNK7Akonadi19ManageAccountWidget4viewEv@Base 4:15.12.0
  _ZNK7Akonadi19TagManagementDialog10metaObjectEv@Base 15.07.90
+ _ZNK7Akonadi19TagManagementDialog7buttonsEv@Base 4:17.08.0
  _ZNK7Akonadi21StandardActionManager10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi21StandardActionManager13selectedItemsEv@Base 15.07.90
  _ZNK7Akonadi21StandardActionManager19selectedCollectionsEv@Base 15.07.90
@@ -460,6 +470,7 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZNK7Akonadi24CollectionPropertiesPage10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi24CollectionPropertiesPage9canHandleERKNS_10CollectionE@Base 15.07.90
  _ZNK7Akonadi24CollectionPropertiesPage9pageTitleEv@Base 15.07.90
+ _ZNK7Akonadi25CollectionMaintenancePage10metaObjectEv@Base 4:17.08.0
  _ZNK7Akonadi26CollectionPropertiesDialog10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi28CollectionStatisticsDelegate10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi28CollectionStatisticsDelegate15initStyleOptionEP20QStyleOptionViewItemRK11QModelIndex@Base 15.07.90
@@ -491,6 +502,7 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZTIN7Akonadi19TagManagementDialogE@Base 15.07.90
  _ZTIN7Akonadi21StandardActionManagerE@Base 15.07.90
  _ZTIN7Akonadi24CollectionPropertiesPageE@Base 15.07.90
+ _ZTIN7Akonadi25CollectionMaintenancePageE@Base 4:17.08.0
  _ZTIN7Akonadi26CollectionPropertiesDialogE@Base 15.07.90
  _ZTIN7Akonadi28CollectionStatisticsDelegateE@Base 15.07.90
  _ZTIN7Akonadi31CollectionPropertiesPageFactoryE@Base 15.07.90
@@ -518,6 +530,7 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZTSN7Akonadi19TagManagementDialogE@Base 15.07.90
  _ZTSN7Akonadi21StandardActionManagerE@Base 15.07.90
  _ZTSN7Akonadi24CollectionPropertiesPageE@Base 15.07.90
+ _ZTSN7Akonadi25CollectionMaintenancePageE@Base 4:17.08.0
  _ZTSN7Akonadi26CollectionPropertiesDialogE@Base 15.07.90
  _ZTSN7Akonadi28CollectionStatisticsDelegateE@Base 15.07.90
  _ZTSN7Akonadi31CollectionPropertiesPageFactoryE@Base 15.07.90
@@ -545,17 +558,23 @@ libKF5AkonadiWidgets.so.5 libkf5akonadiwidgets5 #MINVER#
  _ZTVN7Akonadi19TagManagementDialogE@Base 15.07.90
  _ZTVN7Akonadi21StandardActionManagerE@Base 15.07.90
  _ZTVN7Akonadi24CollectionPropertiesPageE@Base 15.07.90
+ _ZTVN7Akonadi25CollectionMaintenancePageE@Base 4:17.08.0
  _ZTVN7Akonadi26CollectionPropertiesDialogE@Base 15.07.90
  _ZTVN7Akonadi28CollectionStatisticsDelegateE@Base 15.07.90
  _ZTVN7Akonadi31CollectionPropertiesPageFactoryE@Base 15.07.90
  _ZTVN7Akonadi8ItemViewE@Base 15.07.90
  _ZTVN7Akonadi9TagWidgetE@Base 15.07.90
+ _ZZZN7Akonadi25CollectionMaintenancePage7Private21slotReindexCollectionEvENKUlvE0_clEvE15qstring_literal@Base 4:17.08.0
+ _ZZZN7Akonadi25CollectionMaintenancePage7Private21slotReindexCollectionEvENKUlvE1_clEvE15qstring_literal@Base 4:17.08.0
+ _ZZZN7Akonadi25CollectionMaintenancePage7Private21slotReindexCollectionEvENKUlvE2_clEvE15qstring_literal@Base 4:17.08.0
+ _ZZZN7Akonadi25CollectionMaintenancePage7Private21slotReindexCollectionEvENKUlvE_clEvE15qstring_literal@Base 4:17.08.0
  (c++)"non-virtual thunk to Akonadi::AgentInstanceWidget::~AgentInstanceWidget()@Base" 15.07.90
  (c++)"non-virtual thunk to Akonadi::AgentTypeDialog::~AgentTypeDialog()@Base" 15.07.90
  (c++)"non-virtual thunk to Akonadi::AgentTypeWidget::~AgentTypeWidget()@Base" 15.07.90
  (c++)"non-virtual thunk to Akonadi::CachePolicyPage::~CachePolicyPage()@Base" 15.07.90
  (c++)"non-virtual thunk to Akonadi::CollectionComboBox::~CollectionComboBox()@Base" 15.07.90
  (c++)"non-virtual thunk to Akonadi::CollectionDialog::~CollectionDialog()@Base" 15.07.90
+ (c++)"non-virtual thunk to Akonadi::CollectionMaintenancePage::~CollectionMaintenancePage()@Base" 4:17.08.0
  (c++)"non-virtual thunk to Akonadi::CollectionPropertiesDialog::~CollectionPropertiesDialog()@Base" 15.07.90
  (c++)"non-virtual thunk to Akonadi::CollectionPropertiesPage::~CollectionPropertiesPage()@Base" 15.07.90
  (c++)"non-virtual thunk to Akonadi::CollectionRequester::~CollectionRequester()@Base" 15.07.90

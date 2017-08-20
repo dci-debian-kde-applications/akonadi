@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:16.04.3 alpha mips mips64el mipsel
+# SymbolsHelper-Confirmed: 4:17.08.0 amd64
 libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _Z5qHashRKN7Akonadi8RelationE@Base 15.07.90
  (optional=templinst)_ZN12KConfigGroup10writeEntryIxEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 15.07.90
@@ -37,6 +37,28 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi10CollectionD1Ev@Base 15.07.90
  _ZN7Akonadi10CollectionD2Ev@Base 15.07.90
  _ZN7Akonadi10CollectionaSERKS0_@Base 4:15.12.0
+ _ZN7Akonadi10Connection11doReconnectEv@Base 4:17.08.0
+ _ZN7Akonadi10Connection11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN7Akonadi10Connection11qt_metacastEPKc@Base 4:17.08.0
+ _ZN7Akonadi10Connection11reconnectedEv@Base 4:17.08.0
+ _ZN7Akonadi10Connection11sendCommandExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
+ _ZN7Akonadi10Connection11socketErrorERK7QString@Base 4:17.08.0
+ _ZN7Akonadi10Connection12dataReceivedEv@Base 4:17.08.0
+ _ZN7Akonadi10Connection13doSendCommandExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
+ _ZN7Akonadi10Connection14forceReconnectEv@Base 4:17.08.0
+ _ZN7Akonadi10Connection15closeConnectionEv@Base 4:17.08.0
+ _ZN7Akonadi10Connection15commandReceivedExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
+ _ZN7Akonadi10Connection16doForceReconnectEv@Base 4:17.08.0
+ _ZN7Akonadi10Connection16staticMetaObjectE@Base 4:17.08.0
+ _ZN7Akonadi10Connection17doCloseConnectionEv@Base 4:17.08.0
+ _ZN7Akonadi10Connection18socketDisconnectedEv@Base 4:17.08.0
+ _ZN7Akonadi10Connection9connectedEv@Base 4:17.08.0
+ _ZN7Akonadi10Connection9reconnectEv@Base 4:17.08.0
+ _ZN7Akonadi10ConnectionC1ENS0_14ConnectionTypeERK10QByteArrayP7QObject@Base 4:17.08.0
+ _ZN7Akonadi10ConnectionC2ENS0_14ConnectionTypeERK10QByteArrayP7QObject@Base 4:17.08.0
+ _ZN7Akonadi10ConnectionD0Ev@Base 4:17.08.0
+ _ZN7Akonadi10ConnectionD1Ev@Base 4:17.08.0
+ _ZN7Akonadi10ConnectionD2Ev@Base 4:17.08.0
  _ZN7Akonadi10GetLockJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi10GetLockJob11qt_metacastEPKc@Base 15.07.90
  _ZN7Akonadi10GetLockJob16staticMetaObjectE@Base 15.07.90
@@ -71,7 +93,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi11CachePolicyaSERKS0_@Base 15.07.90
  _ZN7Akonadi11ItemCopyJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi11ItemCopyJob11qt_metacastEPKc@Base 15.07.90
- _ZN7Akonadi11ItemCopyJob16doHandleResponseExRKNS_8Protocol7CommandE@Base 15.07.90
+ _ZN7Akonadi11ItemCopyJob16doHandleResponseExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi11ItemCopyJob16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi11ItemCopyJob7doStartEv@Base 15.07.90
  _ZN7Akonadi11ItemCopyJobC1ERK7QVectorINS_4ItemEERKNS_10CollectionEP7QObject@Base 15.07.90
@@ -93,7 +115,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi11ItemMonitorD2Ev@Base 15.07.90
  _ZN7Akonadi11ItemMoveJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi11ItemMoveJob11qt_metacastEPKc@Base 15.07.90
- _ZN7Akonadi11ItemMoveJob16doHandleResponseExRKNS_8Protocol7CommandE@Base 15.07.90
+ _ZN7Akonadi11ItemMoveJob16doHandleResponseExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi11ItemMoveJob16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi11ItemMoveJob7doStartEv@Base 15.07.90
  _ZN7Akonadi11ItemMoveJobC1ERK7QVectorINS_4ItemEERKNS_10CollectionEP7QObject@Base 15.07.90
@@ -134,7 +156,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi11TagFetchJob11qt_metacastEPKc@Base 15.07.90
  _ZN7Akonadi11TagFetchJob12tagsReceivedERK7QVectorINS_3TagEE@Base 4:15.12.0
  _ZN7Akonadi11TagFetchJob13setFetchScopeERKNS_13TagFetchScopeE@Base 15.07.90
- _ZN7Akonadi11TagFetchJob16doHandleResponseExRKNS_8Protocol7CommandE@Base 15.07.90
+ _ZN7Akonadi11TagFetchJob16doHandleResponseExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi11TagFetchJob16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi11TagFetchJob7doStartEv@Base 15.07.90
  _ZN7Akonadi11TagFetchJobC1EP7QObject@Base 15.07.90
@@ -175,17 +197,19 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi12ItemFetchJob13itemsReceivedERK7QVectorINS_4ItemEE@Base 15.07.90
  _ZN7Akonadi12ItemFetchJob13setCollectionERKNS_10CollectionE@Base 15.07.90
  _ZN7Akonadi12ItemFetchJob13setFetchScopeERKNS_14ItemFetchScopeE@Base 15.07.90
- _ZN7Akonadi12ItemFetchJob16doHandleResponseExRKNS_8Protocol7CommandE@Base 15.07.90
+ _ZN7Akonadi12ItemFetchJob16doHandleResponseExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi12ItemFetchJob16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi12ItemFetchJob17setDeliveryOptionE6QFlagsINS0_14DeliveryOptionEE@Base 15.07.90
  _ZN7Akonadi12ItemFetchJob7doStartEv@Base 15.07.90
  _ZN7Akonadi12ItemFetchJobC1ERK5QListIxEP7QObject@Base 15.07.90
  _ZN7Akonadi12ItemFetchJobC1ERK7QVectorINS_4ItemEEP7QObject@Base 15.07.90
+ _ZN7Akonadi12ItemFetchJobC1ERK7QVectorIxEP7QObject@Base 4:17.08.0
  _ZN7Akonadi12ItemFetchJobC1ERKNS_10CollectionEP7QObject@Base 15.07.90
  _ZN7Akonadi12ItemFetchJobC1ERKNS_3TagEP7QObject@Base 15.07.90
  _ZN7Akonadi12ItemFetchJobC1ERKNS_4ItemEP7QObject@Base 15.07.90
  _ZN7Akonadi12ItemFetchJobC2ERK5QListIxEP7QObject@Base 15.07.90
  _ZN7Akonadi12ItemFetchJobC2ERK7QVectorINS_4ItemEEP7QObject@Base 15.07.90
+ _ZN7Akonadi12ItemFetchJobC2ERK7QVectorIxEP7QObject@Base 4:17.08.0
  _ZN7Akonadi12ItemFetchJobC2ERKNS_10CollectionEP7QObject@Base 15.07.90
  _ZN7Akonadi12ItemFetchJobC2ERKNS_3TagEP7QObject@Base 15.07.90
  _ZN7Akonadi12ItemFetchJobC2ERKNS_4ItemEP7QObject@Base 15.07.90
@@ -230,7 +254,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi12TagAttributeD2Ev@Base 15.07.90
  _ZN7Akonadi12TagCreateJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi12TagCreateJob11qt_metacastEPKc@Base 15.07.90
- _ZN7Akonadi12TagCreateJob16doHandleResponseExRKNS_8Protocol7CommandE@Base 15.07.90
+ _ZN7Akonadi12TagCreateJob16doHandleResponseExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi12TagCreateJob16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi12TagCreateJob18setMergeIfExistingEb@Base 15.07.90
  _ZN7Akonadi12TagCreateJob7doStartEv@Base 15.07.90
@@ -238,7 +262,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi12TagCreateJobC2ERKNS_3TagEP7QObject@Base 15.07.90
  _ZN7Akonadi12TagDeleteJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi12TagDeleteJob11qt_metacastEPKc@Base 15.07.90
- _ZN7Akonadi12TagDeleteJob16doHandleResponseExRKNS_8Protocol7CommandE@Base 15.07.90
+ _ZN7Akonadi12TagDeleteJob16doHandleResponseExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi12TagDeleteJob16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi12TagDeleteJob7doStartEv@Base 15.07.90
  _ZN7Akonadi12TagDeleteJobC1ERK7QVectorINS_3TagEEP7QObject@Base 4:15.12.0
@@ -247,7 +271,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi12TagDeleteJobC2ERKNS_3TagEP7QObject@Base 15.07.90
  _ZN7Akonadi12TagModifyJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi12TagModifyJob11qt_metacastEPKc@Base 15.07.90
- _ZN7Akonadi12TagModifyJob16doHandleResponseExRKNS_8Protocol7CommandE@Base 15.07.90
+ _ZN7Akonadi12TagModifyJob16doHandleResponseExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi12TagModifyJob16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi12TagModifyJob7doStartEv@Base 15.07.90
  _ZN7Akonadi12TagModifyJobC1ERKNS_3TagEP7QObject@Base 15.07.90
@@ -276,7 +300,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi13ItemChangeLogC2Ev@Base 4:16.04.0
  _ZN7Akonadi13ItemCreateJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi13ItemCreateJob11qt_metacastEPKc@Base 15.07.90
- _ZN7Akonadi13ItemCreateJob16doHandleResponseExRKNS_8Protocol7CommandE@Base 15.07.90
+ _ZN7Akonadi13ItemCreateJob16doHandleResponseExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi13ItemCreateJob16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi13ItemCreateJob7doStartEv@Base 15.07.90
  _ZN7Akonadi13ItemCreateJob8setMergeE6QFlagsINS0_11MergeOptionEE@Base 15.07.90
@@ -287,7 +311,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi13ItemCreateJobD2Ev@Base 15.07.90
  _ZN7Akonadi13ItemDeleteJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi13ItemDeleteJob11qt_metacastEPKc@Base 15.07.90
- _ZN7Akonadi13ItemDeleteJob16doHandleResponseExRKNS_8Protocol7CommandE@Base 15.07.90
+ _ZN7Akonadi13ItemDeleteJob16doHandleResponseExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi13ItemDeleteJob16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi13ItemDeleteJob7doStartEv@Base 15.07.90
  _ZN7Akonadi13ItemDeleteJobC1ERK7QVectorINS_4ItemEEP7QObject@Base 15.07.90
@@ -304,7 +328,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi13ItemModifyJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi13ItemModifyJob11qt_metacastEPKc@Base 15.07.90
  _ZN7Akonadi13ItemModifyJob12setUpdateGidEb@Base 15.07.90
- _ZN7Akonadi13ItemModifyJob16doHandleResponseExRKNS_8Protocol7CommandE@Base 15.07.90
+ _ZN7Akonadi13ItemModifyJob16doHandleResponseExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi13ItemModifyJob16setIgnorePayloadEb@Base 15.07.90
  _ZN7Akonadi13ItemModifyJob16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi13ItemModifyJob20disableRevisionCheckEv@Base 15.07.90
@@ -324,7 +348,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi13ItemSearchJob12setRecursiveEb@Base 15.07.90
  _ZN7Akonadi13ItemSearchJob13itemsReceivedERK7QVectorINS_4ItemEE@Base 15.07.90
  _ZN7Akonadi13ItemSearchJob13setFetchScopeERKNS_14ItemFetchScopeE@Base 15.07.90
- _ZN7Akonadi13ItemSearchJob16doHandleResponseExRKNS_8Protocol7CommandE@Base 15.07.90
+ _ZN7Akonadi13ItemSearchJob16doHandleResponseExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi13ItemSearchJob16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi13ItemSearchJob20setSearchCollectionsERK7QVectorINS_10CollectionEE@Base 15.07.90
  _ZN7Akonadi13ItemSearchJob22setRemoteSearchEnabledEb@Base 15.07.90
@@ -337,10 +361,12 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi13ItemSearchJobD0Ev@Base 15.07.90
  _ZN7Akonadi13ItemSearchJobD1Ev@Base 15.07.90
  _ZN7Akonadi13ItemSearchJobD2Ev@Base 15.07.90
+ _ZN7Akonadi13ServerManager10generationEv@Base 4:17.08.0
  _ZN7Akonadi13ServerManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi13ServerManager11qt_metacastEPKc@Base 15.07.90
  _ZN7Akonadi13ServerManager11serviceNameENS0_11ServiceTypeE@Base 15.07.90
  _ZN7Akonadi13ServerManager12addNamespaceERK7QString@Base 15.07.90
+ _ZN7Akonadi13ServerManager12brokenReasonEv@Base 4:17.08.0
  _ZN7Akonadi13ServerManager12stateChangedENS0_5StateE@Base 15.07.90
  _ZN7Akonadi13ServerManager16agentServiceNameENS0_16ServiceAgentTypeERK7QString@Base 15.07.90
  _ZN7Akonadi13ServerManager16staticMetaObjectE@Base 15.07.90
@@ -434,39 +460,44 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi14ItemFetchScopeD2Ev@Base 15.07.90
  _ZN7Akonadi14ItemFetchScopeaSERKS0_@Base 15.07.90
  _ZN7Akonadi14ItemSerializer11deserializeERNS_4ItemERK10QByteArrayR9QIODevicei@Base 15.07.90
- _ZN7Akonadi14ItemSerializer11deserializeERNS_4ItemERK10QByteArrayS5_ib@Base 15.07.90
+ _ZN7Akonadi14ItemSerializer11deserializeERNS_4ItemERK10QByteArrayS5_iNS0_14PayloadStorageE@Base 4:17.08.0
  _ZN7Akonadi14ItemSerializer14availablePartsERKNS_4ItemE@Base 15.07.90
+ _ZN7Akonadi14ItemSerializer19allowedForeignPartsERKNS_4ItemE@Base 4:17.08.0
  _ZN7Akonadi14ItemSerializer20overridePluginLookupEP7QObject@Base 15.07.90
  _ZN7Akonadi14ItemSerializer5applyERNS_4ItemERKS1_@Base 15.07.90
  _ZN7Akonadi14ItemSerializer5partsERKNS_4ItemE@Base 15.07.90
  _ZN7Akonadi14ItemSerializer7convertERKNS_4ItemEi@Base 15.07.90
  _ZN7Akonadi14ItemSerializer9serializeERKNS_4ItemERK10QByteArrayR9QIODeviceRi@Base 15.07.90
  _ZN7Akonadi14ItemSerializer9serializeERKNS_4ItemERK10QByteArrayRS4_Ri@Base 15.07.90
- _ZN7Akonadi14MonitorPrivate10slotNotifyERKNS_8Protocol18ChangeNotificationE@Base 15.07.90
+ _ZN7Akonadi14MonitorPrivate10slotNotifyERK14QSharedPointerINS_8Protocol18ChangeNotificationEE@Base 4:17.08.0
  _ZN7Akonadi14MonitorPrivate11PurgeBuffer10buffersizeEv@Base 15.07.90
  _ZN7Akonadi14MonitorPrivate11PurgeBuffer5purgeEx@Base 15.07.90
  _ZN7Akonadi14MonitorPrivate11PurgeBuffer6bufferEx@Base 15.07.90
  _ZN7Akonadi14MonitorPrivate13dataAvailableEv@Base 15.07.90
  _ZN7Akonadi14MonitorPrivate13flushPipelineEv@Base 15.07.90
+ _ZN7Akonadi14MonitorPrivate15commandReceivedExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi14MonitorPrivate15invalidateCacheERKNS_10CollectionE@Base 15.07.90
- _ZN7Akonadi14MonitorPrivate16emitNotificationERKNS_8Protocol18ChangeNotificationE@Base 15.07.90
- _ZN7Akonadi14MonitorPrivate16invalidateCachesERKNS_8Protocol18ChangeNotificationE@Base 15.07.90
+ _ZN7Akonadi14MonitorPrivate16emitNotificationERK14QSharedPointerINS_8Protocol18ChangeNotificationEE@Base 4:17.08.0
+ _ZN7Akonadi14MonitorPrivate16invalidateCachesERK14QSharedPointerINS_8Protocol18ChangeNotificationEE@Base 4:17.08.0
  _ZN7Akonadi14MonitorPrivate18invalidateTagCacheEx@Base 15.07.90
  _ZN7Akonadi14MonitorPrivate18serverStateChangedENS_13ServerManager5StateE@Base 15.07.90
- _ZN7Akonadi14MonitorPrivate19ensureDataAvailableERKNS_8Protocol18ChangeNotificationE@Base 15.07.90
+ _ZN7Akonadi14MonitorPrivate19emitTagNotificationERKNS_8Protocol21TagChangeNotificationERKNS_3TagE@Base 4:17.08.0
+ _ZN7Akonadi14MonitorPrivate19ensureDataAvailableERK14QSharedPointerINS_8Protocol18ChangeNotificationEE@Base 4:17.08.0
  _ZN7Akonadi14MonitorPrivate19invalidateItemCacheEx@Base 15.07.90
- _ZN7Akonadi14MonitorPrivate20emitTagsNotificationERKNS_8Protocol18ChangeNotificationERK7QVectorINS_3TagEE@Base 4:15.12.0
  _ZN7Akonadi14MonitorPrivate20slotSessionDestroyedEP7QObject@Base 15.07.90
- _ZN7Akonadi14MonitorPrivate20translateAndCompressER6QQueueINS_8Protocol18ChangeNotificationEERKS3_@Base 15.07.90
- _ZN7Akonadi14MonitorPrivate21cleanOldNotificationsEv@Base 15.07.90
+ _ZN7Akonadi14MonitorPrivate20translateAndCompressER6QQueueI14QSharedPointerINS_8Protocol18ChangeNotificationEEERKS5_@Base 4:17.08.0
  _ZN7Akonadi14MonitorPrivate21dispatchNotificationsEv@Base 15.07.90
- _ZN7Akonadi14MonitorPrivate21emitItemsNotificationERKNS_8Protocol18ChangeNotificationERK7QVectorINS_4ItemEERKNS_10CollectionESC_@Base 15.07.90
- _ZN7Akonadi14MonitorPrivate23updatePendingStatisticsERKNS_8Protocol18ChangeNotificationE@Base 15.07.90
- _ZN7Akonadi14MonitorPrivate25emitRelationsNotificationERKNS_8Protocol18ChangeNotificationERK7QVectorINS_8RelationEE@Base 15.07.90
+ _ZN7Akonadi14MonitorPrivate21emitItemsNotificationERKNS_8Protocol22ItemChangeNotificationERK7QVectorINS_4ItemEERKNS_10CollectionESC_@Base 4:17.08.0
+ _ZN7Akonadi14MonitorPrivate22slotUpdateSubscriptionEv@Base 4:17.08.0
+ _ZN7Akonadi14MonitorPrivate23updatePendingStatisticsERK14QSharedPointerINS_8Protocol18ChangeNotificationEE@Base 4:17.08.0
+ _ZN7Akonadi14MonitorPrivate24emitRelationNotificationERKNS_8Protocol26RelationChangeNotificationERKNS_8RelationE@Base 4:17.08.0
  _ZN7Akonadi14MonitorPrivate25invalidateCollectionCacheEx@Base 15.07.90
- _ZN7Akonadi14MonitorPrivate26emitCollectionNotificationERKNS_8Protocol18ChangeNotificationERKNS_10CollectionES7_S7_@Base 15.07.90
+ _ZN7Akonadi14MonitorPrivate26emitCollectionNotificationERKNS_8Protocol28CollectionChangeNotificationERKNS_10CollectionES7_S7_@Base 4:17.08.0
+ _ZN7Akonadi14MonitorPrivate26scheduleSubscriptionUpdateEv@Base 4:17.08.0
+ _ZN7Akonadi14MonitorPrivate27emitDebugChangeNotificationERKNS_8Protocol23DebugChangeNotificationERKNS_18ChangeNotificationE@Base 4:17.08.0
  _ZN7Akonadi14MonitorPrivate28connectToNotificationManagerEv@Base 15.07.90
  _ZN7Akonadi14MonitorPrivate29slotStatisticsChangedFinishedEP4KJob@Base 15.07.90
+ _ZN7Akonadi14MonitorPrivate34emitSubscriptionChangeNotificationERKNS_8Protocol30SubscriptionChangeNotificationERKNS_22NotificationSubscriberE@Base 4:17.08.0
  _ZN7Akonadi14MonitorPrivate34notifyCollectionStatisticsWatchersExRK10QByteArray@Base 15.07.90
  _ZN7Akonadi14MonitorPrivate35slotFlushRecentlyChangedCollectionsEv@Base 15.07.90
  _ZN7Akonadi14MonitorPrivate3refEx@Base 15.07.90
@@ -482,10 +513,10 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi14PluginMetaDataC2ERK7QStringS3_S3_S3_@Base 15.07.90
  _ZN7Akonadi14PluginMetaDataC2Ev@Base 15.07.90
  _ZN7Akonadi14SessionPrivate11doStartNextEv@Base 15.07.90
- _ZN7Akonadi14SessionPrivate11sendCommandExRKNS_8Protocol7CommandE@Base 15.07.90
+ _ZN7Akonadi14SessionPrivate11sendCommandExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi14SessionPrivate11socketErrorERK7QString@Base 4:15.12.0
  _ZN7Akonadi14SessionPrivate12jobDestroyedEP7QObject@Base 15.07.90
- _ZN7Akonadi14SessionPrivate13handleCommandExRKNS_8Protocol7CommandE@Base 15.07.90
+ _ZN7Akonadi14SessionPrivate13handleCommandExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi14SessionPrivate14connectionFileEv@Base 15.07.90
  _ZN7Akonadi14SessionPrivate14forceReconnectEv@Base 15.07.90
  _ZN7Akonadi14SessionPrivate15canPipelineNextEv@Base 15.07.90
@@ -510,7 +541,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi14SessionPrivateD2Ev@Base 15.07.90
  _ZN7Akonadi14TransactionJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.08.0
  _ZN7Akonadi14TransactionJob11qt_metacastEPKc@Base 4:16.08.0
- _ZN7Akonadi14TransactionJob16doHandleResponseExRKNS_8Protocol7CommandE@Base 4:16.08.0
+ _ZN7Akonadi14TransactionJob16doHandleResponseExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi14TransactionJob16staticMetaObjectE@Base 4:16.08.0
  _ZN7Akonadi14TransactionJob7doStartEv@Base 4:16.08.0
  _ZN7Akonadi14TransactionJobC1EP7QObject@Base 4:16.08.0
@@ -569,10 +600,10 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi15EntityTreeModel28setRootCollectionDisplayNameERK7QString@Base 15.07.90
  _ZN7Akonadi15EntityTreeModel7setDataERK11QModelIndexRK8QVarianti@Base 15.07.90
  _ZN7Akonadi15EntityTreeModel9fetchMoreERK11QModelIndex@Base 15.07.90
- _ZN7Akonadi15EntityTreeModelC1EPNS_14ChangeRecorderEP7QObject@Base 15.07.90
- _ZN7Akonadi15EntityTreeModelC1EPNS_14ChangeRecorderEPNS_22EntityTreeModelPrivateEP7QObject@Base 15.07.90
- _ZN7Akonadi15EntityTreeModelC2EPNS_14ChangeRecorderEP7QObject@Base 15.07.90
- _ZN7Akonadi15EntityTreeModelC2EPNS_14ChangeRecorderEPNS_22EntityTreeModelPrivateEP7QObject@Base 15.07.90
+ _ZN7Akonadi15EntityTreeModelC1EPNS_7MonitorEP7QObject@Base 4:17.08.0
+ _ZN7Akonadi15EntityTreeModelC1EPNS_7MonitorEPNS_22EntityTreeModelPrivateEP7QObject@Base 4:17.08.0
+ _ZN7Akonadi15EntityTreeModelC2EPNS_7MonitorEP7QObject@Base 4:17.08.0
+ _ZN7Akonadi15EntityTreeModelC2EPNS_7MonitorEPNS_22EntityTreeModelPrivateEP7QObject@Base 4:17.08.0
  _ZN7Akonadi15EntityTreeModelD0Ev@Base 15.07.90
  _ZN7Akonadi15EntityTreeModelD1Ev@Base 15.07.90
  _ZN7Akonadi15EntityTreeModelD2Ev@Base 15.07.90
@@ -601,7 +632,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi15SearchCreateJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi15SearchCreateJob11qt_metacastEPKc@Base 15.07.90
  _ZN7Akonadi15SearchCreateJob12setRecursiveEb@Base 15.07.90
- _ZN7Akonadi15SearchCreateJob16doHandleResponseExRKNS_8Protocol7CommandE@Base 15.07.90
+ _ZN7Akonadi15SearchCreateJob16doHandleResponseExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi15SearchCreateJob16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi15SearchCreateJob18setSearchMimeTypesERK11QStringList@Base 15.07.90
  _ZN7Akonadi15SearchCreateJob20setSearchCollectionsERK7QVectorINS_10CollectionEE@Base 15.07.90
@@ -615,7 +646,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi15SearchResultJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi15SearchResultJob11qt_metacastEPKc@Base 15.07.90
  _ZN7Akonadi15SearchResultJob11setSearchIdERK10QByteArray@Base 15.07.90
- _ZN7Akonadi15SearchResultJob16doHandleResponseExRKNS_8Protocol7CommandE@Base 15.07.90
+ _ZN7Akonadi15SearchResultJob16doHandleResponseExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi15SearchResultJob16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi15SearchResultJob7doStartEv@Base 15.07.90
  _ZN7Akonadi15SearchResultJob9setResultERK7QVectorI10QByteArrayE@Base 15.07.90
@@ -672,7 +703,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi16RelationFetchJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi16RelationFetchJob11qt_metacastEPKc@Base 15.07.90
  _ZN7Akonadi16RelationFetchJob11setResourceERK7QString@Base 15.07.90
- _ZN7Akonadi16RelationFetchJob16doHandleResponseExRKNS_8Protocol7CommandE@Base 15.07.90
+ _ZN7Akonadi16RelationFetchJob16doHandleResponseExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi16RelationFetchJob16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi16RelationFetchJob17relationsReceivedERK7QVectorINS_8RelationEE@Base 15.07.90
  _ZN7Akonadi16RelationFetchJob7doStartEv@Base 15.07.90
@@ -687,7 +718,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi16TypePluginLoader25pluginForMimeTypeAndClassERK7QStringRK7QVectorIiE6QFlagsINS0_6OptionEE@Base 15.07.90
  _ZN7Akonadi17CollectionCopyJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi17CollectionCopyJob11qt_metacastEPKc@Base 15.07.90
- _ZN7Akonadi17CollectionCopyJob16doHandleResponseExRKNS_8Protocol7CommandE@Base 15.07.90
+ _ZN7Akonadi17CollectionCopyJob16doHandleResponseExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi17CollectionCopyJob16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi17CollectionCopyJob7doStartEv@Base 15.07.90
  _ZN7Akonadi17CollectionCopyJobC1ERKNS_10CollectionES3_P7QObject@Base 15.07.90
@@ -697,7 +728,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi17CollectionCopyJobD2Ev@Base 15.07.90
  _ZN7Akonadi17CollectionMoveJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi17CollectionMoveJob11qt_metacastEPKc@Base 15.07.90
- _ZN7Akonadi17CollectionMoveJob16doHandleResponseExRKNS_8Protocol7CommandE@Base 15.07.90
+ _ZN7Akonadi17CollectionMoveJob16doHandleResponseExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi17CollectionMoveJob16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi17CollectionMoveJob7doStartEv@Base 15.07.90
  _ZN7Akonadi17CollectionMoveJobC1ERKNS_10CollectionES3_P7QObject@Base 15.07.90
@@ -708,21 +739,21 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi17ContactSearchTermC2ENS0_18ContactSearchFieldERK8QVariantNS_10SearchTerm9ConditionE@Base 15.07.90
  _ZN7Akonadi17RelationCreateJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi17RelationCreateJob11qt_metacastEPKc@Base 15.07.90
- _ZN7Akonadi17RelationCreateJob16doHandleResponseExRKNS_8Protocol7CommandE@Base 15.07.90
+ _ZN7Akonadi17RelationCreateJob16doHandleResponseExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi17RelationCreateJob16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi17RelationCreateJob7doStartEv@Base 15.07.90
  _ZN7Akonadi17RelationCreateJobC1ERKNS_8RelationEP7QObject@Base 15.07.90
  _ZN7Akonadi17RelationCreateJobC2ERKNS_8RelationEP7QObject@Base 15.07.90
  _ZN7Akonadi17RelationDeleteJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi17RelationDeleteJob11qt_metacastEPKc@Base 15.07.90
- _ZN7Akonadi17RelationDeleteJob16doHandleResponseExRKNS_8Protocol7CommandE@Base 15.07.90
+ _ZN7Akonadi17RelationDeleteJob16doHandleResponseExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi17RelationDeleteJob16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi17RelationDeleteJob7doStartEv@Base 15.07.90
  _ZN7Akonadi17RelationDeleteJobC1ERKNS_8RelationEP7QObject@Base 15.07.90
  _ZN7Akonadi17RelationDeleteJobC2ERKNS_8RelationEP7QObject@Base 15.07.90
  _ZN7Akonadi17ResourceSelectJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi17ResourceSelectJob11qt_metacastEPKc@Base 15.07.90
- _ZN7Akonadi17ResourceSelectJob16doHandleResponseExRKNS_8Protocol7CommandE@Base 15.07.90
+ _ZN7Akonadi17ResourceSelectJob16doHandleResponseExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi17ResourceSelectJob16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi17ResourceSelectJob7doStartEv@Base 15.07.90
  _ZN7Akonadi17ResourceSelectJobC1ERK7QStringP7QObject@Base 15.07.90
@@ -747,12 +778,23 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi18AgentInstanceModelD0Ev@Base 15.07.90
  _ZN7Akonadi18AgentInstanceModelD1Ev@Base 15.07.90
  _ZN7Akonadi18AgentInstanceModelD2Ev@Base 15.07.90
+ _ZN7Akonadi18ChangeNotification12setListenersERK7QVectorI10QByteArrayE@Base 4:17.08.0
+ _ZN7Akonadi18ChangeNotification12setTimestampERK9QDateTime@Base 4:17.08.0
+ _ZN7Akonadi18ChangeNotification15setNotificationERK14QSharedPointerINS_8Protocol18ChangeNotificationEE@Base 4:17.08.0
+ _ZN7Akonadi18ChangeNotification7setTypeENS0_4TypeE@Base 4:17.08.0
+ _ZN7Akonadi18ChangeNotificationC1ERKS0_@Base 4:17.08.0
+ _ZN7Akonadi18ChangeNotificationC1Ev@Base 4:17.08.0
+ _ZN7Akonadi18ChangeNotificationC2ERKS0_@Base 4:17.08.0
+ _ZN7Akonadi18ChangeNotificationC2Ev@Base 4:17.08.0
+ _ZN7Akonadi18ChangeNotificationD1Ev@Base 4:17.08.0
+ _ZN7Akonadi18ChangeNotificationD2Ev@Base 4:17.08.0
+ _ZN7Akonadi18ChangeNotificationaSERKS0_@Base 4:17.08.0
  _ZN7Akonadi18CollectionFetchJob10fetchScopeEv@Base 15.07.90
  _ZN7Akonadi18CollectionFetchJob10slotResultEP4KJob@Base 15.07.90
  _ZN7Akonadi18CollectionFetchJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi18CollectionFetchJob11qt_metacastEPKc@Base 15.07.90
  _ZN7Akonadi18CollectionFetchJob13setFetchScopeERKNS_20CollectionFetchScopeE@Base 15.07.90
- _ZN7Akonadi18CollectionFetchJob16doHandleResponseExRKNS_8Protocol7CommandE@Base 15.07.90
+ _ZN7Akonadi18CollectionFetchJob16doHandleResponseExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi18CollectionFetchJob16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi18CollectionFetchJob19collectionsReceivedERK7QVectorINS_10CollectionEE@Base 15.07.90
  _ZN7Akonadi18CollectionFetchJob7doStartEv@Base 15.07.90
@@ -795,7 +837,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi18NotificationSource15setAllMonitoredEb@Base 15.07.90
  _ZN7Akonadi18NotificationSource15setMonitoredTagExb@Base 15.07.90
  _ZN7Akonadi18NotificationSource16setMonitoredItemExb@Base 15.07.90
- _ZN7Akonadi18NotificationSource16setMonitoredTypeENS_8Protocol18ChangeNotification4TypeEb@Base 15.07.90
+ _ZN7Akonadi18NotificationSource16setMonitoredTypeENS_8Protocol7Command4TypeEb@Base 4:17.08.0
  _ZN7Akonadi18NotificationSource16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi18NotificationSource17setIgnoredSessionERK10QByteArrayb@Base 15.07.90
  _ZN7Akonadi18NotificationSource20setMonitoredMimeTypeERK7QStringb@Base 15.07.90
@@ -822,7 +864,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi18SpecialCollectionsD2Ev@Base 15.07.90
  _ZN7Akonadi19CollectionCreateJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi19CollectionCreateJob11qt_metacastEPKc@Base 15.07.90
- _ZN7Akonadi19CollectionCreateJob16doHandleResponseExRKNS_8Protocol7CommandE@Base 15.07.90
+ _ZN7Akonadi19CollectionCreateJob16doHandleResponseExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi19CollectionCreateJob16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi19CollectionCreateJob7doStartEv@Base 15.07.90
  _ZN7Akonadi19CollectionCreateJobC1ERKNS_10CollectionEP7QObject@Base 15.07.90
@@ -832,7 +874,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi19CollectionCreateJobD2Ev@Base 15.07.90
  _ZN7Akonadi19CollectionDeleteJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi19CollectionDeleteJob11qt_metacastEPKc@Base 15.07.90
- _ZN7Akonadi19CollectionDeleteJob16doHandleResponseExRKNS_8Protocol7CommandE@Base 15.07.90
+ _ZN7Akonadi19CollectionDeleteJob16doHandleResponseExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi19CollectionDeleteJob16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi19CollectionDeleteJob7doStartEv@Base 15.07.90
  _ZN7Akonadi19CollectionDeleteJobC1ERKNS_10CollectionEP7QObject@Base 15.07.90
@@ -842,7 +884,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi19CollectionDeleteJobD2Ev@Base 15.07.90
  _ZN7Akonadi19CollectionModifyJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi19CollectionModifyJob11qt_metacastEPKc@Base 15.07.90
- _ZN7Akonadi19CollectionModifyJob16doHandleResponseExRKNS_8Protocol7CommandE@Base 15.07.90
+ _ZN7Akonadi19CollectionModifyJob16doHandleResponseExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi19CollectionModifyJob16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi19CollectionModifyJob7doStartEv@Base 15.07.90
  _ZN7Akonadi19CollectionModifyJobC1ERKNS_10CollectionEP7QObject@Base 15.07.90
@@ -928,6 +970,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi20ItemModifyJobPrivateC1EPNS_13ItemModifyJobE@Base 15.07.90
  _ZN7Akonadi20ItemModifyJobPrivateC2EPNS_13ItemModifyJobE@Base 15.07.90
  _ZN7Akonadi20ItemSerializerPlugin20overridePluginLookupEP7QObject@Base 15.07.90
+ _ZN7Akonadi20ItemSerializerPlugin5applyERNS_4ItemERKS1_@Base 4:17.08.0
  _ZN7Akonadi20ItemSerializerPluginD0Ev@Base 15.07.90
  _ZN7Akonadi20ItemSerializerPluginD1Ev@Base 15.07.90
  _ZN7Akonadi20ItemSerializerPluginD2Ev@Base 15.07.90
@@ -986,16 +1029,20 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi21AsyncSelectionHandlerD0Ev@Base 15.07.90
  _ZN7Akonadi21AsyncSelectionHandlerD1Ev@Base 15.07.90
  _ZN7Akonadi21AsyncSelectionHandlerD2Ev@Base 15.07.90
- _ZN7Akonadi21ChangeRecorderPrivate10slotNotifyERKNS_8Protocol18ChangeNotificationE@Base 15.07.90
- _ZN7Akonadi21ChangeRecorderPrivate11addToStreamER11QDataStreamRKNS_8Protocol18ChangeNotificationE@Base 15.07.90
- _ZN7Akonadi21ChangeRecorderPrivate16emitNotificationERKNS_8Protocol18ChangeNotificationE@Base 15.07.90
+ _ZN7Akonadi21ChangeRecorderPrivate10slotNotifyERK14QSharedPointerINS_8Protocol18ChangeNotificationEE@Base 4:17.08.0
+ _ZN7Akonadi21ChangeRecorderPrivate11addToStreamER11QDataStreamRK14QSharedPointerINS_8Protocol18ChangeNotificationEE@Base 4:17.08.0
+ _ZN7Akonadi21ChangeRecorderPrivate16emitNotificationERK14QSharedPointerINS_8Protocol18ChangeNotificationEE@Base 4:17.08.0
  _ZN7Akonadi21ChangeRecorderPrivate16writeStartOffsetEv@Base 15.07.90
  _ZN7Akonadi21ChangeRecorderPrivate17loadNotificationsEv@Base 15.07.90
  _ZN7Akonadi21ChangeRecorderPrivate17saveNotificationsEv@Base 15.07.90
  _ZN7Akonadi21ChangeRecorderPrivate19dequeueNotificationEv@Base 15.07.90
  _ZN7Akonadi21ChangeRecorderPrivate19notificationsErasedEv@Base 15.07.90
  _ZN7Akonadi21ChangeRecorderPrivate19notificationsLoadedEv@Base 15.07.90
+ _ZN7Akonadi21ChangeRecorderPrivate19saveTagNotificationER11QDataStreamRKNS_8Protocol21TagChangeNotificationE@Base 4:17.08.0
+ _ZN7Akonadi21ChangeRecorderPrivate20saveItemNotificationER11QDataStreamRKNS_8Protocol22ItemChangeNotificationE@Base 4:17.08.0
  _ZN7Akonadi21ChangeRecorderPrivate21notificationsEnqueuedEi@Base 15.07.90
+ _ZN7Akonadi21ChangeRecorderPrivate24saveRelationNotificationER11QDataStreamRKNS_8Protocol26RelationChangeNotificationE@Base 4:17.08.0
+ _ZN7Akonadi21ChangeRecorderPrivate26saveCollectionNotificationER11QDataStreamRKNS_8Protocol28CollectionChangeNotificationE@Base 4:17.08.0
  _ZN7Akonadi21ChangeRecorderPrivate6saveToEP9QIODevice@Base 15.07.90
  _ZN7Akonadi21ChangeRecorderPrivateC1EPNS_37ChangeNotificationDependenciesFactoryEPNS_14ChangeRecorderE@Base 15.07.90
  _ZN7Akonadi21ChangeRecorderPrivateC2EPNS_37ChangeNotificationDependenciesFactoryEPNS_14ChangeRecorderE@Base 15.07.90
@@ -1120,7 +1167,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi22EntityTreeModelPrivate19removeChildEntitiesEx@Base 15.07.90
  _ZN7Akonadi22EntityTreeModelPrivate20agentInstanceRemovedERKNS_13AgentInstanceE@Base 15.07.90
  _ZN7Akonadi22EntityTreeModelPrivate20monitoredItemChangedERKNS_4ItemERK4QSetI10QByteArrayE@Base 15.07.90
- _ZN7Akonadi22EntityTreeModelPrivate20monitoredItemRemovedERKNS_4ItemE@Base 15.07.90
+ _ZN7Akonadi22EntityTreeModelPrivate20monitoredItemRemovedERKNS_4ItemERKNS_10CollectionE@Base 4:17.08.0
  _ZN7Akonadi22EntityTreeModelPrivate21collectionListFetchedERK7QVectorINS_10CollectionEE@Base 15.07.90
  _ZN7Akonadi22EntityTreeModelPrivate21monitoredItemUnlinkedERKNS_4ItemERKNS_10CollectionE@Base 15.07.90
  _ZN7Akonadi22EntityTreeModelPrivate21monitoredItemsChangedERKNS_4ItemEb@Base 15.07.90
@@ -1136,17 +1183,31 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi22EntityTreeModelPrivate27monitoredCollectionsChangedERKNS_10CollectionEb@Base 15.07.90
  _ZN7Akonadi22EntityTreeModelPrivate36monitoredCollectionStatisticsChangedExRKNS_20CollectionStatisticsE@Base 15.07.90
  _ZN7Akonadi22EntityTreeModelPrivate3refEx@Base 15.07.90
- _ZN7Akonadi22EntityTreeModelPrivate4initEPNS_14ChangeRecorderE@Base 15.07.90
+ _ZN7Akonadi22EntityTreeModelPrivate4initEPNS_7MonitorE@Base 4:17.08.0
  _ZN7Akonadi22EntityTreeModelPrivate5derefEx@Base 15.07.90
  _ZN7Akonadi22EntityTreeModelPrivate9fillModelEv@Base 15.07.90
  _ZN7Akonadi22EntityTreeModelPrivateC1EPNS_15EntityTreeModelE@Base 15.07.90
  _ZN7Akonadi22EntityTreeModelPrivateC2EPNS_15EntityTreeModelE@Base 15.07.90
  _ZN7Akonadi22EntityTreeModelPrivateD1Ev@Base 15.07.90
  _ZN7Akonadi22EntityTreeModelPrivateD2Ev@Base 15.07.90
- _ZN7Akonadi22ItemSerializerPluginV25applyERNS_4ItemERKS1_@Base 15.07.90
- _ZN7Akonadi22ItemSerializerPluginV2D0Ev@Base 15.07.90
- _ZN7Akonadi22ItemSerializerPluginV2D1Ev@Base 15.07.90
- _ZN7Akonadi22ItemSerializerPluginV2D2Ev@Base 15.07.90
+ _ZN7Akonadi22NotificationSubscriber12setSessionIdERK10QByteArray@Base 4:17.08.0
+ _ZN7Akonadi22NotificationSubscriber13setSubscriberERK10QByteArray@Base 4:17.08.0
+ _ZN7Akonadi22NotificationSubscriber14setIsExclusiveEb@Base 4:17.08.0
+ _ZN7Akonadi22NotificationSubscriber16setMonitoredTagsERK4QSetIxE@Base 4:17.08.0
+ _ZN7Akonadi22NotificationSubscriber17setIsAllMonitoredEb@Base 4:17.08.0
+ _ZN7Akonadi22NotificationSubscriber17setMonitoredItemsERK4QSetIxE@Base 4:17.08.0
+ _ZN7Akonadi22NotificationSubscriber17setMonitoredTypesERK4QSetINS_7Monitor4TypeEE@Base 4:17.08.0
+ _ZN7Akonadi22NotificationSubscriber18setIgnoredSessionsERK4QSetI10QByteArrayE@Base 4:17.08.0
+ _ZN7Akonadi22NotificationSubscriber21setMonitoredMimeTypesERK4QSetI7QStringE@Base 4:17.08.0
+ _ZN7Akonadi22NotificationSubscriber21setMonitoredResourcesERK4QSetI10QByteArrayE@Base 4:17.08.0
+ _ZN7Akonadi22NotificationSubscriber23setMonitoredCollectionsERK4QSetIxE@Base 4:17.08.0
+ _ZN7Akonadi22NotificationSubscriberC1ERKS0_@Base 4:17.08.0
+ _ZN7Akonadi22NotificationSubscriberC1Ev@Base 4:17.08.0
+ _ZN7Akonadi22NotificationSubscriberC2ERKS0_@Base 4:17.08.0
+ _ZN7Akonadi22NotificationSubscriberC2Ev@Base 4:17.08.0
+ _ZN7Akonadi22NotificationSubscriberD1Ev@Base 4:17.08.0
+ _ZN7Akonadi22NotificationSubscriberD2Ev@Base 4:17.08.0
+ _ZN7Akonadi22NotificationSubscriberaSERKS0_@Base 4:17.08.0
  _ZN7Akonadi22TransactionRollbackJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi22TransactionRollbackJob11qt_metacastEPKc@Base 15.07.90
  _ZN7Akonadi22TransactionRollbackJob16staticMetaObjectE@Base 15.07.90
@@ -1157,7 +1218,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi22TransactionRollbackJobD2Ev@Base 15.07.90
  _ZN7Akonadi23CollectionStatisticsJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi23CollectionStatisticsJob11qt_metacastEPKc@Base 15.07.90
- _ZN7Akonadi23CollectionStatisticsJob16doHandleResponseExRKNS_8Protocol7CommandE@Base 15.07.90
+ _ZN7Akonadi23CollectionStatisticsJob16doHandleResponseExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi23CollectionStatisticsJob16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi23CollectionStatisticsJob7doStartEv@Base 15.07.90
  _ZN7Akonadi23CollectionStatisticsJobC1ERKNS_10CollectionEP7QObject@Base 15.07.90
@@ -1240,8 +1301,8 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi25PersistentSearchAttribute11deserializeERK10QByteArray@Base 15.07.90
  _ZN7Akonadi25PersistentSearchAttribute12setRecursiveEb@Base 15.07.90
  _ZN7Akonadi25PersistentSearchAttribute14setQueryStringERK7QString@Base 15.07.90
- _ZN7Akonadi25PersistentSearchAttribute19setQueryCollectionsERK5QListIxE@Base 15.07.90
  _ZN7Akonadi25PersistentSearchAttribute19setQueryCollectionsERK7QVectorINS_10CollectionEE@Base 15.07.90
+ _ZN7Akonadi25PersistentSearchAttribute19setQueryCollectionsERK7QVectorIxE@Base 4:17.08.0
  _ZN7Akonadi25PersistentSearchAttribute22setRemoteSearchEnabledEb@Base 15.07.90
  _ZN7Akonadi25PersistentSearchAttributeC1Ev@Base 15.07.90
  _ZN7Akonadi25PersistentSearchAttributeC2Ev@Base 15.07.90
@@ -1354,8 +1415,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi37ChangeNotificationDependenciesFactory19createItemListCacheEiPNS_7SessionE@Base 15.07.90
  _ZN7Akonadi37ChangeNotificationDependenciesFactory20createChangeMediatorEP7QObject@Base 15.07.90
  _ZN7Akonadi37ChangeNotificationDependenciesFactory21createCollectionCacheEiPNS_7SessionE@Base 15.07.90
- _ZN7Akonadi37ChangeNotificationDependenciesFactory21createNotificationBusEP7QObjectPNS_18NotificationSourceE@Base 15.07.90
- _ZN7Akonadi37ChangeNotificationDependenciesFactory24createNotificationSourceEP7QObject@Base 15.07.90
+ _ZN7Akonadi37ChangeNotificationDependenciesFactory28createNotificationConnectionEPNS_7SessionE@Base 4:17.08.0
  _ZN7Akonadi38CollectionAttributesSynchronizationJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi38CollectionAttributesSynchronizationJob11qt_metacastEPKc@Base 15.07.90
  _ZN7Akonadi38CollectionAttributesSynchronizationJob16staticMetaObjectE@Base 15.07.90
@@ -1371,7 +1431,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi3Job12aboutToStartEPS0_@Base 15.07.90
  _ZN7Akonadi3Job12removeSubjobEP4KJob@Base 15.07.90
  _ZN7Akonadi3Job13writeFinishedEPS0_@Base 15.07.90
- _ZN7Akonadi3Job16doHandleResponseExRKNS_8Protocol7CommandE@Base 15.07.90
+ _ZN7Akonadi3Job16doHandleResponseExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi3Job16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi3Job17emitWriteFinishedEv@Base 15.07.90
  _ZN7Akonadi3Job5startEv@Base 15.07.90
@@ -1418,6 +1478,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi4Item14setPayloadBaseEPNS_8Internal11PayloadBaseE@Base 4:15.12.0
  (optional=templinst)_ZN7Akonadi4Item14setPayloadImplI10QByteArrayEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEvE4typeERKS6_@Base 15.07.90
  (optional=templinst)_ZN7Akonadi4Item14setPayloadImplINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEvE4typeERKSB_@Base 15.07.90
+ _ZN7Akonadi4Item14setPayloadPathERK7QString@Base 4:17.08.0
  _ZN7Akonadi4Item15clearAttributesEv@Base 4:15.12.0
  _ZN7Akonadi4Item15removeAttributeERK10QByteArray@Base 4:15.12.0
  _ZN7Akonadi4Item16parentCollectionEv@Base 4:15.12.0
@@ -1471,7 +1532,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi7ControlD2Ev@Base 15.07.90
  _ZN7Akonadi7LinkJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi7LinkJob11qt_metacastEPKc@Base 15.07.90
- _ZN7Akonadi7LinkJob16doHandleResponseExRKNS_8Protocol7CommandE@Base 15.07.90
+ _ZN7Akonadi7LinkJob16doHandleResponseExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi7LinkJob16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi7LinkJob7doStartEv@Base 15.07.90
  _ZN7Akonadi7LinkJobC1ERKNS_10CollectionERK7QVectorINS_4ItemEEP7QObject@Base 15.07.90
@@ -1492,6 +1553,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi7Monitor12allMonitoredEb@Base 15.07.90
  _ZN7Akonadi7Monitor12itemUnlinkedERKNS_4ItemERKNS_10CollectionE@Base 15.07.90
  _ZN7Akonadi7Monitor12itemsRemovedERK7QVectorINS_4ItemEE@Base 15.07.90
+ _ZN7Akonadi7Monitor12monitorReadyEv@Base 4:17.08.0
  _ZN7Akonadi7Monitor12setExclusiveEb@Base 15.07.90
  _ZN7Akonadi7Monitor12tagMonitoredERKNS_3TagEb@Base 15.07.90
  _ZN7Akonadi7Monitor13ignoreSessionEPNS_7SessionE@Base 15.07.90
@@ -1516,6 +1578,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi7Monitor17collectionChangedERKNS_10CollectionE@Base 15.07.90
  _ZN7Akonadi7Monitor17collectionChangedERKNS_10CollectionERK4QSetI10QByteArrayE@Base 15.07.90
  _ZN7Akonadi7Monitor17collectionRemovedERKNS_10CollectionE@Base 15.07.90
+ _ZN7Akonadi7Monitor17debugNotificationERKNS_18ChangeNotificationE@Base 4:17.08.0
  _ZN7Akonadi7Monitor17itemsFlagsChangedERK7QVectorINS_4ItemEERK4QSetI10QByteArrayESA_@Base 15.07.90
  _ZN7Akonadi7Monitor17mimeTypeMonitoredERK7QStringb@Base 15.07.90
  _ZN7Akonadi7Monitor17resourceMonitoredERK10QByteArrayb@Base 15.07.90
@@ -1531,6 +1594,9 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi7Monitor23setCollectionFetchScopeERKNS_20CollectionFetchScopeE@Base 15.07.90
  _ZN7Akonadi7Monitor25fetchCollectionStatisticsEb@Base 15.07.90
  _ZN7Akonadi7Monitor27collectionStatisticsChangedExRKNS_20CollectionStatisticsE@Base 15.07.90
+ _ZN7Akonadi7Monitor27notificationSubscriberAddedERKNS_22NotificationSubscriberE@Base 4:17.08.0
+ _ZN7Akonadi7Monitor29notificationSubscriberChangedERKNS_22NotificationSubscriberE@Base 4:17.08.0
+ _ZN7Akonadi7Monitor29notificationSubscriberRemovedERKNS_22NotificationSubscriberE@Base 4:17.08.0
  _ZN7Akonadi7Monitor35setCollectionMoveTranslationEnabledEb@Base 15.07.90
  _ZN7Akonadi7Monitor8tagAddedERKNS_3TagE@Base 15.07.90
  _ZN7Akonadi7Monitor9itemAddedERKNS_4ItemERKNS_10CollectionE@Base 15.07.90
@@ -1574,7 +1640,9 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi7TagSyncD1Ev@Base 4:15.12.0
  _ZN7Akonadi7TagSyncD2Ev@Base 4:15.12.0
  _ZN7Akonadi8Internal10clientTypeEv@Base 15.07.90
+ _ZN7Akonadi8Internal10generationEv@Base 4:17.08.0
  _ZN7Akonadi8Internal13setClientTypeENS0_10ClientTypeE@Base 15.07.90
+ _ZN7Akonadi8Internal13setGenerationEj@Base 4:17.08.0
  _ZN7Akonadi8Internal21serverProtocolVersionEv@Base 15.07.90
  _ZN7Akonadi8Internal24setServerProtocolVersionEi@Base 15.07.90
  _ZN7Akonadi8ItemSync10fetchScopeEv@Base 15.07.90
@@ -1687,7 +1755,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi9ItemModelD2Ev@Base 15.07.90
  _ZN7Akonadi9UnlinkJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi9UnlinkJob11qt_metacastEPKc@Base 15.07.90
- _ZN7Akonadi9UnlinkJob16doHandleResponseExRKNS_8Protocol7CommandE@Base 15.07.90
+ _ZN7Akonadi9UnlinkJob16doHandleResponseExRK14QSharedPointerINS_8Protocol7CommandEE@Base 4:17.08.0
  _ZN7Akonadi9UnlinkJob16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi9UnlinkJob7doStartEv@Base 15.07.90
  _ZN7Akonadi9UnlinkJobC1ERKNS_10CollectionERK7QVectorINS_4ItemEEP7QObject@Base 15.07.90
@@ -1697,7 +1765,6 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi9UnlinkJobD2Ev@Base 15.07.90
  _ZN9QHashData9hasShrunkEv@Base 15.07.90
  (optional=templinst)_ZNK12KConfigGroup9readEntryIxEE5QListIT_EPKcRKS3_@Base 15.07.90
- (optional=templinst|arch=alpha amd64 hppa kfreebsd-amd64 mips64el ppc64 ppc64el s390x sparc64 x32)_ZNK12KConfigGroup9readEntryIxEET_PKcRKS1_@Base 15.07.90
  _ZNK7Akonadi10Collection10attributesEv@Base 4:15.12.0
  _ZNK7Akonadi10Collection10referencedEv@Base 15.07.90
  _ZNK7Akonadi10Collection10shouldListENS0_11ListPurposeE@Base 15.07.90
@@ -1725,6 +1792,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZNK7Akonadi10CollectioneqERKS0_@Base 4:15.12.0
  _ZNK7Akonadi10CollectionltERKS0_@Base 4:15.12.0
  _ZNK7Akonadi10CollectionneERKS0_@Base 4:15.12.0
+ _ZNK7Akonadi10Connection10metaObjectEv@Base 4:17.08.0
  _ZNK7Akonadi10GetLockJob10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi10SearchTerm3keyEv@Base 15.07.90
  _ZNK7Akonadi10SearchTerm5valueEv@Base 15.07.90
@@ -1845,11 +1913,10 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZNK7Akonadi14MonitorPrivate10fetchItemsEv@Base 15.07.90
  _ZNK7Akonadi14MonitorPrivate11isMonitoredEx@Base 15.07.90
  _ZNK7Akonadi14MonitorPrivate12pipelineSizeEv@Base 15.07.90
- _ZNK7Akonadi14MonitorPrivate12splitMessageERKNS_8Protocol18ChangeNotificationEb@Base 15.07.90
- _ZNK7Akonadi14MonitorPrivate15isLazilyIgnoredERKNS_8Protocol18ChangeNotificationEb@Base 15.07.90
+ _ZNK7Akonadi14MonitorPrivate12splitMessageERKNS_8Protocol22ItemChangeNotificationEb@Base 4:17.08.0
+ _ZNK7Akonadi14MonitorPrivate15isLazilyIgnoredERK14QSharedPointerINS_8Protocol18ChangeNotificationEEb@Base 4:17.08.0
  _ZNK7Akonadi14MonitorPrivate16fetchCollectionsEv@Base 15.07.90
- _ZNK7Akonadi14MonitorPrivate17checkBatchSupportERKNS_8Protocol18ChangeNotificationERbS5_@Base 15.07.90
- _ZNK7Akonadi14MonitorPrivate18acceptNotificationERKNS_8Protocol18ChangeNotificationE@Base 15.07.90
+ _ZNK7Akonadi14MonitorPrivate17checkBatchSupportERK14QSharedPointerINS_8Protocol18ChangeNotificationEERbS7_@Base 4:17.08.0
  _ZNK7Akonadi14TransactionJob10metaObjectEv@Base 4:16.08.0
  _ZNK7Akonadi15CollectionModel10headerDataEiN2Qt11OrientationEi@Base 15.07.90
  _ZNK7Akonadi15CollectionModel10metaObjectEv@Base 15.07.90
@@ -1936,6 +2003,11 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZNK7Akonadi18AgentInstanceModel6parentERK11QModelIndex@Base 15.07.90
  _ZNK7Akonadi18AgentInstanceModel8rowCountERK11QModelIndex@Base 15.07.90
  _ZNK7Akonadi18AgentInstanceModel9roleNamesEv@Base 4:15.12.0
+ _ZNK7Akonadi18ChangeNotification12notificationEv@Base 4:17.08.0
+ _ZNK7Akonadi18ChangeNotification4typeEv@Base 4:17.08.0
+ _ZNK7Akonadi18ChangeNotification7isValidEv@Base 4:17.08.0
+ _ZNK7Akonadi18ChangeNotification9listenersEv@Base 4:17.08.0
+ _ZNK7Akonadi18ChangeNotification9timestampEv@Base 4:17.08.0
  _ZNK7Akonadi18CollectionFetchJob10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi18CollectionFetchJob11collectionsEv@Base 15.07.90
  _ZNK7Akonadi18DefaultResourceJob10metaObjectEv@Base 15.07.90
@@ -1975,6 +2047,8 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZNK7Akonadi20IndexPolicyAttribute5cloneEv@Base 15.07.90
  _ZNK7Akonadi20ItemModifyJobPrivate11fullCommandEv@Base 15.07.90
  _ZNK7Akonadi20ItemModifyJobPrivate18jobDebuggingStringEv@Base 15.07.90
+ _ZNK7Akonadi20ItemSerializerPlugin14availablePartsERKNS_4ItemE@Base 4:17.08.0
+ _ZNK7Akonadi20ItemSerializerPlugin19allowedForeignPartsERKNS_4ItemE@Base 4:17.08.0
  _ZNK7Akonadi20ItemSerializerPlugin5partsERKNS_4ItemE@Base 15.07.90
  _ZNK7Akonadi20QuotaColorProxyModel10metaObjectEv@Base 4:15.12.0
  _ZNK7Akonadi20QuotaColorProxyModel12warningColorEv@Base 4:15.12.0
@@ -1993,9 +2067,22 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZNK7Akonadi21AgentFilterProxyModel16filterAcceptsRowEiRK11QModelIndex@Base 15.07.90
  _ZNK7Akonadi21AsyncSelectionHandler10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi21ChangeRecorderPrivate12pipelineSizeEv@Base 15.07.90
+ _ZNK7Akonadi21ChangeRecorderPrivate15encodeRelationsERK4QSetINS_8Protocol18ChangeNotification8RelationEE@Base 4:17.08.0
+ _ZNK7Akonadi21ChangeRecorderPrivate15mapTagOperationENS0_8LegacyOpE@Base 4:17.08.0
+ _ZNK7Akonadi21ChangeRecorderPrivate15mapToLegacyTypeENS_8Protocol7Command4TypeE@Base 4:17.08.0
+ _ZNK7Akonadi21ChangeRecorderPrivate16extractRelationsER4QSetI10QByteArrayE@Base 4:17.08.0
+ _ZNK7Akonadi21ChangeRecorderPrivate16mapItemOperationENS0_8LegacyOpE@Base 4:17.08.0
+ _ZNK7Akonadi21ChangeRecorderPrivate19loadTagNotificationER11QDataStreamy@Base 4:17.08.0
+ _ZNK7Akonadi21ChangeRecorderPrivate20loadItemNotificationEP9QSettings@Base 4:17.08.0
+ _ZNK7Akonadi21ChangeRecorderPrivate20loadItemNotificationER11QDataStreamy@Base 4:17.08.0
+ _ZNK7Akonadi21ChangeRecorderPrivate20mapRelationOperationENS0_8LegacyOpE@Base 4:17.08.0
  _ZNK7Akonadi21ChangeRecorderPrivate21notificationsFileNameEv@Base 15.07.90
+ _ZNK7Akonadi21ChangeRecorderPrivate22mapCollectionOperationENS0_8LegacyOpE@Base 4:17.08.0
+ _ZNK7Akonadi21ChangeRecorderPrivate24loadRelationNotificationER11QDataStreamy@Base 4:17.08.0
+ _ZNK7Akonadi21ChangeRecorderPrivate26loadCollectionNotificationEP9QSettings@Base 4:17.08.0
+ _ZNK7Akonadi21ChangeRecorderPrivate26loadCollectionNotificationER11QDataStreamy@Base 4:17.08.0
  _ZNK7Akonadi21ChangeRecorderPrivate28dumpNotificationListToStringEv@Base 15.07.90
- _ZNK7Akonadi21ChangeRecorderPrivate8loadFromEP9QIODeviceRb@Base 15.07.90
+ _ZNK7Akonadi21ChangeRecorderPrivate8loadFromEP5QFileRb@Base 4:17.08.0
  _ZNK7Akonadi21EntityHiddenAttribute10serializedEv@Base 15.07.90
  _ZNK7Akonadi21EntityHiddenAttribute4typeEv@Base 15.07.90
  _ZNK7Akonadi21EntityHiddenAttribute5cloneEv@Base 15.07.90
@@ -2046,7 +2133,18 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZNK7Akonadi22EntityTreeModelPrivate24fetchTopLevelCollectionsEv@Base 15.07.90
  _ZNK7Akonadi22EntityTreeModelPrivate8isHiddenERKNS_10CollectionE@Base 4:15.12.0
  _ZNK7Akonadi22EntityTreeModelPrivate8isHiddenERKNS_4ItemE@Base 4:15.12.0
- _ZNK7Akonadi22ItemSerializerPluginV214availablePartsERKNS_4ItemE@Base 15.07.90
+ _ZNK7Akonadi22NotificationSubscriber10subscriberEv@Base 4:17.08.0
+ _ZNK7Akonadi22NotificationSubscriber11isExclusiveEv@Base 4:17.08.0
+ _ZNK7Akonadi22NotificationSubscriber13monitoredTagsEv@Base 4:17.08.0
+ _ZNK7Akonadi22NotificationSubscriber14isAllMonitoredEv@Base 4:17.08.0
+ _ZNK7Akonadi22NotificationSubscriber14monitoredItemsEv@Base 4:17.08.0
+ _ZNK7Akonadi22NotificationSubscriber14monitoredTypesEv@Base 4:17.08.0
+ _ZNK7Akonadi22NotificationSubscriber15ignoredSessionsEv@Base 4:17.08.0
+ _ZNK7Akonadi22NotificationSubscriber18monitoredMimeTypesEv@Base 4:17.08.0
+ _ZNK7Akonadi22NotificationSubscriber18monitoredResourcesEv@Base 4:17.08.0
+ _ZNK7Akonadi22NotificationSubscriber20monitoredCollectionsEv@Base 4:17.08.0
+ _ZNK7Akonadi22NotificationSubscriber7isValidEv@Base 4:17.08.0
+ _ZNK7Akonadi22NotificationSubscriber9sessionIdEv@Base 4:17.08.0
  _ZNK7Akonadi22TransactionRollbackJob10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi23CollectionStatisticsJob10collectionEv@Base 15.07.90
  _ZNK7Akonadi23CollectionStatisticsJob10metaObjectEv@Base 15.07.90
@@ -2156,6 +2254,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZNK7Akonadi4Item11payloadDataEv@Base 15.07.90
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplI10QByteArrayEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES6_E4typeEv@Base 15.07.90
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicESB_E4typeEv@Base 15.07.90
+ _ZNK7Akonadi4Item11payloadPathEv@Base 4:17.08.0
  _ZNK7Akonadi4Item12hasAttributeERK10QByteArray@Base 4:15.12.0
  (optional=templinst)_ZNK7Akonadi4Item12hasAttributeINS_22EntityDisplayAttributeEEEbv@Base 4:16.04.0
  _ZNK7Akonadi4Item13payloadBaseV2Eii@Base 15.07.90
@@ -2256,9 +2355,10 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZNK7Akonadi9ItemModel9mimeTypesEv@Base 15.07.90
  _ZNK7Akonadi9UnlinkJob10metaObjectEv@Base 15.07.90
  (optional=templinst|arch=armel)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE10_M_releaseEv@Base 4:15.08.2
- (optional=templinst|arch=!armel !mips !mips64el !mipsel)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 15.07.90
+ (optional=templinst)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv@Base 4:17.08.0
  _ZTIN5boost16exception_detail10clone_baseE@Base 15.07.90
  _ZTIN5boost9exceptionE@Base 15.07.90
+ _ZTIN7Akonadi10ConnectionE@Base 4:17.08.0
  _ZTIN7Akonadi10GetLockJobE@Base 15.07.90
  _ZTIN7Akonadi11ItemCopyJobE@Base 15.07.90
  _ZTIN7Akonadi11ItemMonitorE@Base 15.07.90
@@ -2331,7 +2431,6 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZTIN7Akonadi22CollectionPathResolverE@Base 15.07.90
  _ZTIN7Akonadi22EntityDeletedAttributeE@Base 15.07.90
  _ZTIN7Akonadi22EntityDisplayAttributeE@Base 15.07.90
- _ZTIN7Akonadi22ItemSerializerPluginV2E@Base 15.07.90
  _ZTIN7Akonadi22TransactionRollbackJobE@Base 15.07.90
  _ZTIN7Akonadi23CollectionStatisticsJobE@Base 15.07.90
  _ZTIN7Akonadi23EntityRightsFilterModelE@Base 15.07.90
@@ -2373,6 +2472,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  (arch=!armel)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:15.08.2
  _ZTSN5boost16exception_detail10clone_baseE@Base 15.07.90
  _ZTSN5boost9exceptionE@Base 15.07.90
+ _ZTSN7Akonadi10ConnectionE@Base 4:17.08.0
  _ZTSN7Akonadi10GetLockJobE@Base 15.07.90
  _ZTSN7Akonadi11ItemCopyJobE@Base 15.07.90
  _ZTSN7Akonadi11ItemMonitorE@Base 15.07.90
@@ -2445,7 +2545,6 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZTSN7Akonadi22CollectionPathResolverE@Base 15.07.90
  _ZTSN7Akonadi22EntityDeletedAttributeE@Base 15.07.90
  _ZTSN7Akonadi22EntityDisplayAttributeE@Base 15.07.90
- _ZTSN7Akonadi22ItemSerializerPluginV2E@Base 15.07.90
  _ZTSN7Akonadi22TransactionRollbackJobE@Base 15.07.90
  _ZTSN7Akonadi23CollectionStatisticsJobE@Base 15.07.90
  _ZTSN7Akonadi23EntityRightsFilterModelE@Base 15.07.90
@@ -2487,6 +2586,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  (arch=!armel)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:15.08.2
  _ZTVN5boost16exception_detail10clone_baseE@Base 15.07.90
  _ZTVN5boost9exceptionE@Base 15.07.90
+ _ZTVN7Akonadi10ConnectionE@Base 4:17.08.0
  _ZTVN7Akonadi10GetLockJobE@Base 15.07.90
  _ZTVN7Akonadi11ItemCopyJobE@Base 15.07.90
  _ZTVN7Akonadi11ItemMonitorE@Base 15.07.90
@@ -2558,7 +2658,6 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZTVN7Akonadi22CollectionPathResolverE@Base 15.07.90
  _ZTVN7Akonadi22EntityDeletedAttributeE@Base 15.07.90
  _ZTVN7Akonadi22EntityDisplayAttributeE@Base 15.07.90
- _ZTVN7Akonadi22ItemSerializerPluginV2E@Base 15.07.90
  _ZTVN7Akonadi22TransactionRollbackJobE@Base 15.07.90
  _ZTVN7Akonadi23CollectionStatisticsJobE@Base 15.07.90
  _ZTVN7Akonadi23EntityRightsFilterModelE@Base 15.07.90

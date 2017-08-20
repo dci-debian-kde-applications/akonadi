@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:16.08.0 amd64 armhf i386
+# SymbolsHelper-Confirmed: 4:17.08.0 amd64
 libKF5AkonadiPrivate.so.5 libkf5akonadiprivate5 #MINVER#
  _ZN7Akonadi10ImapParser10parseBlockERK10QByteArray@Base 15.07.90
  _ZN7Akonadi10ImapParser11parseNumberERK10QByteArrayRxPbi@Base 15.07.90
@@ -28,9 +28,10 @@ libKF5AkonadiPrivate.so.5 libkf5akonadiprivate5 #MINVER#
  _ZN7Akonadi11XdgBaseDirs16findResourceFileEPKcRK7QString@Base 15.07.90
  _ZN7Akonadi11XdgBaseDirs17akonadiConfigFileERK7QString6QFlagsINS0_14FileAccessFlagEE@Base 15.07.90
  _ZN7Akonadi11XdgBaseDirs18findExecutableFileERK7QStringRK11QStringList@Base 15.07.90
+ _ZN7Akonadi11XdgBaseDirs18overrideConfigPathERK7QString@Base 4:17.08.0
  _ZN7Akonadi11XdgBaseDirs19findAllResourceDirsEPKcRK7QString@Base 15.07.90
- _ZN7Akonadi11XdgBaseDirs23akonadiServerConfigFileE6QFlagsINS0_14FileAccessFlagEE@Base 15.07.90
- _ZN7Akonadi11XdgBaseDirs27akonadiConnectionConfigFileE6QFlagsINS0_14FileAccessFlagEE@Base 15.07.90
+ _ZN7Akonadi11XdgBaseDirs23akonadiServerConfigFileE6QFlagsINS0_14FileAccessFlagEERK7QString@Base 4:17.08.0
+ _ZN7Akonadi11XdgBaseDirs27akonadiConnectionConfigFileE6QFlagsINS0_14FileAccessFlagEERK7QString@Base 4:17.08.0
  _ZN7Akonadi11XdgBaseDirs7saveDirEPKcRK7QString@Base 15.07.90
  _ZN7Akonadi11XdgBaseDirs8homePathEPKc@Base 15.07.90
  _ZN7Akonadi11XdgBaseDirsC1Ev@Base 15.07.90
@@ -116,14 +117,17 @@ libKF5AkonadiPrivate.so.5 libkf5akonadiprivate5 #MINVER#
  _ZN7Akonadi5ScopeaSEOS0_@Base 15.07.90
  _ZN7Akonadi5ScopeaSERKS0_@Base 15.07.90
  _ZN7Akonadi7ImapSet3addERK4QSetIxE@Base 15.07.90
+ _ZN7Akonadi7ImapSet3addERK5QListIxE@Base 4:17.08.0
  _ZN7Akonadi7ImapSet3addERK7QVectorIxE@Base 15.07.90
  _ZN7Akonadi7ImapSet3addERKNS_12ImapIntervalE@Base 15.07.90
  _ZN7Akonadi7ImapSet3allEv@Base 15.07.90
+ _ZN7Akonadi7ImapSetC1ERK5QListIxE@Base 4:17.08.0
  _ZN7Akonadi7ImapSetC1ERK7QVectorIxE@Base 15.07.90
  _ZN7Akonadi7ImapSetC1ERKNS_12ImapIntervalE@Base 15.07.90
  _ZN7Akonadi7ImapSetC1ERKS0_@Base 15.07.90
  _ZN7Akonadi7ImapSetC1Ev@Base 15.07.90
  _ZN7Akonadi7ImapSetC1Ex@Base 15.07.90
+ _ZN7Akonadi7ImapSetC2ERK5QListIxE@Base 4:17.08.0
  _ZN7Akonadi7ImapSetC2ERK7QVectorIxE@Base 15.07.90
  _ZN7Akonadi7ImapSetC2ERKNS_12ImapIntervalE@Base 15.07.90
  _ZN7Akonadi7ImapSetC2ERKS0_@Base 15.07.90
@@ -135,611 +139,922 @@ libKF5AkonadiPrivate.so.5 libkf5akonadiprivate5 #MINVER#
  _ZN7Akonadi8Instance10identifierEv@Base 15.12.0
  _ZN7Akonadi8Instance13hasIdentifierEv@Base 15.12.0
  _ZN7Akonadi8Instance13setIdentifierERK7QString@Base 15.12.0
- _ZN7Akonadi8Protocol10FetchScope15setChangedSinceERK9QDateTime@Base 15.07.90
- _ZN7Akonadi8Protocol10FetchScope16setAncestorDepthENS0_8Ancestor5DepthE@Base 15.07.90
- _ZN7Akonadi8Protocol10FetchScope16setTagFetchScopeERK4QSetI10QByteArrayE@Base 15.07.90
- _ZN7Akonadi8Protocol10FetchScope17setRequestedPartsERK7QVectorI10QByteArrayE@Base 15.07.90
  _ZN7Akonadi8Protocol10FetchScope8setFetchE6QFlagsINS1_9FetchFlagEEb@Base 15.07.90
- _ZN7Akonadi8Protocol10FetchScopeC1EOS1_@Base 15.07.90
  _ZN7Akonadi8Protocol10FetchScopeC1ERKS1_@Base 15.07.90
  _ZN7Akonadi8Protocol10FetchScopeC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol10FetchScopeC2EOS1_@Base 15.07.90
  _ZN7Akonadi8Protocol10FetchScopeC2ERKS1_@Base 15.07.90
  _ZN7Akonadi8Protocol10FetchScopeC2Ev@Base 15.07.90
  _ZN7Akonadi8Protocol10FetchScopeD1Ev@Base 15.07.90
  _ZN7Akonadi8Protocol10FetchScopeD2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol10FetchScopeaSEOS1_@Base 15.07.90
  _ZN7Akonadi8Protocol10FetchScopeaSERKS1_@Base 15.07.90
- _ZN7Akonadi8Protocol11CachePolicy10setInheritEb@Base 15.07.90
- _ZN7Akonadi8Protocol11CachePolicy13setLocalPartsERK11QStringList@Base 15.07.90
- _ZN7Akonadi8Protocol11CachePolicy15setCacheTimeoutEi@Base 15.07.90
- _ZN7Akonadi8Protocol11CachePolicy15setSyncOnDemandEb@Base 15.07.90
- _ZN7Akonadi8Protocol11CachePolicy16setCheckIntervalEi@Base 15.07.90
- _ZN7Akonadi8Protocol11CachePolicyC1EOS1_@Base 15.07.90
  _ZN7Akonadi8Protocol11CachePolicyC1ERKS1_@Base 15.07.90
  _ZN7Akonadi8Protocol11CachePolicyC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol11CachePolicyC2EOS1_@Base 15.07.90
  _ZN7Akonadi8Protocol11CachePolicyC2ERKS1_@Base 15.07.90
  _ZN7Akonadi8Protocol11CachePolicyC2Ev@Base 15.07.90
  _ZN7Akonadi8Protocol11CachePolicyD1Ev@Base 15.07.90
  _ZN7Akonadi8Protocol11CachePolicyD2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol11CachePolicyaSEOS1_@Base 15.07.90
  _ZN7Akonadi8Protocol11CachePolicyaSERKS1_@Base 15.07.90
+ _ZN7Akonadi8Protocol11debugStringERKNS0_7CommandE@Base 4:17.08.0
  _ZN7Akonadi8Protocol11deserializeEP9QIODevice@Base 15.07.90
- _ZN7Akonadi8Protocol12LoginCommand12setSessionIdERK10QByteArray@Base 15.12.0
- _ZN7Akonadi8Protocol12LoginCommand14setSessionModeENS1_11SessionModeE@Base 15.12.0
- _ZN7Akonadi8Protocol12LoginCommandC1ERK10QByteArrayNS1_11SessionModeE@Base 15.07.90
- _ZN7Akonadi8Protocol12LoginCommandC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol12LoginCommandC1ERK10QByteArray@Base 4:17.08.0
+ _ZN7Akonadi8Protocol12LoginCommandC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol12LoginCommandC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol12LoginCommandC2ERK10QByteArrayNS1_11SessionModeE@Base 15.07.90
- _ZN7Akonadi8Protocol12LoginCommandC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol12LoginCommandC2ERK10QByteArray@Base 4:17.08.0
+ _ZN7Akonadi8Protocol12LoginCommandC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol12LoginCommandC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol12PartMetaData10setVersionEi@Base 15.07.90
- _ZN7Akonadi8Protocol12PartMetaData13setIsExternalEb@Base 15.07.90
- _ZN7Akonadi8Protocol12PartMetaData7setNameERK10QByteArray@Base 15.07.90
- _ZN7Akonadi8Protocol12PartMetaData7setSizeEx@Base 15.07.90
- _ZN7Akonadi8Protocol12PartMetaDataC1EOS1_@Base 15.07.90
- _ZN7Akonadi8Protocol12PartMetaDataC1ERK10QByteArrayxib@Base 15.07.90
+ _ZN7Akonadi8Protocol12LoginCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol12LoginCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol12LoginCommandaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol12PartMetaDataC1ERK10QByteArrayRKxRKiRKNS1_11StorageTypeE@Base 4:17.08.0
  _ZN7Akonadi8Protocol12PartMetaDataC1ERKS1_@Base 15.07.90
  _ZN7Akonadi8Protocol12PartMetaDataC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol12PartMetaDataC2EOS1_@Base 15.07.90
- _ZN7Akonadi8Protocol12PartMetaDataC2ERK10QByteArrayxib@Base 15.07.90
+ _ZN7Akonadi8Protocol12PartMetaDataC2ERK10QByteArrayRKxRKiRKNS1_11StorageTypeE@Base 4:17.08.0
  _ZN7Akonadi8Protocol12PartMetaDataC2ERKS1_@Base 15.07.90
  _ZN7Akonadi8Protocol12PartMetaDataC2Ev@Base 15.07.90
  _ZN7Akonadi8Protocol12PartMetaDataD1Ev@Base 15.07.90
  _ZN7Akonadi8Protocol12PartMetaDataD2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol12PartMetaDataaSEOS1_@Base 15.07.90
  _ZN7Akonadi8Protocol12PartMetaDataaSERKS1_@Base 15.07.90
- _ZN7Akonadi8Protocol12ScopeContext10setContextENS1_4TypeERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol12ScopeContext10setContextENS1_4TypeEx@Base 15.07.90
- _ZN7Akonadi8Protocol12ScopeContext12clearContextENS1_4TypeE@Base 15.07.90
  _ZN7Akonadi8Protocol12ScopeContextC1ENS1_4TypeERK7QString@Base 15.07.90
  _ZN7Akonadi8Protocol12ScopeContextC1ENS1_4TypeEx@Base 15.07.90
- _ZN7Akonadi8Protocol12ScopeContextC1EOS1_@Base 15.07.90
  _ZN7Akonadi8Protocol12ScopeContextC1ERKS1_@Base 15.07.90
  _ZN7Akonadi8Protocol12ScopeContextC1Ev@Base 15.07.90
  _ZN7Akonadi8Protocol12ScopeContextC2ENS1_4TypeERK7QString@Base 15.07.90
  _ZN7Akonadi8Protocol12ScopeContextC2ENS1_4TypeEx@Base 15.07.90
- _ZN7Akonadi8Protocol12ScopeContextC2EOS1_@Base 15.07.90
  _ZN7Akonadi8Protocol12ScopeContextC2ERKS1_@Base 15.07.90
  _ZN7Akonadi8Protocol12ScopeContextC2Ev@Base 15.07.90
  _ZN7Akonadi8Protocol12ScopeContextD1Ev@Base 15.07.90
  _ZN7Akonadi8Protocol12ScopeContextD2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol12ScopeContextaSEOS1_@Base 15.07.90
  _ZN7Akonadi8Protocol12ScopeContextaSERKS1_@Base 15.07.90
- _ZN7Akonadi8Protocol13HelloResponse10setMessageERK7QString@Base 15.12.0
- _ZN7Akonadi8Protocol13HelloResponse13setServerNameERK7QString@Base 15.12.0
- _ZN7Akonadi8Protocol13HelloResponse18setProtocolVersionEi@Base 15.12.0
- _ZN7Akonadi8Protocol13HelloResponseC1ERK7QStringS4_i@Base 15.07.90
- _ZN7Akonadi8Protocol13HelloResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol13HelloResponseC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol13HelloResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol13HelloResponseC2ERK7QStringS4_i@Base 15.07.90
- _ZN7Akonadi8Protocol13HelloResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol13HelloResponseC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol13HelloResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol13LoginResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol13HelloResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol13HelloResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol13HelloResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol13LoginResponseC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol13LoginResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol13LoginResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol13LoginResponseC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol13LoginResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol13LogoutCommandC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol13LoginResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol13LoginResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol13LoginResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol13LogoutCommandC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol13LogoutCommandC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol13LogoutCommandC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol13LogoutCommandC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol13LogoutCommandC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol13SearchCommand12setMimeTypesERK11QStringList@Base 15.07.90
- _ZN7Akonadi8Protocol13SearchCommand12setRecursiveEb@Base 15.07.90
- _ZN7Akonadi8Protocol13SearchCommand13setFetchScopeERKNS0_10FetchScopeE@Base 15.07.90
- _ZN7Akonadi8Protocol13SearchCommand14setCollectionsERK7QVectorIxE@Base 15.07.90
- _ZN7Akonadi8Protocol13SearchCommand8setQueryERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol13SearchCommand9setRemoteEb@Base 15.07.90
- _ZN7Akonadi8Protocol13SearchCommandC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol13LogoutCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol13LogoutCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol13LogoutCommandaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol13SearchCommandC1ERK7QString@Base 4:17.08.0
+ _ZN7Akonadi8Protocol13SearchCommandC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol13SearchCommandC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol13SearchCommandC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol13SearchCommandC2ERK7QString@Base 4:17.08.0
+ _ZN7Akonadi8Protocol13SearchCommandC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol13SearchCommandC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol14LogoutResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol13SearchCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol13SearchCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol13SearchCommandaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol14LogoutResponseC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol14LogoutResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol14LogoutResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol14LogoutResponseC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol14LogoutResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol14SearchResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol14LogoutResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol14LogoutResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol14LogoutResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol14SearchResponseC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol14SearchResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol14SearchResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol14SearchResponseC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol14SearchResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol16CopyItemsCommand14setDestinationERKNS_5ScopeE@Base 15.12.0
- _ZN7Akonadi8Protocol16CopyItemsCommand8setItemsERKNS_5ScopeE@Base 15.12.0
- _ZN7Akonadi8Protocol16CopyItemsCommandC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol14SearchResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol14SearchResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol14SearchResponseaSERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol16CopyItemsCommandC1ERKNS_5ScopeES4_@Base 15.07.90
+ _ZN7Akonadi8Protocol16CopyItemsCommandC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol16CopyItemsCommandC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol16CopyItemsCommandC2ERKNS0_7CommandE@Base 15.07.90
  _ZN7Akonadi8Protocol16CopyItemsCommandC2ERKNS_5ScopeES4_@Base 15.07.90
+ _ZN7Akonadi8Protocol16CopyItemsCommandC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol16CopyItemsCommandC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol16CreateTagCommand11setParentIdEx@Base 15.07.90
- _ZN7Akonadi8Protocol16CreateTagCommand11setRemoteIdERK10QByteArray@Base 15.07.90
- _ZN7Akonadi8Protocol16CreateTagCommand13setAttributesERK4QMapI10QByteArrayS3_E@Base 15.07.90
- _ZN7Akonadi8Protocol16CreateTagCommand6setGidERK10QByteArray@Base 15.07.90
- _ZN7Akonadi8Protocol16CreateTagCommand7setTypeERK10QByteArray@Base 15.07.90
- _ZN7Akonadi8Protocol16CreateTagCommand8setMergeEb@Base 15.07.90
- _ZN7Akonadi8Protocol16CreateTagCommandC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol16CopyItemsCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol16CopyItemsCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol16CopyItemsCommandaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol16CreateTagCommandC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol16CreateTagCommandC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol16CreateTagCommandC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol16CreateTagCommandC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol16CreateTagCommandC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol16DeleteTagCommandC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol16CreateTagCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol16CreateTagCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol16CreateTagCommandaSERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol16DeleteTagCommandC1ERKNS_5ScopeE@Base 15.07.90
+ _ZN7Akonadi8Protocol16DeleteTagCommandC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol16DeleteTagCommandC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol16DeleteTagCommandC2ERKNS0_7CommandE@Base 15.07.90
  _ZN7Akonadi8Protocol16DeleteTagCommandC2ERKNS_5ScopeE@Base 15.07.90
+ _ZN7Akonadi8Protocol16DeleteTagCommandC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol16DeleteTagCommandC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol16FetchTagsCommand13setAttributesERK4QSetI10QByteArrayE@Base 15.07.90
- _ZN7Akonadi8Protocol16FetchTagsCommand9setIdOnlyEb@Base 15.07.90
- _ZN7Akonadi8Protocol16FetchTagsCommandC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol16DeleteTagCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol16DeleteTagCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol16DeleteTagCommandaSERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol16FetchTagsCommandC1ERKNS_5ScopeE@Base 15.07.90
+ _ZN7Akonadi8Protocol16FetchTagsCommandC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol16FetchTagsCommandC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol16FetchTagsCommandC2ERKNS0_7CommandE@Base 15.07.90
  _ZN7Akonadi8Protocol16FetchTagsCommandC2ERKNS_5ScopeE@Base 15.07.90
+ _ZN7Akonadi8Protocol16FetchTagsCommandC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol16FetchTagsCommandC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol16LinkItemsCommandC1ENS1_6ActionERKNS_5ScopeES5_@Base 15.07.90
- _ZN7Akonadi8Protocol16LinkItemsCommandC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol16FetchTagsCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol16FetchTagsCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol16FetchTagsCommandaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol16LinkItemsCommandC1ERKNS1_6ActionERKNS_5ScopeES7_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol16LinkItemsCommandC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol16LinkItemsCommandC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol16LinkItemsCommandC2ENS1_6ActionERKNS_5ScopeES5_@Base 15.07.90
- _ZN7Akonadi8Protocol16LinkItemsCommandC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol16LinkItemsCommandC2ERKNS1_6ActionERKNS_5ScopeES7_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol16LinkItemsCommandC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol16LinkItemsCommandC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol16ModifyTagCommand11setParentIdEx@Base 15.07.90
+ _ZN7Akonadi8Protocol16LinkItemsCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol16LinkItemsCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol16LinkItemsCommandaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol16ModifyTagCommand11setParentIdERKx@Base 4:17.08.0
  _ZN7Akonadi8Protocol16ModifyTagCommand11setRemoteIdERK10QByteArray@Base 15.07.90
  _ZN7Akonadi8Protocol16ModifyTagCommand13setAttributesERK4QMapI10QByteArrayS3_E@Base 15.07.90
  _ZN7Akonadi8Protocol16ModifyTagCommand20setRemovedAttributesERK4QSetI10QByteArrayE@Base 15.07.90
  _ZN7Akonadi8Protocol16ModifyTagCommand7setTypeERK10QByteArray@Base 15.07.90
- _ZN7Akonadi8Protocol16ModifyTagCommandC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol16ModifyTagCommandC1ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol16ModifyTagCommandC1ERKx@Base 4:17.08.0
  _ZN7Akonadi8Protocol16ModifyTagCommandC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol16ModifyTagCommandC1Ex@Base 15.07.90
- _ZN7Akonadi8Protocol16ModifyTagCommandC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol16ModifyTagCommandC2ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol16ModifyTagCommandC2ERKx@Base 4:17.08.0
  _ZN7Akonadi8Protocol16ModifyTagCommandC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol16ModifyTagCommandC2Ex@Base 15.07.90
- _ZN7Akonadi8Protocol16MoveItemsCommandC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol16ModifyTagCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol16ModifyTagCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol16ModifyTagCommandaSERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol16MoveItemsCommandC1ERKNS_5ScopeERKNS0_12ScopeContextES4_@Base 15.07.90
  _ZN7Akonadi8Protocol16MoveItemsCommandC1ERKNS_5ScopeES4_@Base 15.07.90
+ _ZN7Akonadi8Protocol16MoveItemsCommandC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol16MoveItemsCommandC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol16MoveItemsCommandC2ERKNS0_7CommandE@Base 15.07.90
  _ZN7Akonadi8Protocol16MoveItemsCommandC2ERKNS_5ScopeERKNS0_12ScopeContextES4_@Base 15.07.90
  _ZN7Akonadi8Protocol16MoveItemsCommandC2ERKNS_5ScopeES4_@Base 15.07.90
+ _ZN7Akonadi8Protocol16MoveItemsCommandC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol16MoveItemsCommandC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol17CopyItemsResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol16MoveItemsCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol16MoveItemsCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol16MoveItemsCommandaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17CopyItemsResponseC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol17CopyItemsResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol17CopyItemsResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol17CopyItemsResponseC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol17CopyItemsResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol17CreateItemCommand11setDateTimeERK9QDateTime@Base 15.07.90
- _ZN7Akonadi8Protocol17CreateItemCommand11setItemSizeEx@Base 15.07.90
- _ZN7Akonadi8Protocol17CreateItemCommand11setMimeTypeERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol17CreateItemCommand11setRemoteIdERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol17CreateItemCommand12setAddedTagsERKNS_5ScopeE@Base 15.07.90
- _ZN7Akonadi8Protocol17CreateItemCommand13setAddedFlagsERK4QSetI10QByteArrayE@Base 15.07.90
- _ZN7Akonadi8Protocol17CreateItemCommand13setAttributesERK4QMapI10QByteArrayS3_E@Base 15.07.90
- _ZN7Akonadi8Protocol17CreateItemCommand13setCollectionERKNS_5ScopeE@Base 15.07.90
- _ZN7Akonadi8Protocol17CreateItemCommand13setMergeModesERK6QFlagsINS1_9MergeModeEE@Base 15.07.90
- _ZN7Akonadi8Protocol17CreateItemCommand14setRemovedTagsERKNS_5ScopeE@Base 15.07.90
- _ZN7Akonadi8Protocol17CreateItemCommand15setRemovedFlagsERK4QSetI10QByteArrayE@Base 15.07.90
- _ZN7Akonadi8Protocol17CreateItemCommand17setRemoteRevisionERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol17CreateItemCommand6setGIDERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol17CreateItemCommand7setTagsERKNS_5ScopeE@Base 15.07.90
- _ZN7Akonadi8Protocol17CreateItemCommand8setFlagsERK4QSetI10QByteArrayE@Base 15.07.90
- _ZN7Akonadi8Protocol17CreateItemCommand8setPartsERK4QSetI10QByteArrayE@Base 15.07.90
- _ZN7Akonadi8Protocol17CreateItemCommandC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol17CopyItemsResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17CopyItemsResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17CopyItemsResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17CreateItemCommandC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol17CreateItemCommandC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol17CreateItemCommandC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol17CreateItemCommandC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol17CreateItemCommandC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol17CreateTagResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol17CreateItemCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17CreateItemCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17CreateItemCommandaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17CreateTagResponseC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol17CreateTagResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol17CreateTagResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol17CreateTagResponseC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol17CreateTagResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol17DeleteTagResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol17CreateTagResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17CreateTagResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17CreateTagResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17DeleteTagResponseC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol17DeleteTagResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol17DeleteTagResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol17DeleteTagResponseC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol17DeleteTagResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol17FetchItemsCommand10fetchScopeEv@Base 15.07.90
- _ZN7Akonadi8Protocol17FetchItemsCommandC1ERKNS0_7CommandE@Base 15.07.90
- _ZN7Akonadi8Protocol17FetchItemsCommandC1ERKNS_5ScopeERKNS0_10FetchScopeE@Base 15.07.90
+ _ZN7Akonadi8Protocol17DeleteTagResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17DeleteTagResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17DeleteTagResponseaSERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol17FetchItemsCommandC1ERKNS_5ScopeERKNS0_12ScopeContextERKNS0_10FetchScopeE@Base 15.07.90
+ _ZN7Akonadi8Protocol17FetchItemsCommandC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol17FetchItemsCommandC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol17FetchItemsCommandC2ERKNS0_7CommandE@Base 15.07.90
- _ZN7Akonadi8Protocol17FetchItemsCommandC2ERKNS_5ScopeERKNS0_10FetchScopeE@Base 15.07.90
  _ZN7Akonadi8Protocol17FetchItemsCommandC2ERKNS_5ScopeERKNS0_12ScopeContextERKNS0_10FetchScopeE@Base 15.07.90
+ _ZN7Akonadi8Protocol17FetchItemsCommandC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol17FetchItemsCommandC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol17FetchTagsResponse11setParentIdEx@Base 15.07.90
- _ZN7Akonadi8Protocol17FetchTagsResponse11setRemoteIdERK10QByteArray@Base 15.07.90
- _ZN7Akonadi8Protocol17FetchTagsResponse13setAttributesERK4QMapI10QByteArrayS3_E@Base 15.07.90
- _ZN7Akonadi8Protocol17FetchTagsResponse6setGidERK10QByteArray@Base 15.07.90
- _ZN7Akonadi8Protocol17FetchTagsResponse7setTypeERK10QByteArray@Base 15.07.90
- _ZN7Akonadi8Protocol17FetchTagsResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol17FetchItemsCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17FetchItemsCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17FetchItemsCommandaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17FetchTagsResponseC1ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17FetchTagsResponseC1ERKx@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17FetchTagsResponseC1ERKxRK10QByteArrayS6_S6_S3_RK4QMapIS4_S4_E@Base 4:17.08.0
  _ZN7Akonadi8Protocol17FetchTagsResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol17FetchTagsResponseC1Ex@Base 15.07.90
- _ZN7Akonadi8Protocol17FetchTagsResponseC1ExRK10QByteArrayS4_S4_xRK4QMapIS2_S2_E@Base 15.07.90
- _ZN7Akonadi8Protocol17FetchTagsResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol17FetchTagsResponseC2ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17FetchTagsResponseC2ERKx@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17FetchTagsResponseC2ERKxRK10QByteArrayS6_S6_S3_RK4QMapIS4_S4_E@Base 4:17.08.0
  _ZN7Akonadi8Protocol17FetchTagsResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol17FetchTagsResponseC2Ex@Base 15.07.90
- _ZN7Akonadi8Protocol17FetchTagsResponseC2ExRK10QByteArrayS4_S4_xRK4QMapIS2_S2_E@Base 15.07.90
- _ZN7Akonadi8Protocol17LinkItemsResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol17FetchTagsResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17FetchTagsResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17FetchTagsResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17LinkItemsResponseC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol17LinkItemsResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol17LinkItemsResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol17LinkItemsResponseC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol17LinkItemsResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol17ModifyTagResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol17LinkItemsResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17LinkItemsResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17LinkItemsResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17ModifyTagResponseC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol17ModifyTagResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol17ModifyTagResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol17ModifyTagResponseC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol17ModifyTagResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol17MoveItemsResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol17ModifyTagResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17ModifyTagResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17ModifyTagResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17MoveItemsResponseC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol17MoveItemsResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol17MoveItemsResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol17MoveItemsResponseC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol17MoveItemsResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol18ChangeNotification11addMetadataERK10QByteArray@Base 15.07.90
- _ZN7Akonadi8Protocol18ChangeNotification11setEntitiesERK7QVectorINS1_6EntityEE@Base 15.07.90
- _ZN7Akonadi8Protocol18ChangeNotification11setResourceERK10QByteArray@Base 15.07.90
- _ZN7Akonadi8Protocol18ChangeNotification12setAddedTagsERK4QSetIxE@Base 15.07.90
- _ZN7Akonadi8Protocol18ChangeNotification12setItemPartsERK4QSetI10QByteArrayE@Base 15.07.90
- _ZN7Akonadi8Protocol18ChangeNotification12setOperationENS1_9OperationE@Base 15.07.90
- _ZN7Akonadi8Protocol18ChangeNotification12setSessionIdERK10QByteArray@Base 15.07.90
- _ZN7Akonadi8Protocol18ChangeNotification13clearEntitiesEv@Base 15.07.90
- _ZN7Akonadi8Protocol18ChangeNotification13setAddedFlagsERK4QSetI10QByteArrayE@Base 15.07.90
- _ZN7Akonadi8Protocol18ChangeNotification14removeMetadataERK10QByteArray@Base 15.07.90
- _ZN7Akonadi8Protocol18ChangeNotification14setRemovedTagsERK4QSetIxE@Base 15.07.90
- _ZN7Akonadi8Protocol18ChangeNotification15setRemovedFlagsERK4QSetI10QByteArrayE@Base 15.07.90
- _ZN7Akonadi8Protocol18ChangeNotification17appendAndCompressER7QVectorIS1_ERKS1_@Base 15.07.90
- _ZN7Akonadi8Protocol18ChangeNotification19setParentCollectionEx@Base 15.07.90
- _ZN7Akonadi8Protocol18ChangeNotification22setDestinationResourceERK10QByteArray@Base 15.07.90
- _ZN7Akonadi8Protocol18ChangeNotification23setParentDestCollectionEx@Base 15.07.90
- _ZN7Akonadi8Protocol18ChangeNotification7setTypeENS1_4TypeE@Base 15.07.90
- _ZN7Akonadi8Protocol18ChangeNotification9addEntityExRK7QStringS4_S4_@Base 15.07.90
- _ZN7Akonadi8Protocol18ChangeNotificationC1ERKNS0_7CommandE@Base 15.07.90
- _ZN7Akonadi8Protocol18ChangeNotificationC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol18ChangeNotificationC2ERKNS0_7CommandE@Base 15.07.90
- _ZN7Akonadi8Protocol18ChangeNotificationC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol18CreateItemResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol17MoveItemsResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17MoveItemsResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol17MoveItemsResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol18ChangeNotification17appendAndCompressER7QVectorI14QSharedPointerIS1_EERKS4_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol18ChangeNotificationC1ENS0_7Command4TypeE@Base 4:17.08.0
+ _ZN7Akonadi8Protocol18ChangeNotificationC1ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol18ChangeNotificationC2ENS0_7Command4TypeE@Base 4:17.08.0
+ _ZN7Akonadi8Protocol18ChangeNotificationC2ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol18ChangeNotificationaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol18CreateItemResponseC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol18CreateItemResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol18CreateItemResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol18CreateItemResponseC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol18CreateItemResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol18DeleteItemsCommandC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol18CreateItemResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol18CreateItemResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol18CreateItemResponseaSERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol18DeleteItemsCommandC1ERKNS_5ScopeERKNS0_12ScopeContextE@Base 15.07.90
+ _ZN7Akonadi8Protocol18DeleteItemsCommandC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol18DeleteItemsCommandC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol18DeleteItemsCommandC2ERKNS0_7CommandE@Base 15.07.90
  _ZN7Akonadi8Protocol18DeleteItemsCommandC2ERKNS_5ScopeERKNS0_12ScopeContextE@Base 15.07.90
+ _ZN7Akonadi8Protocol18DeleteItemsCommandC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol18DeleteItemsCommandC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol18FetchItemsResponse11setMimeTypeERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol18FetchItemsResponse11setParentIdEx@Base 15.07.90
- _ZN7Akonadi8Protocol18FetchItemsResponse11setRemoteIdERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol18FetchItemsResponse11setRevisionEi@Base 15.07.90
- _ZN7Akonadi8Protocol18FetchItemsResponse12setAncestorsERK7QVectorINS0_8AncestorEE@Base 15.07.90
- _ZN7Akonadi8Protocol18FetchItemsResponse12setRelationsERK7QVectorINS0_22FetchRelationsResponseEE@Base 15.07.90
- _ZN7Akonadi8Protocol18FetchItemsResponse14setCachedPartsERK7QVectorI10QByteArrayE@Base 15.07.90
- _ZN7Akonadi8Protocol18FetchItemsResponse17setRemoteRevisionERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol18FetchItemsResponse20setVirtualReferencesERK7QVectorIxE@Base 15.07.90
- _ZN7Akonadi8Protocol18FetchItemsResponse6setGidERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol18FetchItemsResponse7setSizeEx@Base 15.07.90
- _ZN7Akonadi8Protocol18FetchItemsResponse7setTagsERK7QVectorINS0_17FetchTagsResponseEE@Base 15.07.90
- _ZN7Akonadi8Protocol18FetchItemsResponse8setFlagsERK7QVectorI10QByteArrayE@Base 15.07.90
- _ZN7Akonadi8Protocol18FetchItemsResponse8setMTimeERK9QDateTime@Base 15.07.90
- _ZN7Akonadi8Protocol18FetchItemsResponse8setPartsERK7QVectorINS0_21StreamPayloadResponseEE@Base 15.07.90
- _ZN7Akonadi8Protocol18FetchItemsResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol18DeleteItemsCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol18DeleteItemsCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol18DeleteItemsCommandaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol18FetchItemsResponseC1ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol18FetchItemsResponseC1ERKx@Base 4:17.08.0
  _ZN7Akonadi8Protocol18FetchItemsResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol18FetchItemsResponseC1Ex@Base 15.07.90
- _ZN7Akonadi8Protocol18FetchItemsResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol18FetchItemsResponseC2ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol18FetchItemsResponseC2ERKx@Base 4:17.08.0
  _ZN7Akonadi8Protocol18FetchItemsResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol18FetchItemsResponseC2Ex@Base 15.07.90
- _ZN7Akonadi8Protocol18ModifyItemsCommand11setItemSizeEx@Base 15.07.90
+ _ZN7Akonadi8Protocol18FetchItemsResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol18FetchItemsResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol18FetchItemsResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol18ModifyItemsCommand11setItemSizeERKx@Base 4:17.08.0
  _ZN7Akonadi8Protocol18ModifyItemsCommand11setRemoteIdERK7QString@Base 15.07.90
  _ZN7Akonadi8Protocol18ModifyItemsCommand12setAddedTagsERKNS_5ScopeE@Base 15.07.90
  _ZN7Akonadi8Protocol18ModifyItemsCommand13setAddedFlagsERK4QSetI10QByteArrayE@Base 15.07.90
  _ZN7Akonadi8Protocol18ModifyItemsCommand13setAttributesERK4QMapI10QByteArrayS3_E@Base 15.07.90
- _ZN7Akonadi8Protocol18ModifyItemsCommand13setNoResponseEb@Base 15.07.90
- _ZN7Akonadi8Protocol18ModifyItemsCommand14setOldRevisionEi@Base 15.07.90
  _ZN7Akonadi8Protocol18ModifyItemsCommand14setRemovedTagsERKNS_5ScopeE@Base 15.07.90
  _ZN7Akonadi8Protocol18ModifyItemsCommand15setRemovedFlagsERK4QSetI10QByteArrayE@Base 15.07.90
  _ZN7Akonadi8Protocol18ModifyItemsCommand15setRemovedPartsERK4QSetI10QByteArrayE@Base 15.07.90
  _ZN7Akonadi8Protocol18ModifyItemsCommand17setRemoteRevisionERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol18ModifyItemsCommand18setInvalidateCacheEb@Base 15.07.90
  _ZN7Akonadi8Protocol18ModifyItemsCommand6setGidERK7QString@Base 15.07.90
  _ZN7Akonadi8Protocol18ModifyItemsCommand7setTagsERKNS_5ScopeE@Base 15.07.90
- _ZN7Akonadi8Protocol18ModifyItemsCommand8setDirtyEb@Base 15.07.90
  _ZN7Akonadi8Protocol18ModifyItemsCommand8setFlagsERK4QSetI10QByteArrayE@Base 15.07.90
- _ZN7Akonadi8Protocol18ModifyItemsCommand8setItemsERKNS_5ScopeE@Base 15.07.90
  _ZN7Akonadi8Protocol18ModifyItemsCommand8setPartsERK4QSetI10QByteArrayE@Base 15.07.90
- _ZN7Akonadi8Protocol18ModifyItemsCommand9setNotifyEb@Base 15.07.90
- _ZN7Akonadi8Protocol18ModifyItemsCommandC1ERKNS0_7CommandE@Base 15.07.90
  _ZN7Akonadi8Protocol18ModifyItemsCommandC1ERKNS_5ScopeE@Base 15.07.90
+ _ZN7Akonadi8Protocol18ModifyItemsCommandC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol18ModifyItemsCommandC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol18ModifyItemsCommandC2ERKNS0_7CommandE@Base 15.07.90
  _ZN7Akonadi8Protocol18ModifyItemsCommandC2ERKNS_5ScopeE@Base 15.07.90
+ _ZN7Akonadi8Protocol18ModifyItemsCommandC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol18ModifyItemsCommandC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol18StoreSearchCommand12setMimeTypesERK11QStringList@Base 15.07.90
- _ZN7Akonadi8Protocol18StoreSearchCommand12setRecursiveEb@Base 15.07.90
- _ZN7Akonadi8Protocol18StoreSearchCommand19setQueryCollectionsERK7QVectorIxE@Base 15.07.90
- _ZN7Akonadi8Protocol18StoreSearchCommand7setNameERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol18StoreSearchCommand8setQueryERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol18StoreSearchCommand9setRemoteEb@Base 15.07.90
- _ZN7Akonadi8Protocol18StoreSearchCommandC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol18ModifyItemsCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol18ModifyItemsCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol18ModifyItemsCommandaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol18StoreSearchCommandC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol18StoreSearchCommandC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol18StoreSearchCommandC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol18StoreSearchCommandC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol18StoreSearchCommandC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol18TransactionCommand7setModeENS1_4ModeE@Base 15.12.0
- _ZN7Akonadi8Protocol18TransactionCommandC1ENS1_4ModeE@Base 15.07.90
- _ZN7Akonadi8Protocol18TransactionCommandC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol18StoreSearchCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol18StoreSearchCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol18StoreSearchCommandaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol18TransactionCommandC1ERKNS1_4ModeE@Base 4:17.08.0
+ _ZN7Akonadi8Protocol18TransactionCommandC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol18TransactionCommandC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol18TransactionCommandC2ENS1_4ModeE@Base 15.07.90
- _ZN7Akonadi8Protocol18TransactionCommandC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol18TransactionCommandC2ERKNS1_4ModeE@Base 4:17.08.0
+ _ZN7Akonadi8Protocol18TransactionCommandC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol18TransactionCommandC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol19DeleteItemsResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol18TransactionCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol18TransactionCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol18TransactionCommandaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol19DeleteItemsResponseC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol19DeleteItemsResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol19DeleteItemsResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol19DeleteItemsResponseC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol19DeleteItemsResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol19ModifyItemsResponseC1ERK9QDateTime@Base 15.07.90
- _ZN7Akonadi8Protocol19ModifyItemsResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol19DeleteItemsResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol19DeleteItemsResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol19DeleteItemsResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol19ModifyItemsResponseC1ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol19ModifyItemsResponseC1ERKxRKi@Base 4:17.08.0
  _ZN7Akonadi8Protocol19ModifyItemsResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol19ModifyItemsResponseC1Exi@Base 15.07.90
- _ZN7Akonadi8Protocol19ModifyItemsResponseC2ERK9QDateTime@Base 15.07.90
- _ZN7Akonadi8Protocol19ModifyItemsResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol19ModifyItemsResponseC2ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol19ModifyItemsResponseC2ERKxRKi@Base 4:17.08.0
  _ZN7Akonadi8Protocol19ModifyItemsResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol19ModifyItemsResponseC2Exi@Base 15.07.90
- _ZN7Akonadi8Protocol19SearchResultCommandC1ERK10QByteArrayxRKNS_5ScopeE@Base 15.07.90
- _ZN7Akonadi8Protocol19SearchResultCommandC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol19ModifyItemsResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol19ModifyItemsResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol19ModifyItemsResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol19SearchResultCommandC1ERK10QByteArrayRKxRKNS_5ScopeE@Base 4:17.08.0
+ _ZN7Akonadi8Protocol19SearchResultCommandC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol19SearchResultCommandC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol19SearchResultCommandC2ERK10QByteArrayxRKNS_5ScopeE@Base 15.07.90
- _ZN7Akonadi8Protocol19SearchResultCommandC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol19SearchResultCommandC2ERK10QByteArrayRKxRKNS_5ScopeE@Base 4:17.08.0
+ _ZN7Akonadi8Protocol19SearchResultCommandC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol19SearchResultCommandC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol19StoreSearchResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol19SearchResultCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol19SearchResultCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol19SearchResultCommandaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol19StoreSearchResponseC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol19StoreSearchResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol19StoreSearchResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol19StoreSearchResponseC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol19StoreSearchResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol19TransactionResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol19StoreSearchResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol19StoreSearchResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol19StoreSearchResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol19TransactionResponseC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol19TransactionResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol19TransactionResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol19TransactionResponseC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol19TransactionResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol20SearchResultResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol19TransactionResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol19TransactionResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol19TransactionResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol20SearchResultResponseC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol20SearchResultResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol20SearchResultResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol20SearchResultResponseC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol20SearchResultResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol20StreamPayloadCommand10setRequestENS1_7RequestE@Base 15.07.90
- _ZN7Akonadi8Protocol20StreamPayloadCommand14setDestinationERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol20StreamPayloadCommand14setPayloadNameERK10QByteArray@Base 15.07.90
- _ZN7Akonadi8Protocol20StreamPayloadCommandC1ERK10QByteArrayNS1_7RequestERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol20StreamPayloadCommandC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol20SearchResultResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol20SearchResultResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol20SearchResultResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol20StreamPayloadCommandC1ERK10QByteArrayRKNS1_7RequestERK7QString@Base 4:17.08.0
+ _ZN7Akonadi8Protocol20StreamPayloadCommandC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol20StreamPayloadCommandC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol20StreamPayloadCommandC2ERK10QByteArrayNS1_7RequestERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol20StreamPayloadCommandC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol20StreamPayloadCommandC2ERK10QByteArrayRKNS1_7RequestERK7QString@Base 4:17.08.0
+ _ZN7Akonadi8Protocol20StreamPayloadCommandC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol20StreamPayloadCommandC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol21CopyCollectionCommandC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol20StreamPayloadCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol20StreamPayloadCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol20StreamPayloadCommandaSERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol21CopyCollectionCommandC1ERKNS_5ScopeES4_@Base 15.07.90
+ _ZN7Akonadi8Protocol21CopyCollectionCommandC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol21CopyCollectionCommandC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol21CopyCollectionCommandC2ERKNS0_7CommandE@Base 15.07.90
  _ZN7Akonadi8Protocol21CopyCollectionCommandC2ERKNS_5ScopeES4_@Base 15.07.90
+ _ZN7Akonadi8Protocol21CopyCollectionCommandC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol21CopyCollectionCommandC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol21FetchRelationsCommand11setResourceERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol21FetchRelationsCommand7setLeftEx@Base 15.07.90
- _ZN7Akonadi8Protocol21FetchRelationsCommand7setSideEx@Base 15.07.90
- _ZN7Akonadi8Protocol21FetchRelationsCommand8setRightEx@Base 15.07.90
- _ZN7Akonadi8Protocol21FetchRelationsCommand8setTypesERK7QVectorI10QByteArrayE@Base 15.07.90
- _ZN7Akonadi8Protocol21FetchRelationsCommandC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol21CopyCollectionCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol21CopyCollectionCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol21CopyCollectionCommandaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol21FetchRelationsCommandC1ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol21FetchRelationsCommandC1ERKxRK7QVectorI10QByteArrayERK7QString@Base 4:17.08.0
+ _ZN7Akonadi8Protocol21FetchRelationsCommandC1ERKxS3_RK7QVectorI10QByteArrayERK7QString@Base 4:17.08.0
  _ZN7Akonadi8Protocol21FetchRelationsCommandC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol21FetchRelationsCommandC1ExRK7QVectorI10QByteArrayERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol21FetchRelationsCommandC1ExxRK7QVectorI10QByteArrayERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol21FetchRelationsCommandC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol21FetchRelationsCommandC2ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol21FetchRelationsCommandC2ERKxRK7QVectorI10QByteArrayERK7QString@Base 4:17.08.0
+ _ZN7Akonadi8Protocol21FetchRelationsCommandC2ERKxS3_RK7QVectorI10QByteArrayERK7QString@Base 4:17.08.0
  _ZN7Akonadi8Protocol21FetchRelationsCommandC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol21FetchRelationsCommandC2ExRK7QVectorI10QByteArrayERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol21FetchRelationsCommandC2ExxRK7QVectorI10QByteArrayERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol21ModifyRelationCommand11setRemoteIdERK10QByteArray@Base 15.07.90
- _ZN7Akonadi8Protocol21ModifyRelationCommand7setLeftEx@Base 15.07.90
- _ZN7Akonadi8Protocol21ModifyRelationCommand7setTypeERK10QByteArray@Base 15.07.90
- _ZN7Akonadi8Protocol21ModifyRelationCommand8setRightEx@Base 15.07.90
- _ZN7Akonadi8Protocol21ModifyRelationCommandC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol21FetchRelationsCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol21FetchRelationsCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol21FetchRelationsCommandaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol21ModifyRelationCommandC1ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol21ModifyRelationCommandC1ERKxS3_RK10QByteArrayS6_@Base 4:17.08.0
  _ZN7Akonadi8Protocol21ModifyRelationCommandC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol21ModifyRelationCommandC1ExxRK10QByteArrayS4_@Base 15.07.90
- _ZN7Akonadi8Protocol21ModifyRelationCommandC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol21ModifyRelationCommandC2ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol21ModifyRelationCommandC2ERKxS3_RK10QByteArrayS6_@Base 4:17.08.0
  _ZN7Akonadi8Protocol21ModifyRelationCommandC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol21ModifyRelationCommandC2ExxRK10QByteArrayS4_@Base 15.07.90
- _ZN7Akonadi8Protocol21MoveCollectionCommandC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol21ModifyRelationCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol21ModifyRelationCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol21ModifyRelationCommandaSERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol21MoveCollectionCommandC1ERKNS_5ScopeES4_@Base 15.07.90
+ _ZN7Akonadi8Protocol21MoveCollectionCommandC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol21MoveCollectionCommandC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol21MoveCollectionCommandC2ERKNS0_7CommandE@Base 15.07.90
  _ZN7Akonadi8Protocol21MoveCollectionCommandC2ERKNS_5ScopeES4_@Base 15.07.90
+ _ZN7Akonadi8Protocol21MoveCollectionCommandC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol21MoveCollectionCommandC2Ev@Base 15.07.90
+ _ZN7Akonadi8Protocol21MoveCollectionCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol21MoveCollectionCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol21MoveCollectionCommandaSERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol21SelectResourceCommandC1ERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol21SelectResourceCommandC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol21SelectResourceCommandC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol21SelectResourceCommandC1Ev@Base 15.07.90
  _ZN7Akonadi8Protocol21SelectResourceCommandC2ERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol21SelectResourceCommandC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol21SelectResourceCommandC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol21SelectResourceCommandC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol21StreamPayloadResponse11setMetaDataERKNS0_12PartMetaDataE@Base 15.07.90
- _ZN7Akonadi8Protocol21StreamPayloadResponse14setPayloadNameERK10QByteArray@Base 15.07.90
- _ZN7Akonadi8Protocol21StreamPayloadResponse7setDataERK10QByteArray@Base 15.07.90
+ _ZN7Akonadi8Protocol21SelectResourceCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol21SelectResourceCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol21SelectResourceCommandaSERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol21StreamPayloadResponseC1ERK10QByteArrayRKNS0_12PartMetaDataE@Base 15.07.90
  _ZN7Akonadi8Protocol21StreamPayloadResponseC1ERK10QByteArrayRKNS0_12PartMetaDataES4_@Base 15.07.90
  _ZN7Akonadi8Protocol21StreamPayloadResponseC1ERK10QByteArrayS4_@Base 15.07.90
- _ZN7Akonadi8Protocol21StreamPayloadResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol21StreamPayloadResponseC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol21StreamPayloadResponseC1Ev@Base 15.07.90
  _ZN7Akonadi8Protocol21StreamPayloadResponseC2ERK10QByteArrayRKNS0_12PartMetaDataE@Base 15.07.90
  _ZN7Akonadi8Protocol21StreamPayloadResponseC2ERK10QByteArrayRKNS0_12PartMetaDataES4_@Base 15.07.90
  _ZN7Akonadi8Protocol21StreamPayloadResponseC2ERK10QByteArrayS4_@Base 15.07.90
- _ZN7Akonadi8Protocol21StreamPayloadResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol21StreamPayloadResponseC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol21StreamPayloadResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol22CopyCollectionResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol21StreamPayloadResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol21StreamPayloadResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol21StreamPayloadResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol21TagChangeNotificationC1ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol21TagChangeNotificationC1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol21TagChangeNotificationC2ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol21TagChangeNotificationC2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol21TagChangeNotificationD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol21TagChangeNotificationD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol21TagChangeNotificationaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol22CopyCollectionResponseC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol22CopyCollectionResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol22CopyCollectionResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol22CopyCollectionResponseC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol22CopyCollectionResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol22FetchRelationsResponse11setRemoteIdERK10QByteArray@Base 15.07.90
- _ZN7Akonadi8Protocol22FetchRelationsResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol22CopyCollectionResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol22CopyCollectionResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol22CopyCollectionResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol22FetchRelationsResponseC1ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol22FetchRelationsResponseC1ERKxRK10QByteArrayS3_S6_S6_S6_@Base 4:17.08.0
  _ZN7Akonadi8Protocol22FetchRelationsResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol22FetchRelationsResponseC1ExRK10QByteArrayxS4_S4_S4_@Base 4:16.04.0
- _ZN7Akonadi8Protocol22FetchRelationsResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol22FetchRelationsResponseC2ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol22FetchRelationsResponseC2ERKxRK10QByteArrayS3_S6_S6_S6_@Base 4:17.08.0
  _ZN7Akonadi8Protocol22FetchRelationsResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol22FetchRelationsResponseC2ExRK10QByteArrayxS4_S4_S4_@Base 4:16.04.0
- _ZN7Akonadi8Protocol22ModifyRelationResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol22FetchRelationsResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol22FetchRelationsResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol22FetchRelationsResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol22ItemChangeNotificationC1ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol22ItemChangeNotificationC1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol22ItemChangeNotificationC2ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol22ItemChangeNotificationC2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol22ItemChangeNotificationD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol22ItemChangeNotificationD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol22ItemChangeNotificationaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol22ModifyRelationResponseC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol22ModifyRelationResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol22ModifyRelationResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol22ModifyRelationResponseC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol22ModifyRelationResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol22MoveCollectionResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol22ModifyRelationResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol22ModifyRelationResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol22ModifyRelationResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol22MoveCollectionResponseC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol22MoveCollectionResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol22MoveCollectionResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol22MoveCollectionResponseC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol22MoveCollectionResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol22RemoveRelationsCommand7setLeftEx@Base 15.07.90
- _ZN7Akonadi8Protocol22RemoveRelationsCommand7setTypeERK10QByteArray@Base 15.07.90
- _ZN7Akonadi8Protocol22RemoveRelationsCommand8setRightEx@Base 15.07.90
- _ZN7Akonadi8Protocol22RemoveRelationsCommandC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol22MoveCollectionResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol22MoveCollectionResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol22MoveCollectionResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol22RemoveRelationsCommandC1ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol22RemoveRelationsCommandC1ERKxS3_RK10QByteArray@Base 4:17.08.0
  _ZN7Akonadi8Protocol22RemoveRelationsCommandC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol22RemoveRelationsCommandC1ExxRK10QByteArray@Base 15.07.90
- _ZN7Akonadi8Protocol22RemoveRelationsCommandC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol22RemoveRelationsCommandC2ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol22RemoveRelationsCommandC2ERKxS3_RK10QByteArray@Base 4:17.08.0
  _ZN7Akonadi8Protocol22RemoveRelationsCommandC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol22RemoveRelationsCommandC2ExxRK10QByteArray@Base 15.07.90
- _ZN7Akonadi8Protocol22SelectResourceResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol22RemoveRelationsCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol22RemoveRelationsCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol22RemoveRelationsCommandaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol22SelectResourceResponseC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol22SelectResourceResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol22SelectResourceResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol22SelectResourceResponseC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol22SelectResourceResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol23CreateCollectionCommand10setEnabledEb@Base 15.07.90
- _ZN7Akonadi8Protocol23CreateCollectionCommand11setRemoteIdERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol23CreateCollectionCommand11setSyncPrefENS_8TristateE@Base 15.07.90
- _ZN7Akonadi8Protocol23CreateCollectionCommand12setIndexPrefENS_8TristateE@Base 15.07.90
- _ZN7Akonadi8Protocol23CreateCollectionCommand12setIsVirtualEb@Base 15.07.90
- _ZN7Akonadi8Protocol23CreateCollectionCommand12setMimeTypesERK11QStringList@Base 15.07.90
- _ZN7Akonadi8Protocol23CreateCollectionCommand13setAttributesERK4QMapI10QByteArrayS3_E@Base 15.07.90
- _ZN7Akonadi8Protocol23CreateCollectionCommand14setCachePolicyERKNS0_11CachePolicyE@Base 15.07.90
- _ZN7Akonadi8Protocol23CreateCollectionCommand14setDisplayPrefENS_8TristateE@Base 15.07.90
- _ZN7Akonadi8Protocol23CreateCollectionCommand17setRemoteRevisionERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol23CreateCollectionCommand7setNameERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol23CreateCollectionCommand9setParentERKNS_5ScopeE@Base 15.07.90
- _ZN7Akonadi8Protocol23CreateCollectionCommandC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol22SelectResourceResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol22SelectResourceResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol22SelectResourceResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol23CreateCollectionCommandC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol23CreateCollectionCommandC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol23CreateCollectionCommandC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol23CreateCollectionCommandC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol23CreateCollectionCommandC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol23DeleteCollectionCommandC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol23CreateCollectionCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol23CreateCollectionCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol23CreateCollectionCommandaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol23DebugChangeNotificationC1ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol23DebugChangeNotificationC1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol23DebugChangeNotificationC2ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol23DebugChangeNotificationC2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol23DebugChangeNotificationD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol23DebugChangeNotificationD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol23DebugChangeNotificationaSERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol23DeleteCollectionCommandC1ERKNS_5ScopeE@Base 15.07.90
+ _ZN7Akonadi8Protocol23DeleteCollectionCommandC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol23DeleteCollectionCommandC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol23DeleteCollectionCommandC2ERKNS0_7CommandE@Base 15.07.90
  _ZN7Akonadi8Protocol23DeleteCollectionCommandC2ERKNS_5ScopeE@Base 15.07.90
+ _ZN7Akonadi8Protocol23DeleteCollectionCommandC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol23DeleteCollectionCommandC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol23FetchCollectionsCommand10setEnabledEb@Base 15.07.90
- _ZN7Akonadi8Protocol23FetchCollectionsCommand11setResourceERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol23FetchCollectionsCommand11setSyncPrefEb@Base 15.07.90
- _ZN7Akonadi8Protocol23FetchCollectionsCommand12setIndexPrefEb@Base 15.07.90
- _ZN7Akonadi8Protocol23FetchCollectionsCommand12setMimeTypesERK11QStringList@Base 15.07.90
- _ZN7Akonadi8Protocol23FetchCollectionsCommand13setFetchStatsEb@Base 15.07.90
- _ZN7Akonadi8Protocol23FetchCollectionsCommand14setDisplayPrefEb@Base 15.07.90
- _ZN7Akonadi8Protocol23FetchCollectionsCommand17setAncestorsDepthENS0_8Ancestor5DepthE@Base 15.07.90
- _ZN7Akonadi8Protocol23FetchCollectionsCommand22setAncestorsAttributesERK4QSetI10QByteArrayE@Base 15.07.90
- _ZN7Akonadi8Protocol23FetchCollectionsCommand8setDepthENS1_5DepthE@Base 15.07.90
- _ZN7Akonadi8Protocol23FetchCollectionsCommandC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol23DeleteCollectionCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol23DeleteCollectionCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol23DeleteCollectionCommandaSERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol23FetchCollectionsCommandC1ERKNS_5ScopeE@Base 15.07.90
+ _ZN7Akonadi8Protocol23FetchCollectionsCommandC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol23FetchCollectionsCommandC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol23FetchCollectionsCommandC2ERKNS0_7CommandE@Base 15.07.90
  _ZN7Akonadi8Protocol23FetchCollectionsCommandC2ERKNS_5ScopeE@Base 15.07.90
+ _ZN7Akonadi8Protocol23FetchCollectionsCommandC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol23FetchCollectionsCommandC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol23ModifyCollectionCommand10setEnabledEb@Base 15.07.90
- _ZN7Akonadi8Protocol23ModifyCollectionCommand11setParentIdEx@Base 15.07.90
+ _ZN7Akonadi8Protocol23FetchCollectionsCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol23FetchCollectionsCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol23FetchCollectionsCommandaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol23ModifyCollectionCommand10setEnabledERKb@Base 4:17.08.0
+ _ZN7Akonadi8Protocol23ModifyCollectionCommand11setParentIdERKx@Base 4:17.08.0
  _ZN7Akonadi8Protocol23ModifyCollectionCommand11setRemoteIdERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol23ModifyCollectionCommand11setSyncPrefENS_8TristateE@Base 15.07.90
- _ZN7Akonadi8Protocol23ModifyCollectionCommand12setIndexPrefENS_8TristateE@Base 15.07.90
+ _ZN7Akonadi8Protocol23ModifyCollectionCommand11setSyncPrefERKNS_8TristateE@Base 4:17.08.0
+ _ZN7Akonadi8Protocol23ModifyCollectionCommand12setIndexPrefERKNS_8TristateE@Base 4:17.08.0
  _ZN7Akonadi8Protocol23ModifyCollectionCommand12setMimeTypesERK11QStringList@Base 15.07.90
  _ZN7Akonadi8Protocol23ModifyCollectionCommand13setAttributesERK4QMapI10QByteArrayS3_E@Base 15.07.90
- _ZN7Akonadi8Protocol23ModifyCollectionCommand13setReferencedEb@Base 15.07.90
+ _ZN7Akonadi8Protocol23ModifyCollectionCommand13setReferencedERKb@Base 4:17.08.0
  _ZN7Akonadi8Protocol23ModifyCollectionCommand14setCachePolicyERKNS0_11CachePolicyE@Base 15.07.90
- _ZN7Akonadi8Protocol23ModifyCollectionCommand14setDisplayPrefENS_8TristateE@Base 15.07.90
+ _ZN7Akonadi8Protocol23ModifyCollectionCommand14setDisplayPrefERKNS_8TristateE@Base 4:17.08.0
  _ZN7Akonadi8Protocol23ModifyCollectionCommand17setRemoteRevisionERK7QString@Base 15.07.90
  _ZN7Akonadi8Protocol23ModifyCollectionCommand20setRemovedAttributesERK4QSetI10QByteArrayE@Base 15.07.90
  _ZN7Akonadi8Protocol23ModifyCollectionCommand24setPersistentSearchQueryERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol23ModifyCollectionCommand25setPersistentSearchRemoteEb@Base 15.07.90
- _ZN7Akonadi8Protocol23ModifyCollectionCommand28setPersistentSearchRecursiveEb@Base 15.07.90
+ _ZN7Akonadi8Protocol23ModifyCollectionCommand25setPersistentSearchRemoteERKb@Base 4:17.08.0
+ _ZN7Akonadi8Protocol23ModifyCollectionCommand28setPersistentSearchRecursiveERKb@Base 4:17.08.0
  _ZN7Akonadi8Protocol23ModifyCollectionCommand30setPersistentSearchCollectionsERK7QVectorIxE@Base 15.07.90
  _ZN7Akonadi8Protocol23ModifyCollectionCommand7setNameERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol23ModifyCollectionCommandC1ERKNS0_7CommandE@Base 15.07.90
  _ZN7Akonadi8Protocol23ModifyCollectionCommandC1ERKNS_5ScopeE@Base 15.07.90
+ _ZN7Akonadi8Protocol23ModifyCollectionCommandC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol23ModifyCollectionCommandC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol23ModifyCollectionCommandC2ERKNS0_7CommandE@Base 15.07.90
  _ZN7Akonadi8Protocol23ModifyCollectionCommandC2ERKNS_5ScopeE@Base 15.07.90
+ _ZN7Akonadi8Protocol23ModifyCollectionCommandC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol23ModifyCollectionCommandC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol23RemoveRelationsResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol23ModifyCollectionCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol23ModifyCollectionCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol23ModifyCollectionCommandaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol23RemoveRelationsResponseC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol23RemoveRelationsResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol23RemoveRelationsResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol23RemoveRelationsResponseC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol23RemoveRelationsResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol24CreateCollectionResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol23RemoveRelationsResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol23RemoveRelationsResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol23RemoveRelationsResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol24CreateCollectionResponseC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol24CreateCollectionResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol24CreateCollectionResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol24CreateCollectionResponseC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol24CreateCollectionResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol24DeleteCollectionResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol24CreateCollectionResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol24CreateCollectionResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol24CreateCollectionResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol24DeleteCollectionResponseC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol24DeleteCollectionResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol24DeleteCollectionResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol24DeleteCollectionResponseC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol24DeleteCollectionResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol24FetchCollectionsResponse10setEnabledEb@Base 15.07.90
- _ZN7Akonadi8Protocol24FetchCollectionsResponse11cachePolicyEv@Base 15.07.90
- _ZN7Akonadi8Protocol24FetchCollectionsResponse11setParentIdEx@Base 15.07.90
- _ZN7Akonadi8Protocol24FetchCollectionsResponse11setRemoteIdERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol24FetchCollectionsResponse11setResourceERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol24FetchCollectionsResponse11setSyncPrefENS_8TristateE@Base 15.07.90
- _ZN7Akonadi8Protocol24FetchCollectionsResponse12setAncestorsERK7QVectorINS0_8AncestorEE@Base 15.07.90
- _ZN7Akonadi8Protocol24FetchCollectionsResponse12setIndexPrefENS_8TristateE@Base 15.07.90
- _ZN7Akonadi8Protocol24FetchCollectionsResponse12setIsVirtualEb@Base 15.07.90
- _ZN7Akonadi8Protocol24FetchCollectionsResponse12setMimeTypesERK11QStringList@Base 15.07.90
- _ZN7Akonadi8Protocol24FetchCollectionsResponse13setAttributesERK4QMapI10QByteArrayS3_E@Base 15.07.90
- _ZN7Akonadi8Protocol24FetchCollectionsResponse13setReferencedEb@Base 15.07.90
- _ZN7Akonadi8Protocol24FetchCollectionsResponse13setStatisticsERKNS0_28FetchCollectionStatsResponseE@Base 15.07.90
- _ZN7Akonadi8Protocol24FetchCollectionsResponse14setCachePolicyERKNS0_11CachePolicyE@Base 15.07.90
- _ZN7Akonadi8Protocol24FetchCollectionsResponse14setDisplayPrefENS_8TristateE@Base 15.07.90
- _ZN7Akonadi8Protocol24FetchCollectionsResponse14setSearchQueryERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol24FetchCollectionsResponse17setRemoteRevisionERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol24FetchCollectionsResponse20setSearchCollectionsERK7QVectorIxE@Base 15.07.90
- _ZN7Akonadi8Protocol24FetchCollectionsResponse7setNameERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol24FetchCollectionsResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol24DeleteCollectionResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol24DeleteCollectionResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol24DeleteCollectionResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol24FetchCollectionsResponseC1ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol24FetchCollectionsResponseC1ERKx@Base 4:17.08.0
  _ZN7Akonadi8Protocol24FetchCollectionsResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol24FetchCollectionsResponseC1Ex@Base 15.07.90
- _ZN7Akonadi8Protocol24FetchCollectionsResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol24FetchCollectionsResponseC2ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol24FetchCollectionsResponseC2ERKx@Base 4:17.08.0
  _ZN7Akonadi8Protocol24FetchCollectionsResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol24FetchCollectionsResponseC2Ex@Base 15.07.90
- _ZN7Akonadi8Protocol24ModifyCollectionResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol24FetchCollectionsResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol24FetchCollectionsResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol24FetchCollectionsResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol24ModifyCollectionResponseC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol24ModifyCollectionResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol24ModifyCollectionResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol24ModifyCollectionResponseC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol24ModifyCollectionResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol27FetchCollectionStatsCommandC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol24ModifyCollectionResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol24ModifyCollectionResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol24ModifyCollectionResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25CreateSubscriptionCommandC1ERK10QByteArrayS4_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25CreateSubscriptionCommandC1ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25CreateSubscriptionCommandC1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25CreateSubscriptionCommandC2ERK10QByteArrayS4_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25CreateSubscriptionCommandC2ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25CreateSubscriptionCommandC2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25CreateSubscriptionCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25CreateSubscriptionCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25CreateSubscriptionCommandaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25ModifySubscriptionCommand14setIsExclusiveERKb@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25ModifySubscriptionCommand15setAllMonitoredERKb@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25ModifySubscriptionCommand17stopMonitoringTagERKx@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25ModifySubscriptionCommand18startMonitoringTagERKx@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25ModifySubscriptionCommand18stopMonitoringItemERKx@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25ModifySubscriptionCommand18stopMonitoringTypeERKNS1_10ChangeTypeE@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25ModifySubscriptionCommand19startMonitoringItemERKx@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25ModifySubscriptionCommand19startMonitoringTypeERKNS1_10ChangeTypeE@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25ModifySubscriptionCommand19stopIgnoringSessionERK10QByteArray@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25ModifySubscriptionCommand20startIgnoringSessionERK10QByteArray@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25ModifySubscriptionCommand22stopMonitoringMimeTypeERK7QString@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25ModifySubscriptionCommand22stopMonitoringResourceERK10QByteArray@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25ModifySubscriptionCommand23startMonitoringMimeTypeERK7QString@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25ModifySubscriptionCommand23startMonitoringResourceERK10QByteArray@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25ModifySubscriptionCommand24stopMonitoringCollectionERKx@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25ModifySubscriptionCommand25startMonitoringCollectionERKx@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25ModifySubscriptionCommandC1ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25ModifySubscriptionCommandC1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25ModifySubscriptionCommandC2ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25ModifySubscriptionCommandC2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25ModifySubscriptionCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25ModifySubscriptionCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol25ModifySubscriptionCommandaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol26CreateSubscriptionResponseC1ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol26CreateSubscriptionResponseC1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol26CreateSubscriptionResponseC2ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol26CreateSubscriptionResponseC2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol26CreateSubscriptionResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol26CreateSubscriptionResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol26CreateSubscriptionResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol26ModifySubscriptionResponseC1ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol26ModifySubscriptionResponseC1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol26ModifySubscriptionResponseC2ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol26ModifySubscriptionResponseC2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol26ModifySubscriptionResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol26ModifySubscriptionResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol26ModifySubscriptionResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol26RelationChangeNotificationC1ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol26RelationChangeNotificationC1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol26RelationChangeNotificationC2ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol26RelationChangeNotificationC2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol26RelationChangeNotificationD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol26RelationChangeNotificationD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol26RelationChangeNotificationaSERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol27FetchCollectionStatsCommandC1ERKNS_5ScopeE@Base 15.07.90
+ _ZN7Akonadi8Protocol27FetchCollectionStatsCommandC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol27FetchCollectionStatsCommandC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol27FetchCollectionStatsCommandC2ERKNS0_7CommandE@Base 15.07.90
  _ZN7Akonadi8Protocol27FetchCollectionStatsCommandC2ERKNS_5ScopeE@Base 15.07.90
+ _ZN7Akonadi8Protocol27FetchCollectionStatsCommandC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol27FetchCollectionStatsCommandC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol28FetchCollectionStatsResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol27FetchCollectionStatsCommandD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol27FetchCollectionStatsCommandD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol27FetchCollectionStatsCommandaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol28CollectionChangeNotificationC1ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol28CollectionChangeNotificationC1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol28CollectionChangeNotificationC2ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol28CollectionChangeNotificationC2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol28CollectionChangeNotificationD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol28CollectionChangeNotificationD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol28CollectionChangeNotificationaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol28FetchCollectionStatsResponseC1ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol28FetchCollectionStatsResponseC1ERKxS3_S3_@Base 4:17.08.0
  _ZN7Akonadi8Protocol28FetchCollectionStatsResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol28FetchCollectionStatsResponseC1Exxx@Base 15.07.90
- _ZN7Akonadi8Protocol28FetchCollectionStatsResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol28FetchCollectionStatsResponseC2ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol28FetchCollectionStatsResponseC2ERKxS3_S3_@Base 4:17.08.0
  _ZN7Akonadi8Protocol28FetchCollectionStatsResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol28FetchCollectionStatsResponseC2Exxx@Base 15.07.90
- _ZN7Akonadi8Protocol7CommandC1EOS1_@Base 15.07.90
- _ZN7Akonadi8Protocol7CommandC1EPNS0_14CommandPrivateE@Base 15.07.90
+ _ZN7Akonadi8Protocol28FetchCollectionStatsResponseD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol28FetchCollectionStatsResponseD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol28FetchCollectionStatsResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol30SubscriptionChangeNotificationC1ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol30SubscriptionChangeNotificationC1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol30SubscriptionChangeNotificationC2ERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol30SubscriptionChangeNotificationC2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol30SubscriptionChangeNotificationD1Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol30SubscriptionChangeNotificationD2Ev@Base 4:17.08.0
+ _ZN7Akonadi8Protocol30SubscriptionChangeNotificationaSERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol7CommandC1ERKS1_@Base 15.07.90
+ _ZN7Akonadi8Protocol7CommandC1Eh@Base 4:17.08.0
  _ZN7Akonadi8Protocol7CommandC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol7CommandC2EOS1_@Base 15.07.90
- _ZN7Akonadi8Protocol7CommandC2EPNS0_14CommandPrivateE@Base 15.07.90
  _ZN7Akonadi8Protocol7CommandC2ERKS1_@Base 15.07.90
+ _ZN7Akonadi8Protocol7CommandC2Eh@Base 4:17.08.0
  _ZN7Akonadi8Protocol7CommandC2Ev@Base 15.07.90
  _ZN7Akonadi8Protocol7CommandD1Ev@Base 15.07.90
  _ZN7Akonadi8Protocol7CommandD2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol7CommandaSEOS1_@Base 15.07.90
  _ZN7Akonadi8Protocol7CommandaSERKS1_@Base 15.07.90
  _ZN7Akonadi8Protocol7Factory7commandENS0_7Command4TypeE@Base 15.07.90
  _ZN7Akonadi8Protocol7Factory8responseENS0_7Command4TypeE@Base 15.07.90
  _ZN7Akonadi8Protocol7versionEv@Base 15.12.0
- _ZN7Akonadi8Protocol8Ancestor11setRemoteIdERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol8Ancestor13setAttributesERK4QMapI10QByteArrayS3_E@Base 15.07.90
- _ZN7Akonadi8Protocol8Ancestor5setIdEx@Base 15.07.90
- _ZN7Akonadi8Protocol8Ancestor7setNameERK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol8AncestorC1EOS1_@Base 15.07.90
  _ZN7Akonadi8Protocol8AncestorC1ERKS1_@Base 15.07.90
+ _ZN7Akonadi8Protocol8AncestorC1ERKxRK7QString@Base 4:17.08.0
  _ZN7Akonadi8Protocol8AncestorC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol8AncestorC1Ex@Base 15.07.90
- _ZN7Akonadi8Protocol8AncestorC1ExRK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol8AncestorC2EOS1_@Base 15.07.90
  _ZN7Akonadi8Protocol8AncestorC2ERKS1_@Base 15.07.90
+ _ZN7Akonadi8Protocol8AncestorC2ERKxRK7QString@Base 4:17.08.0
  _ZN7Akonadi8Protocol8AncestorC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol8AncestorC2Ex@Base 15.07.90
- _ZN7Akonadi8Protocol8AncestorC2ExRK7QString@Base 15.07.90
  _ZN7Akonadi8Protocol8AncestorD1Ev@Base 15.07.90
  _ZN7Akonadi8Protocol8AncestorD2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol8AncestoraSEOS1_@Base 15.07.90
  _ZN7Akonadi8Protocol8AncestoraSERKS1_@Base 15.07.90
- _ZN7Akonadi8Protocol8Response8setErrorEiRK7QString@Base 15.07.90
- _ZN7Akonadi8Protocol8ResponseC1EPNS0_15ResponsePrivateE@Base 15.07.90
- _ZN7Akonadi8Protocol8ResponseC1ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol8ResponseC1ENS0_7Command4TypeE@Base 4:17.08.0
+ _ZN7Akonadi8Protocol8ResponseC1ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol8ResponseC1Ev@Base 15.07.90
- _ZN7Akonadi8Protocol8ResponseC2EPNS0_15ResponsePrivateE@Base 15.07.90
- _ZN7Akonadi8Protocol8ResponseC2ERKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol8ResponseC2ENS0_7Command4TypeE@Base 4:17.08.0
+ _ZN7Akonadi8Protocol8ResponseC2ERKS1_@Base 4:17.08.0
  _ZN7Akonadi8Protocol8ResponseC2Ev@Base 15.07.90
- _ZN7Akonadi8Protocol9serializeEP9QIODeviceRKNS0_7CommandE@Base 15.07.90
+ _ZN7Akonadi8Protocol8ResponseaSERKS1_@Base 4:17.08.0
+ _ZN7Akonadi8Protocol9serializeEP9QIODeviceRK14QSharedPointerINS0_7CommandEE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_10FetchScopeE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_11CachePolicyE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_12LoginCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_12PartMetaDataE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_12ScopeContextE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_13HelloResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_13LoginResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_13LogoutCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_13SearchCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_14LogoutResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_14SearchResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_16CopyItemsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_16CreateTagCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_16DeleteTagCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_16FetchTagsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_16LinkItemsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_16ModifyTagCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_16MoveItemsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_17CopyItemsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_17CreateItemCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_17CreateTagResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_17DeleteTagResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_17FetchItemsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_17FetchTagsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_17LinkItemsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_17ModifyTagResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_17MoveItemsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_18ChangeNotificationE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_18CreateItemResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_18DeleteItemsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_18FetchItemsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_18ModifyItemsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_18StoreSearchCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_18TransactionCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_19DeleteItemsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_19ModifyItemsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_19SearchResultCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_19StoreSearchResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_19TransactionResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_20SearchResultResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_20StreamPayloadCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_21CopyCollectionCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_21FetchRelationsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_21ModifyRelationCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_21MoveCollectionCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_21SelectResourceCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_21StreamPayloadResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_21TagChangeNotificationE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_22CopyCollectionResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_22FetchRelationsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_22ItemChangeNotificationE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_22ModifyRelationResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_22MoveCollectionResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_22RemoveRelationsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_22SelectResourceResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_23CreateCollectionCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_23DebugChangeNotificationE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_23DeleteCollectionCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_23FetchCollectionsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_23ModifyCollectionCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_23RemoveRelationsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_24CreateCollectionResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_24DeleteCollectionResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_24FetchCollectionsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_24ModifyCollectionResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_25CreateSubscriptionCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_25ModifySubscriptionCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_26CreateSubscriptionResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_26ModifySubscriptionResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_26RelationChangeNotificationE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_27FetchCollectionStatsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_28CollectionChangeNotificationE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_28FetchCollectionStatsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_30SubscriptionChangeNotificationE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_7CommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_8AncestorE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsE6QDebugRKNS0_8ResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_10FetchScopeE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_11CachePolicyE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_12LoginCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_12PartMetaDataE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_12ScopeContextE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_13HelloResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_13LoginResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_13LogoutCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_13SearchCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_14LogoutResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_14SearchResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_16CopyItemsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_16CreateTagCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_16DeleteTagCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_16FetchTagsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_16LinkItemsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_16ModifyTagCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_16MoveItemsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_17CopyItemsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_17CreateItemCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_17CreateTagResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_17DeleteTagResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_17FetchItemsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_17FetchTagsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_17LinkItemsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_17ModifyTagResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_17MoveItemsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_18ChangeNotification4ItemE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_18ChangeNotification8RelationE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_18ChangeNotificationE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_18CreateItemResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_18DeleteItemsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_18FetchItemsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_18ModifyItemsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_18StoreSearchCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_18TransactionCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_19DeleteItemsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_19ModifyItemsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_19SearchResultCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_19StoreSearchResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_19TransactionResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_20SearchResultResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_20StreamPayloadCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_21CopyCollectionCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_21FetchRelationsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_21ModifyRelationCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_21MoveCollectionCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_21SelectResourceCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_21StreamPayloadResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_21TagChangeNotificationE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_22CopyCollectionResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_22FetchRelationsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_22ItemChangeNotificationE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_22ModifyRelationResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_22MoveCollectionResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_22RemoveRelationsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_22SelectResourceResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_23CreateCollectionCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_23DebugChangeNotificationE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_23DeleteCollectionCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_23FetchCollectionsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_23ModifyCollectionCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_23RemoveRelationsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_24CreateCollectionResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_24DeleteCollectionResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_24FetchCollectionsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_24ModifyCollectionResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_25CreateSubscriptionCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_25ModifySubscriptionCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_26CreateSubscriptionResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_26ModifySubscriptionResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_26RelationChangeNotificationE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_27FetchCollectionStatsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_28CollectionChangeNotificationE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_28FetchCollectionStatsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_30SubscriptionChangeNotificationE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_7CommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_8AncestorE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocollsERNS0_10DataStreamERKNS0_8ResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_10FetchScopeE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_11CachePolicyE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_12LoginCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_12PartMetaDataE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_12ScopeContextE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_13HelloResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_13LoginResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_13LogoutCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_13SearchCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_14LogoutResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_14SearchResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_16CopyItemsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_16CreateTagCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_16DeleteTagCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_16FetchTagsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_16LinkItemsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_16ModifyTagCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_16MoveItemsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_17CopyItemsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_17CreateItemCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_17CreateTagResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_17DeleteTagResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_17FetchItemsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_17FetchTagsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_17LinkItemsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_17ModifyTagResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_17MoveItemsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_18ChangeNotification4ItemE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_18ChangeNotification8RelationE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_18ChangeNotificationE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_18CreateItemResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_18DeleteItemsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_18FetchItemsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_18ModifyItemsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_18StoreSearchCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_18TransactionCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_19DeleteItemsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_19ModifyItemsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_19SearchResultCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_19StoreSearchResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_19TransactionResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_20SearchResultResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_20StreamPayloadCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_21CopyCollectionCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_21FetchRelationsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_21ModifyRelationCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_21MoveCollectionCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_21SelectResourceCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_21StreamPayloadResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_21TagChangeNotificationE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_22CopyCollectionResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_22FetchRelationsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_22ItemChangeNotificationE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_22ModifyRelationResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_22MoveCollectionResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_22RemoveRelationsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_22SelectResourceResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_23CreateCollectionCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_23DebugChangeNotificationE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_23DeleteCollectionCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_23FetchCollectionsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_23ModifyCollectionCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_23RemoveRelationsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_24CreateCollectionResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_24DeleteCollectionResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_24FetchCollectionsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_24ModifyCollectionResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_25CreateSubscriptionCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_25ModifySubscriptionCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_26CreateSubscriptionResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_26ModifySubscriptionResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_26RelationChangeNotificationE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_27FetchCollectionStatsCommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_28CollectionChangeNotificationE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_28FetchCollectionStatsResponseE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_30SubscriptionChangeNotificationE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_7CommandE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_8AncestorE@Base 4:17.08.0
+ _ZN7Akonadi8ProtocolrsERNS0_10DataStreamERNS0_8ResponseE@Base 4:17.08.0
+ _ZNK10QByteArrayixEi@Base 4:17.08.0
  _ZNK7Akonadi10ImapParser16continuationSizeEv@Base 15.07.90
  _ZNK7Akonadi10ImapParser19continuationStartedEv@Base 15.07.90
  _ZNK7Akonadi10ImapParser3tagEv@Base 15.07.90
@@ -769,299 +1084,90 @@ libKF5AkonadiPrivate.so.5 libkf5akonadiprivate5 #MINVER#
  _ZNK7Akonadi7ImapSet7isEmptyEv@Base 15.07.90
  _ZNK7Akonadi7ImapSet9intervalsEv@Base 15.07.90
  _ZNK7Akonadi7ImapSeteqERKS0_@Base 15.07.90
- _ZNK7Akonadi8Protocol10FetchScope10fetchFlagsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol10FetchScope10fetchMTimeEv@Base 15.07.90
- _ZNK7Akonadi8Protocol10FetchScope11debugStringERNS0_10DebugBlockE@Base 15.07.90
- _ZNK7Akonadi8Protocol10FetchScope11fullPayloadEv@Base 15.07.90
- _ZNK7Akonadi8Protocol10FetchScope12changedSinceEv@Base 15.07.90
- _ZNK7Akonadi8Protocol10FetchScope12ignoreErrorsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol10FetchScope13allAttributesEv@Base 15.07.90
- _ZNK7Akonadi8Protocol10FetchScope13ancestorDepthEv@Base 15.07.90
- _ZNK7Akonadi8Protocol10FetchScope13fetchRemoteIdEv@Base 15.07.90
- _ZNK7Akonadi8Protocol10FetchScope13tagFetchScopeEv@Base 15.07.90
- _ZNK7Akonadi8Protocol10FetchScope14fetchRelationsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol10FetchScope14requestedPartsEv@Base 15.07.90
  _ZNK7Akonadi8Protocol10FetchScope17requestedPayloadsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol10FetchScope19fetchRemoteRevisionEv@Base 15.07.90
- _ZNK7Akonadi8Protocol10FetchScope22fetchVirtualReferencesEv@Base 15.07.90
- _ZNK7Akonadi8Protocol10FetchScope27checkCachedPayloadPartsOnlyEv@Base 15.07.90
  _ZNK7Akonadi8Protocol10FetchScope5fetchE6QFlagsINS1_9FetchFlagEE@Base 15.07.90
- _ZNK7Akonadi8Protocol10FetchScope8fetchGIDEv@Base 15.07.90
- _ZNK7Akonadi8Protocol10FetchScope9cacheOnlyEv@Base 15.07.90
- _ZNK7Akonadi8Protocol10FetchScope9fetchSizeEv@Base 15.07.90
- _ZNK7Akonadi8Protocol10FetchScope9fetchTagsEv@Base 15.07.90
  _ZNK7Akonadi8Protocol10FetchScopeeqERKS1_@Base 15.07.90
- _ZNK7Akonadi8Protocol10FetchScopeneERKS1_@Base 15.07.90
- _ZNK7Akonadi8Protocol11CachePolicy10localPartsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol11CachePolicy11debugStringERNS0_10DebugBlockE@Base 15.07.90
- _ZNK7Akonadi8Protocol11CachePolicy12cacheTimeoutEv@Base 15.07.90
- _ZNK7Akonadi8Protocol11CachePolicy12syncOnDemandEv@Base 15.07.90
- _ZNK7Akonadi8Protocol11CachePolicy13checkIntervalEv@Base 15.07.90
- _ZNK7Akonadi8Protocol11CachePolicy7inheritEv@Base 15.07.90
  _ZNK7Akonadi8Protocol11CachePolicyeqERKS1_@Base 15.07.90
- _ZNK7Akonadi8Protocol11CachePolicyneERKS1_@Base 15.07.90
- _ZNK7Akonadi8Protocol12LoginCommand11sessionModeEv@Base 15.07.90
- _ZNK7Akonadi8Protocol12LoginCommand9sessionIdEv@Base 15.07.90
- _ZNK7Akonadi8Protocol12PartMetaData10isExternalEv@Base 15.07.90
- _ZNK7Akonadi8Protocol12PartMetaData4nameEv@Base 15.07.90
- _ZNK7Akonadi8Protocol12PartMetaData4sizeEv@Base 15.07.90
- _ZNK7Akonadi8Protocol12PartMetaData7versionEv@Base 15.07.90
+ _ZNK7Akonadi8Protocol12LoginCommandeqERKS1_@Base 4:17.08.0
  _ZNK7Akonadi8Protocol12PartMetaDataeqERKS1_@Base 15.07.90
- _ZNK7Akonadi8Protocol12PartMetaDataltERKS1_@Base 15.07.90
- _ZNK7Akonadi8Protocol12PartMetaDataneERKS1_@Base 15.07.90
- _ZNK7Akonadi8Protocol12ScopeContext10contextRIDENS1_4TypeE@Base 15.07.90
- _ZNK7Akonadi8Protocol12ScopeContext11debugStringERNS0_10DebugBlockE@Base 15.07.90
- _ZNK7Akonadi8Protocol12ScopeContext12hasContextIdENS1_4TypeE@Base 15.07.90
- _ZNK7Akonadi8Protocol12ScopeContext13hasContextRIDENS1_4TypeE@Base 15.07.90
- _ZNK7Akonadi8Protocol12ScopeContext7isEmptyEv@Base 15.07.90
- _ZNK7Akonadi8Protocol12ScopeContext9contextIdENS1_4TypeE@Base 15.07.90
  _ZNK7Akonadi8Protocol12ScopeContexteqERKS1_@Base 15.07.90
- _ZNK7Akonadi8Protocol12ScopeContextneERKS1_@Base 15.07.90
- _ZNK7Akonadi8Protocol13HelloResponse10serverNameEv@Base 15.07.90
- _ZNK7Akonadi8Protocol13HelloResponse15protocolVersionEv@Base 15.07.90
- _ZNK7Akonadi8Protocol13HelloResponse7messageEv@Base 15.07.90
- _ZNK7Akonadi8Protocol13SearchCommand10fetchScopeEv@Base 15.07.90
- _ZNK7Akonadi8Protocol13SearchCommand11collectionsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol13SearchCommand5queryEv@Base 15.07.90
- _ZNK7Akonadi8Protocol13SearchCommand6remoteEv@Base 15.07.90
- _ZNK7Akonadi8Protocol13SearchCommand9mimeTypesEv@Base 15.07.90
- _ZNK7Akonadi8Protocol13SearchCommand9recursiveEv@Base 15.07.90
- _ZNK7Akonadi8Protocol16CopyItemsCommand11destinationEv@Base 15.07.90
- _ZNK7Akonadi8Protocol16CopyItemsCommand5itemsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol16CreateTagCommand10attributesEv@Base 15.07.90
- _ZNK7Akonadi8Protocol16CreateTagCommand3gidEv@Base 15.07.90
- _ZNK7Akonadi8Protocol16CreateTagCommand4typeEv@Base 15.07.90
- _ZNK7Akonadi8Protocol16CreateTagCommand5mergeEv@Base 15.07.90
- _ZNK7Akonadi8Protocol16CreateTagCommand8parentIdEv@Base 15.07.90
- _ZNK7Akonadi8Protocol16CreateTagCommand8remoteIdEv@Base 15.07.90
- _ZNK7Akonadi8Protocol16DeleteTagCommand3tagEv@Base 15.07.90
- _ZNK7Akonadi8Protocol16FetchTagsCommand10attributesEv@Base 15.07.90
- _ZNK7Akonadi8Protocol16FetchTagsCommand5scopeEv@Base 15.07.90
- _ZNK7Akonadi8Protocol16FetchTagsCommand6idOnlyEv@Base 15.07.90
- _ZNK7Akonadi8Protocol16LinkItemsCommand11destinationEv@Base 15.07.90
- _ZNK7Akonadi8Protocol16LinkItemsCommand5itemsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol16LinkItemsCommand6actionEv@Base 15.07.90
- _ZNK7Akonadi8Protocol16ModifyTagCommand10attributesEv@Base 15.07.90
- _ZNK7Akonadi8Protocol16ModifyTagCommand13modifiedPartsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol16ModifyTagCommand17removedAttributesEv@Base 15.07.90
- _ZNK7Akonadi8Protocol16ModifyTagCommand4typeEv@Base 15.07.90
- _ZNK7Akonadi8Protocol16ModifyTagCommand5tagIdEv@Base 15.07.90
- _ZNK7Akonadi8Protocol16ModifyTagCommand8parentIdEv@Base 15.07.90
- _ZNK7Akonadi8Protocol16ModifyTagCommand8remoteIdEv@Base 15.07.90
- _ZNK7Akonadi8Protocol16MoveItemsCommand11destinationEv@Base 15.07.90
- _ZNK7Akonadi8Protocol16MoveItemsCommand12itemsContextEv@Base 15.07.90
- _ZNK7Akonadi8Protocol16MoveItemsCommand5itemsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol17CreateItemCommand10addedFlagsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol17CreateItemCommand10attributesEv@Base 15.07.90
- _ZNK7Akonadi8Protocol17CreateItemCommand10collectionEv@Base 15.07.90
- _ZNK7Akonadi8Protocol17CreateItemCommand10mergeModesEv@Base 15.07.90
- _ZNK7Akonadi8Protocol17CreateItemCommand11removedTagsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol17CreateItemCommand12removedFlagsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol17CreateItemCommand14remoteRevisionEv@Base 15.07.90
- _ZNK7Akonadi8Protocol17CreateItemCommand3gidEv@Base 15.07.90
- _ZNK7Akonadi8Protocol17CreateItemCommand4tagsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol17CreateItemCommand5flagsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol17CreateItemCommand5partsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol17CreateItemCommand8dateTimeEv@Base 15.07.90
- _ZNK7Akonadi8Protocol17CreateItemCommand8itemSizeEv@Base 15.07.90
- _ZNK7Akonadi8Protocol17CreateItemCommand8mimeTypeEv@Base 15.07.90
- _ZNK7Akonadi8Protocol17CreateItemCommand8remoteIdEv@Base 15.07.90
- _ZNK7Akonadi8Protocol17CreateItemCommand9addedTagsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol17FetchItemsCommand10fetchScopeEv@Base 15.07.90
- _ZNK7Akonadi8Protocol17FetchItemsCommand12scopeContextEv@Base 15.07.90
- _ZNK7Akonadi8Protocol17FetchItemsCommand5scopeEv@Base 15.07.90
- _ZNK7Akonadi8Protocol17FetchTagsResponse10attributesEv@Base 15.07.90
- _ZNK7Akonadi8Protocol17FetchTagsResponse2idEv@Base 15.07.90
- _ZNK7Akonadi8Protocol17FetchTagsResponse3gidEv@Base 15.07.90
- _ZNK7Akonadi8Protocol17FetchTagsResponse4typeEv@Base 15.07.90
- _ZNK7Akonadi8Protocol17FetchTagsResponse8parentIdEv@Base 15.07.90
- _ZNK7Akonadi8Protocol17FetchTagsResponse8remoteIdEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ChangeNotification10addedFlagsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ChangeNotification11removedTagsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ChangeNotification12removedFlagsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ChangeNotification16parentCollectionEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ChangeNotification19destinationResourceEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ChangeNotification20parentDestCollectionEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ChangeNotification4typeEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ChangeNotification4uidsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ChangeNotification6entityEx@Base 15.07.90
- _ZNK7Akonadi8Protocol18ChangeNotification7isValidEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ChangeNotification8entitiesEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ChangeNotification8metadataEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ChangeNotification8resourceEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ChangeNotification9addedTagsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ChangeNotification9itemPartsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ChangeNotification9operationEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ChangeNotification9sessionIdEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18DeleteItemsCommand12scopeContextEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18DeleteItemsCommand5itemsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18FetchItemsResponse11cachedPartsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18FetchItemsResponse14remoteRevisionEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18FetchItemsResponse17virtualReferencesEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18FetchItemsResponse2idEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18FetchItemsResponse3gidEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18FetchItemsResponse4sizeEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18FetchItemsResponse4tagsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18FetchItemsResponse5MTimeEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18FetchItemsResponse5flagsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18FetchItemsResponse5partsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18FetchItemsResponse8mimeTypeEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18FetchItemsResponse8parentIdEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18FetchItemsResponse8remoteIdEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18FetchItemsResponse8revisionEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18FetchItemsResponse9ancestorsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18FetchItemsResponse9relationsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ModifyItemsCommand10addedFlagsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ModifyItemsCommand10attributesEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ModifyItemsCommand10noResponseEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ModifyItemsCommand11oldRevisionEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ModifyItemsCommand11removedTagsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ModifyItemsCommand12removedFlagsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ModifyItemsCommand12removedPartsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ModifyItemsCommand13modifiedPartsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ModifyItemsCommand14remoteRevisionEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ModifyItemsCommand15invalidateCacheEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ModifyItemsCommand3gidEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ModifyItemsCommand4tagsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ModifyItemsCommand5dirtyEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ModifyItemsCommand5flagsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ModifyItemsCommand5itemsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ModifyItemsCommand5partsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ModifyItemsCommand6notifyEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ModifyItemsCommand8itemSizeEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ModifyItemsCommand8remoteIdEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18ModifyItemsCommand9addedTagsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18StoreSearchCommand16queryCollectionsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18StoreSearchCommand4nameEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18StoreSearchCommand5queryEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18StoreSearchCommand6remoteEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18StoreSearchCommand9mimeTypesEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18StoreSearchCommand9recursiveEv@Base 15.07.90
- _ZNK7Akonadi8Protocol18TransactionCommand4modeEv@Base 15.07.90
- _ZNK7Akonadi8Protocol19ModifyItemsResponse11newRevisionEv@Base 15.07.90
- _ZNK7Akonadi8Protocol19ModifyItemsResponse20modificationDateTimeEv@Base 15.07.90
- _ZNK7Akonadi8Protocol19ModifyItemsResponse2idEv@Base 15.07.90
- _ZNK7Akonadi8Protocol19SearchResultCommand12collectionIdEv@Base 15.07.90
- _ZNK7Akonadi8Protocol19SearchResultCommand6resultEv@Base 15.07.90
- _ZNK7Akonadi8Protocol19SearchResultCommand8searchIdEv@Base 15.07.90
- _ZNK7Akonadi8Protocol20StreamPayloadCommand11destinationEv@Base 15.07.90
- _ZNK7Akonadi8Protocol20StreamPayloadCommand11payloadNameEv@Base 15.07.90
- _ZNK7Akonadi8Protocol20StreamPayloadCommand7requestEv@Base 15.07.90
- _ZNK7Akonadi8Protocol21CopyCollectionCommand10collectionEv@Base 15.07.90
- _ZNK7Akonadi8Protocol21CopyCollectionCommand11destinationEv@Base 15.07.90
- _ZNK7Akonadi8Protocol21FetchRelationsCommand4leftEv@Base 15.07.90
- _ZNK7Akonadi8Protocol21FetchRelationsCommand4sideEv@Base 15.07.90
- _ZNK7Akonadi8Protocol21FetchRelationsCommand5rightEv@Base 15.07.90
- _ZNK7Akonadi8Protocol21FetchRelationsCommand5typesEv@Base 15.07.90
- _ZNK7Akonadi8Protocol21FetchRelationsCommand8resourceEv@Base 15.07.90
- _ZNK7Akonadi8Protocol21ModifyRelationCommand4leftEv@Base 15.07.90
- _ZNK7Akonadi8Protocol21ModifyRelationCommand4typeEv@Base 15.07.90
- _ZNK7Akonadi8Protocol21ModifyRelationCommand5rightEv@Base 15.07.90
- _ZNK7Akonadi8Protocol21ModifyRelationCommand8remoteIdEv@Base 15.07.90
- _ZNK7Akonadi8Protocol21MoveCollectionCommand10collectionEv@Base 15.07.90
- _ZNK7Akonadi8Protocol21MoveCollectionCommand11destinationEv@Base 15.07.90
- _ZNK7Akonadi8Protocol21SelectResourceCommand10resourceIdEv@Base 15.07.90
- _ZNK7Akonadi8Protocol21StreamPayloadResponse11payloadNameEv@Base 15.07.90
- _ZNK7Akonadi8Protocol21StreamPayloadResponse4dataEv@Base 15.07.90
- _ZNK7Akonadi8Protocol21StreamPayloadResponse8metaDataEv@Base 15.07.90
- _ZNK7Akonadi8Protocol22FetchRelationsResponse12leftMimeTypeEv@Base 4:16.04.0
- _ZNK7Akonadi8Protocol22FetchRelationsResponse13rightMimeTypeEv@Base 4:16.04.0
- _ZNK7Akonadi8Protocol22FetchRelationsResponse4leftEv@Base 15.07.90
- _ZNK7Akonadi8Protocol22FetchRelationsResponse4typeEv@Base 15.07.90
- _ZNK7Akonadi8Protocol22FetchRelationsResponse5rightEv@Base 15.07.90
- _ZNK7Akonadi8Protocol22FetchRelationsResponse8remoteIdEv@Base 15.07.90
- _ZNK7Akonadi8Protocol22RemoveRelationsCommand4leftEv@Base 15.07.90
- _ZNK7Akonadi8Protocol22RemoveRelationsCommand4typeEv@Base 15.07.90
- _ZNK7Akonadi8Protocol22RemoveRelationsCommand5rightEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23CreateCollectionCommand10attributesEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23CreateCollectionCommand11cachePolicyEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23CreateCollectionCommand11displayPrefEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23CreateCollectionCommand14remoteRevisionEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23CreateCollectionCommand4nameEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23CreateCollectionCommand6parentEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23CreateCollectionCommand7enabledEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23CreateCollectionCommand8remoteIdEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23CreateCollectionCommand8syncPrefEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23CreateCollectionCommand9indexPrefEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23CreateCollectionCommand9isVirtualEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23CreateCollectionCommand9mimeTypesEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23DeleteCollectionCommand10collectionEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23FetchCollectionsCommand10fetchStatsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23FetchCollectionsCommand11collectionsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23FetchCollectionsCommand11displayPrefEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23FetchCollectionsCommand14ancestorsDepthEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23FetchCollectionsCommand19ancestorsAttributesEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23FetchCollectionsCommand5depthEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23FetchCollectionsCommand7enabledEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23FetchCollectionsCommand8resourceEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23FetchCollectionsCommand8syncPrefEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23FetchCollectionsCommand9indexPrefEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23FetchCollectionsCommand9mimeTypesEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23ModifyCollectionCommand10attributesEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23ModifyCollectionCommand10collectionEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23ModifyCollectionCommand10referencedEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23ModifyCollectionCommand11cachePolicyEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23ModifyCollectionCommand11displayPrefEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23ModifyCollectionCommand13modifiedPartsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23ModifyCollectionCommand14remoteRevisionEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23ModifyCollectionCommand17removedAttributesEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23ModifyCollectionCommand21persistentSearchQueryEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23ModifyCollectionCommand22persistentSearchRemoteEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23ModifyCollectionCommand25persistentSearchRecursiveEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23ModifyCollectionCommand27persistentSearchCollectionsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23ModifyCollectionCommand4nameEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23ModifyCollectionCommand7enabledEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23ModifyCollectionCommand8parentIdEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23ModifyCollectionCommand8remoteIdEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23ModifyCollectionCommand8syncPrefEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23ModifyCollectionCommand9indexPrefEv@Base 15.07.90
- _ZNK7Akonadi8Protocol23ModifyCollectionCommand9mimeTypesEv@Base 15.07.90
- _ZNK7Akonadi8Protocol24FetchCollectionsResponse10attributesEv@Base 15.07.90
- _ZNK7Akonadi8Protocol24FetchCollectionsResponse10referencedEv@Base 15.07.90
- _ZNK7Akonadi8Protocol24FetchCollectionsResponse10statisticsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol24FetchCollectionsResponse11cachePolicyEv@Base 15.07.90
- _ZNK7Akonadi8Protocol24FetchCollectionsResponse11displayPrefEv@Base 15.07.90
- _ZNK7Akonadi8Protocol24FetchCollectionsResponse11searchQueryEv@Base 15.07.90
- _ZNK7Akonadi8Protocol24FetchCollectionsResponse14remoteRevisionEv@Base 15.07.90
- _ZNK7Akonadi8Protocol24FetchCollectionsResponse17searchCollectionsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol24FetchCollectionsResponse2idEv@Base 15.07.90
- _ZNK7Akonadi8Protocol24FetchCollectionsResponse4nameEv@Base 15.07.90
- _ZNK7Akonadi8Protocol24FetchCollectionsResponse7enabledEv@Base 15.07.90
- _ZNK7Akonadi8Protocol24FetchCollectionsResponse8parentIdEv@Base 15.07.90
- _ZNK7Akonadi8Protocol24FetchCollectionsResponse8remoteIdEv@Base 15.07.90
- _ZNK7Akonadi8Protocol24FetchCollectionsResponse8resourceEv@Base 15.07.90
- _ZNK7Akonadi8Protocol24FetchCollectionsResponse8syncPrefEv@Base 15.07.90
- _ZNK7Akonadi8Protocol24FetchCollectionsResponse9ancestorsEv@Base 15.07.90
- _ZNK7Akonadi8Protocol24FetchCollectionsResponse9indexPrefEv@Base 15.07.90
- _ZNK7Akonadi8Protocol24FetchCollectionsResponse9isVirtualEv@Base 15.07.90
- _ZNK7Akonadi8Protocol24FetchCollectionsResponse9mimeTypesEv@Base 15.07.90
- _ZNK7Akonadi8Protocol27FetchCollectionStatsCommand10collectionEv@Base 15.07.90
- _ZNK7Akonadi8Protocol28FetchCollectionStatsResponse4sizeEv@Base 15.07.90
- _ZNK7Akonadi8Protocol28FetchCollectionStatsResponse5countEv@Base 15.07.90
- _ZNK7Akonadi8Protocol28FetchCollectionStatsResponse6unseenEv@Base 15.07.90
- _ZNK7Akonadi8Protocol7Command10isResponseEv@Base 15.07.90
- _ZNK7Akonadi8Protocol7Command11debugStringERNS0_10DebugBlockE@Base 15.07.90
- _ZNK7Akonadi8Protocol7Command11debugStringEv@Base 15.07.90
- _ZNK7Akonadi8Protocol7Command4typeEv@Base 15.07.90
- _ZNK7Akonadi8Protocol7Command7isValidEv@Base 15.07.90
+ _ZNK7Akonadi8Protocol13HelloResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol13LoginResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol13LogoutCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol13SearchCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol14LogoutResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol14SearchResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol16CopyItemsCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol16CreateTagCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol16DeleteTagCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol16FetchTagsCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol16LinkItemsCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol16ModifyTagCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol16MoveItemsCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol17CopyItemsResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol17CreateItemCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol17CreateTagResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol17DeleteTagResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol17FetchItemsCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol17FetchTagsResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol17LinkItemsResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol17ModifyTagResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol17MoveItemsResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol18ChangeNotification6isMoveEv@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol18ChangeNotification8isRemoveEv@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol18ChangeNotificationeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol18CreateItemResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol18DeleteItemsCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol18FetchItemsResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol18ModifyItemsCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol18StoreSearchCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol18TransactionCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol19DeleteItemsResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol19ModifyItemsResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol19SearchResultCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol19StoreSearchResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol19TransactionResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol20SearchResultResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol20StreamPayloadCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol21CopyCollectionCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol21FetchRelationsCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol21ModifyRelationCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol21MoveCollectionCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol21SelectResourceCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol21StreamPayloadResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol21TagChangeNotificationeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol22CopyCollectionResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol22FetchRelationsResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol22ItemChangeNotificationeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol22ModifyRelationResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol22MoveCollectionResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol22RemoveRelationsCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol22SelectResourceResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol23CreateCollectionCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol23DebugChangeNotificationeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol23DeleteCollectionCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol23FetchCollectionsCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol23ModifyCollectionCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol23RemoveRelationsResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol24CreateCollectionResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol24DeleteCollectionResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol24FetchCollectionsResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol24ModifyCollectionResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol25CreateSubscriptionCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol25ModifySubscriptionCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol26CreateSubscriptionResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol26ModifySubscriptionResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol26RelationChangeNotificationeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol27FetchCollectionStatsCommandeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol28CollectionChangeNotificationeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol28FetchCollectionStatsResponseeqERKS1_@Base 4:17.08.0
+ _ZNK7Akonadi8Protocol30SubscriptionChangeNotificationeqERKS1_@Base 4:17.08.0
  _ZNK7Akonadi8Protocol7CommandeqERKS1_@Base 15.07.90
- _ZNK7Akonadi8Protocol7CommandneERKS1_@Base 15.07.90
- _ZNK7Akonadi8Protocol8Ancestor10attributesEv@Base 15.07.90
- _ZNK7Akonadi8Protocol8Ancestor11debugStringERNS0_10DebugBlockE@Base 15.07.90
- _ZNK7Akonadi8Protocol8Ancestor2idEv@Base 15.07.90
- _ZNK7Akonadi8Protocol8Ancestor4nameEv@Base 15.07.90
- _ZNK7Akonadi8Protocol8Ancestor8remoteIdEv@Base 15.07.90
  _ZNK7Akonadi8Protocol8AncestoreqERKS1_@Base 15.07.90
- _ZNK7Akonadi8Protocol8AncestorneERKS1_@Base 15.07.90
- _ZNK7Akonadi8Protocol8Response12errorMessageEv@Base 15.07.90
- _ZNK7Akonadi8Protocol8Response7isErrorEv@Base 15.07.90
- _ZNK7Akonadi8Protocol8Response9errorCodeEv@Base 15.07.90
- _ZTI11QSharedData@Base 15.07.90
+ _ZNK7Akonadi8Protocol8ResponseeqERKS1_@Base 4:17.08.0
  _ZTIN7Akonadi17ProtocolExceptionE@Base 15.07.90
- _ZTS11QSharedData@Base 15.07.90
  _ZTSN7Akonadi17ProtocolExceptionE@Base 15.07.90
  _ZTVN7Akonadi17ProtocolExceptionE@Base 15.07.90
- _Zls6QDebugN7Akonadi8Protocol7Command4TypeE@Base 15.07.90
  _Zls6QDebugN7Akonadi8TristateE@Base 15.07.90
  _Zls6QDebugRKN7Akonadi12ImapIntervalE@Base 15.07.90
  _Zls6QDebugRKN7Akonadi5ScopeE@Base 15.07.90

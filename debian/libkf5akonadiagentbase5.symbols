@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.12.0 amd64
+# SymbolsHelper-Confirmed: 4:17.08.0 amd64
 libKF5AkonadiAgentBase.so.5 libkf5akonadiagentbase5 #MINVER#, kdepimlibs-data (>= 4:15.12~)
  _ZN7Akonadi12ResourceBase10cancelTaskERK7QString@Base 15.07.90
  _ZN7Akonadi12ResourceBase10cancelTaskEv@Base 15.07.90
@@ -8,10 +8,12 @@ libKF5AkonadiAgentBase.so.5 libkf5akonadiagentbase5 #MINVER#, kdepimlibs-data (>
  _ZN7Akonadi12ResourceBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi12ResourceBase11qt_metacastEPKc@Base 15.07.90
  _ZN7Akonadi12ResourceBase11synchronizeEv@Base 15.07.90
+ _ZN7Akonadi12ResourceBase12retrieveItemERKNS_4ItemERK4QSetI10QByteArrayE@Base 4:17.08.0
  _ZN7Akonadi12ResourceBase12retrieveTagsEv@Base 15.07.90
  _ZN7Akonadi12ResourceBase12synchronizedEv@Base 15.07.90
  _ZN7Akonadi12ResourceBase13abortActivityEv@Base 15.07.90
  _ZN7Akonadi12ResourceBase13itemRetrievedERKNS_4ItemE@Base 15.07.90
+ _ZN7Akonadi12ResourceBase13retrieveItemsERK7QVectorINS_4ItemEERK4QSetI10QByteArrayE@Base 4:17.08.0
  _ZN7Akonadi12ResourceBase13setTotalItemsEi@Base 15.07.90
  _ZN7Akonadi12ResourceBase13tagsRetrievedERK7QVectorINS_3TagEERK5QHashI7QStringS1_INS_4ItemEEE@Base 4:15.12.0
  _ZN7Akonadi12ResourceBase14itemsRetrievedERK7QVectorINS_4ItemEE@Base 15.07.90
@@ -28,7 +30,7 @@ libKF5AkonadiAgentBase.so.5 libkf5akonadiagentbase5 #MINVER#, kdepimlibs-data (>
  _ZN7Akonadi12ResourceBase18relationsRetrievedERK7QVectorINS_8RelationEE@Base 15.07.90
  _ZN7Akonadi12ResourceBase18scheduleCustomTaskEP7QObjectPKcRK8QVariantNS0_16SchedulePriorityE@Base 15.07.90
  _ZN7Akonadi12ResourceBase18setItemMergingModeENS_8ItemSync9MergeModeE@Base 4:15.08.2
- _ZN7Akonadi12ResourceBase19requestItemDeliveryExRK7QStringS3_RK5QListI10QByteArrayE@Base 4:15.12.0
+ _ZN7Akonadi12ResourceBase19requestItemDeliveryERK5QListIxERKS1_I10QByteArrayE@Base 4:17.08.0
  _ZN7Akonadi12ResourceBase20collectionsRetrievedERK7QVectorINS_10CollectionEE@Base 15.07.90
  _ZN7Akonadi12ResourceBase20setItemSyncBatchSizeEi@Base 15.07.90
  _ZN7Akonadi12ResourceBase20synchronizeRelationsEv@Base 15.07.90
@@ -172,6 +174,7 @@ libKF5AkonadiAgentBase.so.5 libkf5akonadiagentbase5 #MINVER#, kdepimlibs-data (>
  _ZN7Akonadi9AgentBaseD2Ev@Base 15.07.90
  _ZNK7Akonadi12ResourceBase10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi12ResourceBase11currentItemEv@Base 15.07.90
+ _ZNK7Akonadi12ResourceBase12currentItemsEv@Base 4:17.08.0
  _ZNK7Akonadi12ResourceBase14dumpMemoryInfoEv@Base 15.07.90
  _ZNK7Akonadi12ResourceBase17currentCollectionEv@Base 15.07.90
  _ZNK7Akonadi12ResourceBase17itemSyncBatchSizeEv@Base 15.07.90
