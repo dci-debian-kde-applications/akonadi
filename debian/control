@@ -179,7 +179,7 @@ Description: Akonadi agent base library
 Package: libkf5akonadicore-bin
 Architecture: any
 Depends: akonadi-server (>= 4:16.04.3-4), ${misc:Depends}
-Priority: extra
+Priority: optional
 Section: oldlibs
 Description: transitional package
  This is a transitional package. It can safely be removed.
