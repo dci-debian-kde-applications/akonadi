@@ -1,0 +1,32 @@
+Description: do not include cpp files in tests
+Origin: upstream
+ https://cgit.kde.org/akonadi.git/commit/?id=bf2fddd8ecb9a8e3 for collectionsynctest.cpp
+ https://cgit.kde.org/akonadi.git/commit/?id=2e658b98faf9d889 for actionstatemanagertest.cpp
+Last-Update: 2017-08-25
+
+--- a/autotests/libs/actionstatemanagertest.cpp
++++ b/autotests/libs/actionstatemanagertest.cpp
+@@ -27,8 +27,6 @@
+ #include "../src/widgets/actionstatemanager.cpp"
+ #undef QT_NO_CLIPBOARD
+ 
+-#include "../src/core/pastehelper.cpp"
+-
+ typedef QHash<Akonadi::StandardActionManager::Type, bool> StateMap;
+ Q_DECLARE_METATYPE(StateMap)
+ 
+--- a/autotests/libs/collectionsynctest.cpp
++++ b/autotests/libs/collectionsynctest.cpp
+@@ -25,9 +25,11 @@
+ #include <collection.h>
+ #include <collectionfetchjob.h>
+ #include <collectionfetchscope.h>
++#include <collectiondeletejob.h>
++#include <collectionmodifyjob.h>
+ #include <entitydisplayattribute.h>
+ 
+-#include "../src/core/collectionsync.cpp"
++#include "../src/core/collectionsync_p.h"
+ 
+ #include <krandom.h>
+ 

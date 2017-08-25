@@ -4,3 +4,4 @@ QSqlite3-fix-build-with-Qt-5.7.patch
 kubuntu_disable_secure_file_priv_check.diff
 Delete-the-properties-window-if-closed.patch
 fix_build_with_qt_5.9.diff
+do_not_include_cpp.diff
