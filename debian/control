@@ -202,6 +202,7 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: kde-l10n-ast (<< 4:17.03.90-0~),
         kde-l10n-eo (<< 4:17.03.90-0~),
         ${kde-l10n:all},
+        libkolab1 (<= 1.0.2-3),
 Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
           kde-l10n-eo (<< 4:17.03.90-0~),
           ${kde-l10n:all},
