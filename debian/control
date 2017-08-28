@@ -113,8 +113,9 @@ Suggests: akonadi-backend-mysql (= ${source:Version}),
           akonadi-backend-postgresql (= ${source:Version}),
           akonadi-backend-sqlite (= ${binary:Version}),
 Breaks: akonadiconsole (<< 4:16.04),
-        kdepimlibs-data (<<  4:16.04),
-        kmail (<< 4:16.04),
+        kdepim-runtime (<< 4:17.08),
+        kdepimlibs-data (<< 4:16.04),
+        kmail (<< 4:17.08),
         korganizer (<< 4:16.04),
         libkf5akonadicore-bin (<< 4:16.04.3-4),
 Replaces: kdepimlibs-data (<<  4:16.04), libkf5akonadicore-bin (<< 4:16.04.3-4)
@@ -151,6 +152,23 @@ Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
 Breaks: kde-l10n-ast (<< 4:17.03.90-0~),
         kde-l10n-eo (<< 4:17.03.90-0~),
         kdepim-runtime (<< 4:4.13),
+        libkf5akonadicalendar-dev (<< 4:17.08),
+        libkf5akonadicontact-dev (<< 4:17.08),
+        libkf5akonadimime-dev (<< 4:17.08),
+        libkf5akonadinotes-dev (<< 4:17.08),
+        libkf5akonadisearch-dev (<< 4:17.08),
+        libkf5akonadisocialutils-dev (<< 4:17.08),
+        libkf5alarmcalendar-dev (<< 4:17.08),
+        libkf5calendarsupport-dev (<< 4:17.08),
+        libkf5eventviews-dev (<< 4:17.08),
+        libkf5followupreminder-dev (<< 4:17.08),
+        libkf5incidenceeditor-dev (<< 17.08),
+        libkf5kdepimdbusinterfaces-dev (<< 4:17.08),
+        libkf5ksieve-dev (<< 4:17.08),
+        libkf5libkdepim-dev (<< 4:17.08),
+        libkf5mailimporter-dev (<< 4:17.08),
+        libkf5pimcommon-dev (<< 4:17.08),
+        libkf5sendlater-dev (<< 4:17.08),
 Conflicts: kdepimlibs5-dev
 Description: development files for the KDE Development Platform PIM libraries
  This package contains development files for building software that uses
@@ -186,6 +204,10 @@ Description: Akonadi agent base library
  data server.
  .
  This package is part of the KDE Development Platform PIM libraries module.
+Breaks: kdepim-runtime (<< 4:17.08),
+        kmail (<< 4:17.08),
+        knotes (<< 4:17.08),
+        libkf5akonadisearch-bin (<< 4:17.08),
 
 Package: libkf5akonadicore-bin
 Architecture: any
@@ -194,15 +216,73 @@ Priority: optional
 Section: oldlibs
 Description: transitional package
  This is a transitional package. It can safely be removed.
+Breaks: accountwizard (<< 4:17.08),
+        kaddressbook (<< 4:17.08),
+        kdepim-addons (<< 17.08),
+        kdepim-runtime (<< 4:17.08),
+        kmail (<< 4:17.08),
+        knotes (<< 4:17.08),
+        korganizer (<< 4:17.08),
+        libkf5akonadicalendar5 (<< 4:17.08),
+        libkf5akonadicontact5 (<< 4:17.08),
+        libkf5akonadimime5 (<< 4:17.08),
+        libkf5alarmcalendar5 (<< 4:17.08),
+        libkf5calendarsupport5 (<< 4:17.08),
+        libkf5eventviews5 (<< 4:17.08),
+        libkf5kaddressbookgrantlee5 (<< 4:17.08),
+        libkf5kdepimdbusinterfaces5 (<< 4:17.08),
+        libkf5libkdepim5 (<< 4:17.08),
+        libkf5mailimporter5 (<< 4:17.08),
+        libkf5mailtransport5 (<< 17.08),
+        libkf5messagecomposer5 (<< 4:17.08),
+        libkf5messagecore5 (<< 4:17.08),
+        libkf5messagelist5 (<< 4:17.08),
+        libkf5messageviewer5 (<< 4:17.08),
+        libkf5pimcommon5 (<< 4:17.08),
+        libkf5templateparser5 (<< 4:17.08),
 
 Package: libkf5akonadicore5
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kde-l10n-ast (<< 4:17.03.90-0~),
+Breaks: accountwizard (<< 4:17.08),
+        akonadiconsole (<< 4:17.08),
+        kaddressbook (<< 4:17.08),
+        kalarm (<< 4:17.08),
+        kde-l10n-ast (<< 4:17.03.90-0~),
         kde-l10n-eo (<< 4:17.03.90-0~),
-        ${kde-l10n:all},
+        kdepim-addons (<< 17.08),
+        kdepim-runtime (<< 4:17.08),
+        kmail (<< 4:17.08),
+        knotes (<< 4:17.08),
+        konsolekalendar (<< 4:17.08),
+        korganizer (<< 4:17.08),
+        libkf5akonadicalendar5 (<< 4:17.08),
+        libkf5akonadicontact5 (<< 4:17.08),
+        libkf5akonadimime5 (<< 4:17.08),
+        libkf5akonadisearch-bin (<< 4:17.08),
+        libkf5akonadisearch-plugins (<< 4:17.08),
+        libkf5akonadisearchdebug5 (<< 4:17.08),
+        libkf5akonadisearchpim5 (<< 4:17.08),
+        libkf5alarmcalendar5 (<< 4:17.08),
+        libkf5calendarsupport5 (<< 4:17.08),
+        libkf5eventviews5 (<< 4:17.08),
+        libkf5incidenceeditor-bin (<< 17.08),
+        libkf5incidenceeditor5 (<< 17.08),
+        libkf5kaddressbookgrantlee5 (<< 4:17.08),
+        libkf5kdepimdbusinterfaces5 (<< 4:17.08),
+        libkf5ksieveui5 (<< 4:17.08),
+        libkf5libkdepim5 (<< 4:17.08),
+        libkf5mailimporter5 (<< 4:17.08),
+        libkf5mailtransport5 (<< 17.08),
+        libkf5messagecomposer5 (<< 4:17.08),
+        libkf5messagecore5 (<< 4:17.08),
+        libkf5messagelist5 (<< 4:17.08),
+        libkf5messageviewer5 (<< 4:17.08),
+        libkf5pimcommon5 (<< 4:17.08),
+        libkf5templateparser5 (<< 4:17.08),
         libkolab1 (<= 1.0.2-3),
+        ${kde-l10n:all},
 Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
           kde-l10n-eo (<< 4:17.03.90-0~),
           ${kde-l10n:all},
@@ -223,13 +303,14 @@ Description: libraries for the Akonadi PIM storage service
  access mail, calendars, addressbooks, and other PIM data.
  .
  This package contains libraries used by the Akonadi PIM storage service.
+Breaks: akonadiconsole (<< 4:17.08), kdepim-runtime (<< 4:17.08)
 
 Package: libkf5akonadiserver-dev
 Section: libdevel
 Multi-Arch: same
 Architecture: any
 Depends: libkf5akonadiprivate5 (= ${binary:Version}), ${misc:Depends}
-Breaks: libakonadi-dev
+Breaks: libakonadi-dev, libkf5akonadisearch-dev (<< 4:17.08)
 Replaces: libakonadi-dev
 Description: development files for the Akonadi PIM storage service
  Akonadi is an extensible cross-desktop Personal Information Management (PIM)
@@ -243,7 +324,25 @@ Package: libkf5akonadiwidgets5
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkf5akonadicore5 (<< 4:15.07.90+git20150817.0936)
+Breaks: accountwizard (<< 4:17.08),
+        akonadiconsole (<< 4:17.08),
+        kaddressbook (<< 4:17.08),
+        kalarm (<< 4:17.08),
+        kdepim-addons (<< 17.08),
+        kdepim-runtime (<< 4:17.08),
+        kmail (<< 4:17.08),
+        knotes (<< 4:17.08),
+        korganizer (<< 4:17.08),
+        libkf5akonadicalendar5 (<< 4:17.08),
+        libkf5akonadicontact5 (<< 4:17.08),
+        libkf5akonadicore5 (<< 4:15.07.90+git20150817.0936),
+        libkf5akonadimime5 (<< 4:17.08),
+        libkf5calendarsupport5 (<< 4:17.08),
+        libkf5eventviews5 (<< 4:17.08),
+        libkf5incidenceeditor5 (<< 17.08),
+        libkf5libkdepim5 (<< 4:17.08),
+        libkf5messagecomposer5 (<< 4:17.08),
+        libkf5pimcommon5 (<< 4:17.08),
 Replaces: libkf5akonadicore5 (<< 4:15.07.90+git20150817.0936)
 Description: Akonadi widgets library
  This library contains standard widgets for the Akonadi PIM data server.
