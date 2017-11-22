@@ -9,5 +9,7 @@ usr/bin/akonadiserver
 usr/bin/asapcat
 usr/share/config.kcfg/resourcebase.kcfg
 usr/share/dbus-1/services/org.freedesktop.Akonadi.Control.service
+usr/share/icons/hicolor/*/apps/akonadi.png
+usr/share/icons/hicolor/scalable/apps/akonadi.svgz
 usr/share/kf5/akonadi/akonadi-xml.xsd
 usr/share/mime/packages/akonadi-mime.xml
