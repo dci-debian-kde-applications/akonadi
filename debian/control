@@ -117,7 +117,7 @@ Breaks: akonadiconsole (<< 4:16.04),
         kmail (<< 4:17.08),
         korganizer (<< 4:16.04),
         libkf5akonadicore-bin (<< 4:16.04.3-4),
-Replaces: kdepimlibs-data (<<  4:16.04), libkf5akonadicore-bin (<< 4:16.04.3-4)
+Replaces: kdepimlibs-data (<< 4:16.04), libkf5akonadicore-bin (<< 4:16.04.3-4)
 Description: Akonadi PIM storage service
  Akonadi is an extensible cross-desktop Personal Information Management (PIM)
  storage service. It provides a common framework for applications to store and
@@ -144,13 +144,8 @@ Depends: libboost-dev (>= 1.34.0~),
          qtbase5-dev (>= 5.7.0~),
          ${misc:Depends},
          ${shlibs:Depends},
-Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
-          kde-l10n-eo (<< 4:17.03.90-0~),
-          kdepim-runtime (<< 4:4.13),
-          kdepimlibs5-dev,
-Breaks: kde-l10n-ast (<< 4:17.03.90-0~),
-        kde-l10n-eo (<< 4:17.03.90-0~),
-        kdepim-runtime (<< 4:4.13),
+Replaces: kdepim-runtime (<< 4:4.13), kdepimlibs5-dev
+Breaks: kdepim-runtime (<< 4:4.13),
         libkf5akonadicalendar-dev (<< 4:17.08),
         libkf5akonadicontact-dev (<< 4:17.08),
         libkf5akonadimime-dev (<< 4:17.08),
