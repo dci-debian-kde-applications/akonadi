@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:17.08.0 amd64
+# SymbolsHelper-Confirmed: 4:17.08.0 alpha amd64 armel hppa mips64el ppc64 ppc64el s390x sh4
 libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _Z5qHashRKN7Akonadi8RelationE@Base 15.07.90
  (optional=templinst)_ZN12KConfigGroup10writeEntryIxEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 15.07.90
@@ -1765,6 +1765,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZN7Akonadi9UnlinkJobD2Ev@Base 15.07.90
  _ZN9QHashData9hasShrunkEv@Base 15.07.90
  (optional=templinst)_ZNK12KConfigGroup9readEntryIxEE5QListIT_EPKcRKS3_@Base 15.07.90
+ (optional=templinst|arch=!amd64 !armel)_ZNK12KConfigGroup9readEntryIxEET_PKcRKS1_@Base 4:17.08.0
  _ZNK7Akonadi10Collection10attributesEv@Base 4:15.12.0
  _ZNK7Akonadi10Collection10referencedEv@Base 15.07.90
  _ZNK7Akonadi10Collection10shouldListENS0_11ListPurposeE@Base 15.07.90
@@ -2355,7 +2356,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZNK7Akonadi9ItemModel9mimeTypesEv@Base 15.07.90
  _ZNK7Akonadi9UnlinkJob10metaObjectEv@Base 15.07.90
  (optional=templinst|arch=armel)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE10_M_releaseEv@Base 4:15.08.2
- (optional=templinst)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv@Base 4:17.08.0
+ (optional=templinst|arch=!armel)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv@Base 4:17.08.0
  _ZTIN5boost16exception_detail10clone_baseE@Base 15.07.90
  _ZTIN5boost9exceptionE@Base 15.07.90
  _ZTIN7Akonadi10ConnectionE@Base 4:17.08.0
