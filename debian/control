@@ -52,11 +52,11 @@ Depends: akonadi-backend-mysql (= ${source:Version}) | akonadi-backend-sqlite (=
 Suggests: akonadi-backend-mysql (= ${source:Version}),
           akonadi-backend-sqlite (= ${binary:Version})
 Breaks: akonadiconsole (<< 4:16.04),
-        kapptemplate (<< 4:17.08.3),
+        kapptemplate (<< 4:17.12.0),
         kdepimlibs-data (<< 4:16.04),
         kmail (<< 4:16.04),
         korganizer (<< 4:16.04)
-Replaces: kapptemplate (<< 4:17.08.3), kdepimlibs-data (<< 4:16.04)
+Replaces: kapptemplate (<< 4:17.12.0), kdepimlibs-data (<< 4:16.04)
 Description: Akonadi PIM storage service
  Akonadi is an extensible cross-desktop Personal Information Management (PIM)
  storage service. It provides a common framework for applications to store and
