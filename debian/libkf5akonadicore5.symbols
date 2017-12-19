@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:17.08.0 alpha amd64 armel hppa mips64el ppc64 ppc64el s390x sh4
+# SymbolsHelper-Confirmed: 4:17.08.3 amd64
 libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _Z5qHashRKN7Akonadi8RelationE@Base 15.07.90
  (optional=templinst)_ZN12KConfigGroup10writeEntryIxEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 15.07.90
@@ -1963,6 +1963,7 @@ libKF5AkonadiCore.so.5 libkf5akonadicore5 #MINVER#
  _ZNK7Akonadi15MimeTypeChecker12isWantedItemERKNS_4ItemE@Base 15.07.90
  _ZNK7Akonadi15MimeTypeChecker15wantedMimeTypesEv@Base 15.07.90
  _ZNK7Akonadi15MimeTypeChecker16isWantedMimeTypeERK7QString@Base 15.07.90
+ _ZNK7Akonadi15MimeTypeChecker18hasWantedMimeTypesEv@Base 4:17.08.3
  _ZNK7Akonadi15MimeTypeChecker18isWantedCollectionERKNS_10CollectionE@Base 15.07.90
  _ZNK7Akonadi15MimeTypeChecker22containsWantedMimeTypeERK11QStringList@Base 15.07.90
  _ZNK7Akonadi15ResourceScanJob10metaObjectEv@Base 15.07.90

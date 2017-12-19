@@ -11,6 +11,7 @@ akonadi (4:17.08.3-1) UNRELEASED; urgency=medium
   * Add NEWS entry about the db migration
   * Bump debhelper build-dep and compat to 10.
   * Update symbols from buildds for 4:17.08.0
+  * Update symbols from buildds for 4:17.08.3
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 12 Dec 2017 12:03:32 +0100
 
