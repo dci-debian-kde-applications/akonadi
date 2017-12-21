@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-l10npkgs_firstversion_ok := 4:17.03.90-0~
+l10npkgs_firstversion_ok := 4:16.04.3-9~
 
 export DEB_CFLAGS_MAINT_APPEND += -fvisibility=hidden -fvisibility-inlines-hidden
 export DEB_CXXFLAGS_MAINT_APPEND = -fvisibility=hidden -fvisibility-inlines-hidden
