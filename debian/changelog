@@ -1,4 +1,6 @@
-akonadi (4:17.08.3-1) UNRELEASED; urgency=medium
+akonadi (4:17.08.3-1) unstable; urgency=medium
+
+  * Team upload.
 
   [ Maximiliano Curia ]
   * New revision
@@ -14,7 +16,7 @@ akonadi (4:17.08.3-1) UNRELEASED; urgency=medium
   * Update symbols from buildds for 4:17.08.3
   * Bump l10npkgs_firstversion_ok to 4:16.04.3-9~
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 12 Dec 2017 12:03:32 +0100
+ -- Sandro Knauß <hefee@debian.org>  Thu, 21 Dec 2017 17:48:11 +0100
 
 akonadi (4:17.08.0-1) experimental; urgency=medium
 
