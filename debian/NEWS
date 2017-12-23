@@ -4,7 +4,7 @@ akonadi (4:17.08.0-1) experimental; urgency=medium
   every user using Akonadi. Akonadi will start the migration automatically,
   when it is started the next time. The migration step can take a longer period
   of time to start and will need a lot of ram and tmp space, because some
-  database tables need to be temporarly copied.
+  database tables need to be temporarily copied.
   To see errors of the migration, you want to start akonadi by hand:
      akonadictl start or akonadictl restart
   and/or look into ~/.xsessions-errors. You may also need to set the tmpdir
