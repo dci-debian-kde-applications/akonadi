@@ -290,7 +290,6 @@ Breaks: akonadiconsole (<< 4:17.08), kdepim-runtime (<< 4:17.08)
 
 Package: libkf5akonadiserver-dev
 Section: libdevel
-Multi-Arch: same
 Architecture: any
 Depends: libkf5akonadiprivate5 (= ${binary:Version}), ${misc:Depends}
 Breaks: libakonadi-dev, libkf5akonadisearch-dev (<< 4:17.08)
