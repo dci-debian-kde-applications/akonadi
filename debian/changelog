@@ -8,6 +8,7 @@ akonadi (4:17.08.3-2) UNRELEASED; urgency=medium
 
   [ Sandro Knauß ]
   * libkf5akonadiserver-dev incorrectly marked as Multi-Arch: same
+    (Closes: #880385)
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 23 Dec 2017 08:19:30 +0100
 
