@@ -3,6 +3,8 @@ akonadi (4:17.08.3-2) UNRELEASED; urgency=medium
   [ Pino Toscano ]
   * Fix typo in NEWS file.
   * Remove the unused kio-dev build dependency.
+  * Remove obsolete /etc/akonadi/mysql-global.conf, and
+    /etc/akonadi/mysql-global-mobile.conf conffiles. (Closes: #868231)
 
   [ Sandro Knauß ]
   * libkf5akonadiserver-dev incorrectly marked as Multi-Arch: same

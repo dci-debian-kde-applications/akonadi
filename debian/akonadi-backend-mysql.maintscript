@@ -1,0 +1,2 @@
+rm_conffile /etc/akonadi/mysql-global.conf 4:17.08.3-2~
+rm_conffile /etc/akonadi/mysql-global-mobile.conf 4:17.08.3-2~
