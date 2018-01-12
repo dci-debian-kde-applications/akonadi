@@ -56,12 +56,7 @@ Breaks: akonadiconsole (<< 4:16.04),
         kdepimlibs-data (<< 4:16.04),
         kmail (<< 4:16.04),
         korganizer (<< 4:16.04)
-<<<<<<< HEAD
 Replaces: kapptemplate (<< 4:17.12.0), kdepimlibs-data (<< 4:16.04)
-=======
-Replaces: kapptemplate (<< 4:17.08.3),
-          kdepimlibs-data (<< 4:16.04)
->>>>>>> parent of c128776... Add back missing files, wrap-and-sort
 Description: Akonadi PIM storage service
  Akonadi is an extensible cross-desktop Personal Information Management (PIM)
  storage service. It provides a common framework for applications to store and
